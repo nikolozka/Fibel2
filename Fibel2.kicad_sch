@@ -1,5 +1,317 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "862c21e2-7ec9-4f80-a33c-aad02ea9423e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 69.85 21.59)
+		(size 35.56 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17f77549-66cc-477f-9c69-749f4f7589f3")
+		(property "Sheetname" "Audio"
+			(at 69.85 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_audio.kicad_sch"
+			(at 69.85 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 85.09)
+		(size 35.56 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23d4f4f3-5c09-4966-9bf4-edbe4cd81212")
+		(property "Sheetname" "Charging"
+			(at 26.67 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_charging.kicad_sch"
+			(at 26.67 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 21.59)
+		(size 34.29 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "32a7c27a-139a-4e74-bd6e-19af0f586a3c")
+		(property "Sheetname" "RP2040"
+			(at 196.85 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_rp2040.kicad_sch"
+			(at 196.85 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 21.59)
+		(size 35.56 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7cbf83a4-48a9-4119-ac75-03df93e67514")
+		(property "Sheetname" "Power"
+			(at 26.67 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_power.kicad_sch"
+			(at 26.67 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 21.59)
+		(size 34.29 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "808bb661-cfbd-4d07-9fcd-6e3520b5f848")
+		(property "Sheetname" "USB"
+			(at 113.03 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_usb.kicad_sch"
+			(at 113.03 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 85.09)
+		(size 35.56 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a39c2c52-3412-48a6-9504-27933873c1ba")
+		(property "Sheetname" "Peripherals"
+			(at 69.85 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_peripherals.kicad_sch"
+			(at 69.85 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 85.09)
+		(size 34.29 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afa85234-73ed-4fc7-9570-87e781c133e5")
+		(property "Sheetname" "Network"
+			(at 113.03 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_network.kicad_sch"
+			(at 113.03 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 21.59)
+		(size 34.29 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f675e573-ac44-4b44-9a27-c607e0e7b48c")
+		(property "Sheetname" "IT8951"
+			(at 154.94 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_it8951.kicad_sch"
+			(at 154.94 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
