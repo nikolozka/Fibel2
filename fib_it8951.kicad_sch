@@ -5,4 +5,54 @@
 	(uuid "eb0e83a1-bf37-49d4-a677-6383ef4b7bdd")
 	(paper "A4")
 	(lib_symbols)
+	(text "FLASH"
+		(exclude_from_sim no)
+		(at 41.91 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ebc1452-4e40-4d01-886a-f6aad5f096bf")
+	)
+	(text "PMIC"
+		(exclude_from_sim no)
+		(at 41.148 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aa53017a-9bac-4c82-bfa3-5aa784aaad56")
+	)
+	(text "COONNECTOR"
+		(exclude_from_sim no)
+		(at 45.466 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec934eba-33bf-4687-966c-f2e89d363f35")
+	)
+	(text "IT8951"
+		(exclude_from_sim no)
+		(at 41.91 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f28871af-fed2-4ef4-9440-7d3a3d396830")
+	)
+	(text "HDMI->PARALLEL"
+		(exclude_from_sim no)
+		(at 47.498 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f361b9e3-9666-4763-a81b-84e56b53f128")
+	)
 )

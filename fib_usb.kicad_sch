@@ -5,4 +5,34 @@
 	(uuid "e0dae2a7-4ff1-41f8-858d-e96db67c45ff")
 	(paper "A4")
 	(lib_symbols)
+	(text "TYPE-A 2.0"
+		(exclude_from_sim no)
+		(at 45.974 75.438 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4cd28fed-7fa0-425e-b38a-bda5ba86a27e")
+	)
+	(text "TYPE-C HS DP"
+		(exclude_from_sim no)
+		(at 46.99 54.102 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e99aa5f-ec4e-4c5b-85b6-4f938659ebe7")
+	)
+	(text "TYPE-C 2.0 DEBUG"
+		(exclude_from_sim no)
+		(at 45.466 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8c6cbadd-5ab4-4d13-a26d-68b996bd4065")
+	)
 )

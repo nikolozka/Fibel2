@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Fibel2")(type "KiCad")(uri "${KIPRJMOD}/Fibel2.pretty")(options "")(descr ""))
+)

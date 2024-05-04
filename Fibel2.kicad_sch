@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 69.85 21.59)
+		(at 154.94 85.09)
 		(size 35.56 53.34)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +18,7 @@
 		)
 		(uuid "17f77549-66cc-477f-9c69-749f4f7589f3")
 		(property "Sheetname" "Audio"
-			(at 69.85 20.8784 0)
+			(at 154.94 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_audio.kicad_sch"
-			(at 69.85 75.5146 0)
+			(at 154.94 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 85.09)
+		(at 26.67 21.59)
 		(size 35.56 53.34)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +56,7 @@
 		)
 		(uuid "23d4f4f3-5c09-4966-9bf4-edbe4cd81212")
 		(property "Sheetname" "Charging"
-			(at 26.67 84.3784 0)
+			(at 26.67 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_charging.kicad_sch"
-			(at 26.67 139.0146 0)
+			(at 26.67 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +120,83 @@
 		)
 	)
 	(sheet
-		(at 26.67 21.59)
+		(at 196.85 85.09)
+		(size 35.56 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5a179277-42b3-47ed-bc0e-bf53dbccdf92")
+		(property "Sheetname" "EPD"
+			(at 196.85 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_epd.kicad_sch"
+			(at 196.85 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 85.09)
+		(size 35.56 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "736006f1-39f8-4eb4-a2f9-973b8583c796")
+		(property "Sheetname" "Storage"
+			(at 26.67 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_storage.kicad_sch"
+			(at 26.67 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 21.59)
 		(size 35.56 53.34)
 		(fields_autoplaced yes)
 		(stroke
@@ -132,7 +208,7 @@
 		)
 		(uuid "7cbf83a4-48a9-4119-ac75-03df93e67514")
 		(property "Sheetname" "Power"
-			(at 26.67 20.8784 0)
+			(at 69.85 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_power.kicad_sch"
-			(at 26.67 75.5146 0)
+			(at 69.85 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
