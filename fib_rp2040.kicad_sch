@@ -1073,7 +1073,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fibel2:rpi_pico"
+		(property "Footprint" "Fibel2:RPi Pico"
 			(at 61.722 139.446 0)
 			(effects
 				(font

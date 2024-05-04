@@ -1,4 +1,4 @@
-23155683520446765
+23157398632374590
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55685,19 +55685,26 @@ QFN50P500X500X100-33N
 33
 33
 Fibel2
+RPi Pico
+
+
+0
+53
+53
+Fibel2
+SODIMMx260
+
+
+0
+262
+262
+Fibel2
 TPS61022RWUR
 
 
 0
 7
 7
-Fibel2
-rpi_pico
-
-
-0
-53
-53
 Fiducial
 Fiducial_0.5mm_Mask1.5mm
 Circular Fiducial, 0.5mm bare copper, 1.5mm soldermask opening

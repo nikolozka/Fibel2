@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "Fibel2")(type "KiCad")(uri "${KIPRJMOD}/Fibel2.kicad_sym")(options "")(descr ""))
+  (lib (name "Fibel2-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Fibel2-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "Untitled-eagle-import")(type "KiCad")(uri "/Users/nikolozka/Workspace/KiCad/Untitled/Untitled-eagle-import.kicad_sym")(options "")(descr ""))
 )
