@@ -5,1294 +5,6 @@
 	(uuid "9a098e98-14cb-488e-b90a-0ce41b55693e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Bus_M.2_Socket_E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -22.86 46.99 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Bus_M.2_Socket_E"
-				(at 16.51 46.99 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
-				(at 0 26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "M.2 Socket 1-SD Mechanical Key E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "M2 NGNF PCI-E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*M*2*E*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Bus_M.2_Socket_E_0_1"
-				(rectangle
-					(start -22.86 45.72)
-					(end 22.86 -45.72)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Bus_M.2_Socket_E_1_1"
-				(pin power_in line
-					(at 0 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 5.08 180)
-					(length 2.54)
-					(name "PCM_SYNC/I2S_WS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -15.24 0)
-					(length 2.54)
-					(name "SDIO_CMD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 25.4 2.54 180)
-					(length 2.54)
-					(name "PCM_IN/I2S_SD_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -17.78 0)
-					(length 2.54)
-					(name "SDIO_DATA0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 0 180)
-					(length 2.54)
-					(name "PCM_OUT/I2S_SD_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -20.32 0)
-					(length 2.54)
-					(name "SDIO_DATA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 25.4 -22.86 180)
-					(length 2.54)
-					(name "~{LED_2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -22.86 0)
-					(length 2.54)
-					(name "SDIO_DATA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -48.26 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -25.4 0)
-					(length 2.54)
-					(name "SDIO_DATA3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 48.26 270)
-					(length 2.54)
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 25.4 -5.08 180)
-					(length 2.54)
-					(name "~{UART_WAKE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 -27.94 0)
-					(length 2.54)
-					(name "~{SDIO_WAKE}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 25.4 -7.62 180)
-					(length 2.54)
-					(name "UART_RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 -30.48 0)
-					(length 2.54)
-					(name "~{SDIO_RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 10.16 0)
-					(length 2.54)
-					(name "USB_D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 -10.16 180)
-					(length 2.54)
-					(name "UART_TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -48.26 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 25.4 -12.7 180)
-					(length 2.54)
-					(name "UART_CTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 33.02 0)
-					(length 2.54)
-					(name "PETp0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 -15.24 180)
-					(length 2.54)
-					(name "UART_RTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 30.48 0)
-					(length 2.54)
-					(name "PETn0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 38.1 180)
-					(length 2.54)
-					(name "VENDOR_DEFINED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -48.26 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 48.26 270)
-					(length 2.54) hide
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 35.56 180)
-					(length 2.54)
-					(name "VENDOR_DEFINED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 27.94 0)
-					(length 2.54)
-					(name "PERp0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 33.02 180)
-					(length 2.54)
-					(name "VENDOR_DEFINED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 25.4 0)
-					(length 2.54)
-					(name "PERn0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -38.1 180)
-					(length 2.54)
-					(name "COEX3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -48.26 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -35.56 180)
-					(length 2.54)
-					(name "COEX2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 -35.56 0)
-					(length 2.54)
-					(name "REFCLKp0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 -33.02 180)
-					(length 2.54)
-					(name "COEX1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 -38.1 0)
-					(length 2.54)
-					(name "REFCLKn0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 7.62 0)
-					(length 2.54)
-					(name "USB_D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 -27.94 180)
-					(length 2.54)
-					(name "SUSCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -48.26 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 43.18 0)
-					(length 2.54)
-					(name "~{PERST0}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 40.64 0)
-					(length 2.54)
-					(name "~{CLKREQ0}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 15.24 180)
-					(length 2.54)
-					(name "~{W_DISABLE2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 38.1 0)
-					(length 2.54)
-					(name "~{PEWAKE0}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 17.78 180)
-					(length 2.54)
-					(name "~{W_DISABLE1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -48.26 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 27.94 180)
-					(length 2.54)
-					(name "I2C_DATA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 22.86 0)
-					(length 2.54)
-					(name "RESERVED/PETp1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 25.4 -20.32 180)
-					(length 2.54)
-					(name "~{LED_1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 25.4 180)
-					(length 2.54)
-					(name "I2C_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "60"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 20.32 0)
-					(length 2.54)
-					(name "RESERVED/PETn1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 25.4 22.86 180)
-					(length 2.54)
-					(name "~{ALERT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -48.26 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 43.18 180)
-					(length 2.54)
-					(name "RESERVED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 17.78 0)
-					(length 2.54)
-					(name "RESERVED/PERp1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 -2.54 0)
-					(length 2.54)
-					(name "UIM_SWP/~{PERST1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 15.24 0)
-					(length 2.54)
-					(name "RESERVED/PERn1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -5.08 0)
-					(length 2.54)
-					(name "UIM_POWER_SNK/~{CLKREQ1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -48.26 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -48.26 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -7.62 0)
-					(length 2.54)
-					(name "UIM_POWER_SRC/GPIO1/~{PEWAKE1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 -40.64 0)
-					(length 2.54)
-					(name "RESERVED/REFCLKp1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "71"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 48.26 270)
-					(length 2.54) hide
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "72"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 -43.18 0)
-					(length 2.54)
-					(name "RESERVED/REFCLKn1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "73"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 48.26 270)
-					(length 2.54) hide
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "74"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -48.26 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "75"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 25.4 7.62 180)
-					(length 2.54)
-					(name "PCM_CLK/I2S_SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 -12.7 0)
-					(length 2.54)
-					(name "SDIO_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "jetson-orin-baseboard:+3V3"
 			(power)
 			(pin_names
@@ -4775,142 +3487,142 @@
 		)
 	)
 	(junction
-		(at 137.16 38.1)
+		(at 102.87 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dd60349-bdc7-410f-b6cc-da3b1ac5d95b")
 	)
 	(junction
-		(at 128.27 35.56)
+		(at 93.98 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e0ebbcf-d36c-4880-8e4d-735d712fbc6c")
 	)
 	(junction
-		(at 204.47 26.67)
+		(at 170.18 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ad363e3-9f7a-476f-bbf1-662c64ee100a")
 	)
 	(junction
-		(at 215.9 26.67)
+		(at 181.61 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b94731f9-407e-4393-8e2b-333a51d8d3ef")
 	)
 	(junction
-		(at 184.15 142.24)
+		(at 149.86 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbad7168-1b42-4e77-a58f-2e28d2007f82")
 	)
 	(junction
-		(at 128.27 27.94)
+		(at 93.98 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7fc7acd-cae5-4145-93ac-20180d6d9b01")
 	)
 	(junction
-		(at 202.565 78.74)
+		(at 168.275 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f638858c-1b2b-4216-aa41-7234fa368ce0")
 	)
 	(no_connect
-		(at 152.4 132.08)
+		(at 118.11 137.16)
 		(uuid "0440046c-e294-41e7-9f09-e3c1b46defdc")
 	)
 	(no_connect
-		(at 152.4 124.46)
+		(at 118.11 129.54)
 		(uuid "084f30e8-6c4f-4bff-8490-ad826db4e307")
 	)
 	(no_connect
-		(at 152.4 137.16)
+		(at 118.11 142.24)
 		(uuid "2c66e736-ede4-444f-b287-0fd65c2db742")
 	)
 	(no_connect
-		(at 152.4 91.44)
+		(at 118.11 96.52)
 		(uuid "3fbf56e8-4612-41cd-a7d2-21623dcaee76")
 	)
 	(no_connect
-		(at 152.4 93.98)
+		(at 118.11 99.06)
 		(uuid "425b42ca-b819-4d7e-bca5-234b8d083de2")
 	)
 	(no_connect
-		(at 152.4 121.92)
+		(at 118.11 127)
 		(uuid "429a0ec1-1b60-449f-8250-df57c54ce448")
 	)
 	(no_connect
-		(at 152.4 78.74)
+		(at 118.11 83.82)
 		(uuid "51d00349-1150-4f90-a963-58c6f2bca7b7")
 	)
 	(no_connect
-		(at 152.4 139.7)
+		(at 118.11 144.78)
 		(uuid "5dda7cfa-9516-4b7e-a7e5-eddf56288359")
 	)
 	(no_connect
-		(at 152.4 129.54)
+		(at 118.11 134.62)
 		(uuid "68a50708-cabf-42b3-be93-d1c814cca4e5")
 	)
 	(no_connect
-		(at 182.88 115.57)
+		(at 148.59 120.65)
 		(uuid "6cc0534f-30a3-43c7-b4bd-6ca2f84f522c")
 	)
 	(no_connect
-		(at 152.4 127)
+		(at 118.11 132.08)
 		(uuid "6e6239a4-f3b9-4e88-91b2-5294ef630379")
 	)
 	(no_connect
-		(at 182.88 101.6)
+		(at 148.59 106.68)
 		(uuid "8429f161-fd73-4123-8bbc-1ef6ebee097c")
 	)
 	(no_connect
-		(at 152.4 71.12)
+		(at 118.11 76.2)
 		(uuid "9d0903fc-75de-4b22-9e88-8b5a1a7fb8e4")
 	)
 	(no_connect
-		(at 152.4 83.82)
+		(at 118.11 88.9)
 		(uuid "9d433239-3c07-412f-9a3b-224e77579c95")
 	)
 	(no_connect
-		(at 152.4 68.58)
+		(at 118.11 73.66)
 		(uuid "a7b0878c-fe9b-4907-8e86-450aa790eb59")
 	)
 	(no_connect
-		(at 182.88 110.49)
+		(at 148.59 115.57)
 		(uuid "adc64223-b854-48c9-bfdc-a64cc126c699")
 	)
 	(no_connect
-		(at 152.4 134.62)
+		(at 118.11 139.7)
 		(uuid "bd798c72-1dd8-4153-9e0e-b996f5623f0e")
 	)
 	(no_connect
-		(at 152.4 96.52)
+		(at 118.11 101.6)
 		(uuid "e4d87a62-ec40-4ec0-8740-f13d7e69005f")
 	)
 	(no_connect
-		(at 152.4 86.36)
+		(at 118.11 91.44)
 		(uuid "e50271eb-e0b7-4be3-85af-c720139afd97")
 	)
 	(no_connect
-		(at 182.88 99.06)
+		(at 148.59 104.14)
 		(uuid "f12c8af2-d481-4d8d-99ae-dd933223f36d")
 	)
 	(no_connect
-		(at 182.88 113.03)
+		(at 148.59 118.11)
 		(uuid "f31da38e-81d4-4c4c-a5ec-8228a7c43043")
 	)
 	(no_connect
-		(at 152.4 76.2)
+		(at 118.11 81.28)
 		(uuid "f7a452e6-12be-4a1b-8d49-4d8ea01611f0")
 	)
 	(no_connect
-		(at 182.88 104.14)
+		(at 148.59 109.22)
 		(uuid "fcc1a3ab-05e2-4eb1-804e-bf8394ddceba")
 	)
 	(wire
 		(pts
-			(xy 123.19 53.34) (xy 152.4 53.34)
+			(xy 88.9 58.42) (xy 118.11 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4920,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 33.02) (xy 215.9 34.29)
+			(xy 181.61 38.1) (xy 181.61 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4930,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 34.29) (xy 137.16 38.1)
+			(xy 102.87 39.37) (xy 102.87 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4940,7 +3652,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 100.33) (xy 203.835 102.87)
+			(xy 169.545 105.41) (xy 169.545 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4950,7 +3662,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 224.79 73.66)
+			(xy 148.59 78.74) (xy 190.5 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4960,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 53.34) (xy 118.11 53.34)
+			(xy 74.93 58.42) (xy 83.82 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4970,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 26.67) (xy 204.47 27.94)
+			(xy 170.18 31.75) (xy 170.18 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4980,7 +3692,7 @@
 	)
 	(wire
 		(pts
-			(xy 202.565 76.2) (xy 210.82 76.2)
+			(xy 168.275 81.28) (xy 176.53 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4990,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 81.28) (xy 198.12 81.28)
+			(xy 148.59 86.36) (xy 163.83 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5000,7 +3712,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 166.37) (xy 113.03 166.37)
+			(xy 60.96 170.18) (xy 73.66 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5020,7 +3732,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 60.96) (xy 109.22 60.96)
+			(xy 118.11 66.04) (xy 74.93 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5030,7 +3742,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 118.11 109.22)
+			(xy 80.01 114.3) (xy 83.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5040,7 +3752,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 26.67) (xy 186.69 35.56)
+			(xy 152.4 31.75) (xy 152.4 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5050,7 +3762,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 74.93) (xy 237.49 76.2)
+			(xy 203.2 80.01) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5060,7 +3772,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 48.26) (xy 109.22 48.26)
+			(xy 118.11 53.34) (xy 74.93 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5070,7 +3782,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 63.5) (xy 207.01 63.5)
+			(xy 148.59 68.58) (xy 172.72 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5080,7 +3792,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 26.67) (xy 215.9 27.94)
+			(xy 181.61 31.75) (xy 181.61 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5090,7 +3802,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 35.56) (xy 152.4 35.56)
+			(xy 93.98 40.64) (xy 118.11 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5100,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 116.84) (xy 214.63 125.73)
+			(xy 180.34 121.92) (xy 180.34 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5110,7 +3822,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 66.04) (xy 224.79 66.04)
+			(xy 177.8 71.12) (xy 190.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5120,7 +3832,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 38.1) (xy 137.16 38.1)
+			(xy 69.85 43.18) (xy 102.87 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5130,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 104.14) (xy 118.11 104.14)
+			(xy 80.01 109.22) (xy 83.82 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5140,7 +3852,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 118.11 101.6)
+			(xy 80.01 106.68) (xy 83.82 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5150,7 +3862,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 48.26) (xy 231.14 48.26)
+			(xy 177.8 53.34) (xy 196.85 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5160,7 +3872,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 125.73) (xy 182.88 125.73)
+			(xy 180.34 130.81) (xy 148.59 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5170,7 +3882,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 107.95) (xy 214.63 109.22)
+			(xy 180.34 113.03) (xy 180.34 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5180,7 +3892,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 171.45) (xy 90.17 171.45)
+			(xy 30.48 175.26) (xy 50.8 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5190,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 100.33) (xy 214.63 102.87)
+			(xy 180.34 105.41) (xy 180.34 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5200,7 +3912,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 101.6) (xy 152.4 101.6)
+			(xy 93.98 106.68) (xy 118.11 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5210,7 +3922,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 139.7) (xy 184.15 142.24)
+			(xy 149.86 144.78) (xy 149.86 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5220,7 +3932,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 106.68) (xy 132.08 106.68)
+			(xy 93.98 111.76) (xy 97.79 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5230,7 +3942,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 35.56) (xy 128.27 35.56)
+			(xy 67.31 40.64) (xy 93.98 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5240,7 +3952,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 199.39 86.36)
+			(xy 148.59 91.44) (xy 165.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5250,7 +3962,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 166.37) (xy 90.17 166.37)
+			(xy 30.48 170.18) (xy 50.8 170.18)
 		)
 		(stroke
 			(width 0)
@@ -5260,7 +3972,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 25.4) (xy 219.71 26.67)
+			(xy 185.42 30.48) (xy 185.42 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5270,7 +3982,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 27.94) (xy 128.27 27.94)
+			(xy 102.87 33.02) (xy 93.98 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5280,7 +3992,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 48.26) (xy 207.01 48.26)
+			(xy 148.59 53.34) (xy 172.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5290,7 +4002,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 106.68) (xy 134.62 106.68)
+			(xy 118.11 111.76) (xy 100.33 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5300,7 +4012,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 109.22 63.5)
+			(xy 118.11 68.58) (xy 74.93 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5310,7 +4022,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 171.45) (xy 113.03 171.45)
+			(xy 60.96 175.26) (xy 73.66 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5320,7 +4032,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 109.22) (xy 152.4 109.22)
+			(xy 100.33 114.3) (xy 118.11 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5330,7 +4042,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 71.12) (xy 224.79 71.12)
+			(xy 148.59 76.2) (xy 190.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5340,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 33.02) (xy 204.47 34.29)
+			(xy 170.18 38.1) (xy 170.18 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5350,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 109.22) (xy 132.08 109.22)
+			(xy 93.98 114.3) (xy 97.79 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5360,7 +4072,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 76.2) (xy 237.49 76.2)
+			(xy 181.61 81.28) (xy 203.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5370,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 120.65) (xy 203.835 116.84)
+			(xy 169.545 125.73) (xy 169.545 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5380,7 +4092,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 116.84) (xy 152.4 116.84)
+			(xy 102.87 121.92) (xy 118.11 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5390,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 35.56) (xy 186.69 35.56)
+			(xy 148.59 40.64) (xy 152.4 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5400,7 +4112,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 168.91) (xy 113.03 168.91)
+			(xy 60.96 172.72) (xy 73.66 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5410,7 +4122,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 45.72) (xy 109.22 45.72)
+			(xy 118.11 50.8) (xy 74.93 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5420,7 +4132,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 63.5) (xy 224.79 63.5)
+			(xy 177.8 68.58) (xy 190.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5430,7 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 116.84) (xy 132.08 116.84)
+			(xy 80.01 121.92) (xy 97.79 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5440,7 +4152,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 132.08 109.22)
+			(xy 100.33 111.76) (xy 97.79 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5450,7 +4162,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 168.91) (xy 90.17 168.91)
+			(xy 30.48 172.72) (xy 50.8 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5460,7 +4172,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 26.67) (xy 204.47 26.67)
+			(xy 181.61 31.75) (xy 170.18 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5470,7 +4182,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 38.1) (xy 152.4 38.1)
+			(xy 102.87 43.18) (xy 118.11 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5480,7 +4192,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 27.94) (xy 137.16 29.21)
+			(xy 102.87 33.02) (xy 102.87 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5490,7 +4202,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 143.51) (xy 184.15 142.24)
+			(xy 149.86 148.59) (xy 149.86 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5500,7 +4212,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 66.04) (xy 207.01 66.04)
+			(xy 148.59 71.12) (xy 172.72 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5510,7 +4222,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 55.88) (xy 127 55.88)
+			(xy 118.11 60.96) (xy 92.71 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5520,7 +4232,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 26.67) (xy 204.47 26.67)
+			(xy 152.4 31.75) (xy 170.18 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5530,7 +4242,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 26.67) (xy 219.71 26.67)
+			(xy 181.61 31.75) (xy 185.42 31.75)
 		)
 		(stroke
 			(width 0)
@@ -5540,7 +4252,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 104.14) (xy 152.4 104.14)
+			(xy 93.98 109.22) (xy 118.11 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5550,7 +4262,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 34.29) (xy 128.27 35.56)
+			(xy 93.98 39.37) (xy 93.98 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5560,7 +4272,7 @@
 	)
 	(wire
 		(pts
-			(xy 202.565 76.2) (xy 202.565 78.74)
+			(xy 168.275 81.28) (xy 168.275 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5580,7 +4292,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 139.7) (xy 184.15 139.7)
+			(xy 148.59 144.78) (xy 149.86 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5590,7 +4302,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 88.9) (xy 199.39 88.9)
+			(xy 148.59 93.98) (xy 165.1 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5600,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 173.99) (xy 90.17 173.99)
+			(xy 30.48 177.8) (xy 50.8 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5610,7 +4322,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 106.68) (xy 118.11 106.68)
+			(xy 80.01 111.76) (xy 83.82 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5620,7 +4332,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 142.24) (xy 182.88 142.24)
+			(xy 149.86 147.32) (xy 148.59 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5630,7 +4342,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 107.95) (xy 203.835 109.22)
+			(xy 169.545 113.03) (xy 169.545 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5640,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 78.74) (xy 202.565 78.74)
+			(xy 148.59 83.82) (xy 168.275 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5650,7 +4362,7 @@
 	)
 	(wire
 		(pts
-			(xy 202.565 78.74) (xy 224.79 78.74)
+			(xy 168.275 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5660,7 +4372,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 27.94) (xy 128.27 29.21)
+			(xy 93.98 33.02) (xy 93.98 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5670,7 +4382,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 173.99) (xy 113.03 173.99)
+			(xy 60.96 177.8) (xy 73.66 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5680,7 +4392,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 121.92 55.88)
+			(xy 74.93 60.96) (xy 87.63 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5690,7 +4402,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 120.65) (xy 203.835 120.65)
+			(xy 148.59 125.73) (xy 169.545 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5700,7 +4412,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 106.68) (xy 134.62 109.22)
+			(xy 97.79 111.76) (xy 100.33 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5710,7 +4422,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 60.96) (xy 224.79 60.96)
+			(xy 148.59 66.04) (xy 190.5 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5720,7 +4432,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 114.3) (xy 152.4 114.3)
+			(xy 102.87 119.38) (xy 118.11 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5730,7 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 114.3) (xy 132.08 114.3)
+			(xy 80.01 119.38) (xy 97.79 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5740,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 40.64) (xy 152.4 40.64)
+			(xy 71.12 45.72) (xy 118.11 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5750,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 83.82) (xy 198.12 83.82)
+			(xy 148.59 88.9) (xy 163.83 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5760,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 26.67) (xy 128.27 27.94)
+			(xy 93.98 31.75) (xy 93.98 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5770,7 +4482,7 @@
 	)
 	(text "BT"
 		(exclude_from_sim no)
-		(at 211.455 120.015 0)
+		(at 177.165 125.095 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5790,19 +4502,9 @@
 		)
 		(uuid "92355b22-9f8a-4e17-9ab4-5553b9ed51f3")
 	)
-	(text "ETHERNET"
-		(exclude_from_sim no)
-		(at 43.942 151.638 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c1bb5540-e570-4a53-b0af-d689202d91f2")
-	)
 	(text "WLAN\n"
 		(exclude_from_sim no)
-		(at 198.12 120.015 0)
+		(at 163.83 125.095 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5812,7 +4514,7 @@
 		(uuid "c798433b-63b1-4d4a-996c-e8465482282d")
 	)
 	(label "~{M2_E_ALERT}"
-		(at 184.15 60.96 0)
+		(at 149.86 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5823,7 +4525,7 @@
 		(uuid "1bb16b04-fcfd-4cc7-9f25-ee2c572f07b1")
 	)
 	(label "M2_E_UART_CTS"
-		(at 199.39 88.9 180)
+		(at 165.1 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5834,7 +4536,7 @@
 		(uuid "1fd825b4-3d04-4132-bc15-853144bb03b9")
 	)
 	(label "M2_E_SUSCLK"
-		(at 184.15 48.26 0)
+		(at 149.86 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5845,7 +4547,7 @@
 		(uuid "2c495867-3ec0-4032-8396-1b979323fa61")
 	)
 	(label "32.7KHZ_OUT"
-		(at 231.14 48.26 180)
+		(at 196.85 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5856,7 +4558,7 @@
 		(uuid "355fcda3-25c7-4aeb-8fc1-7e3b5edcb9d0")
 	)
 	(label "~{LED1}"
-		(at 189.23 120.65 180)
+		(at 154.94 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5867,7 +4569,7 @@
 		(uuid "36abc494-9b9a-4aca-9da0-a3e2f67359ff")
 	)
 	(label "M2_E_UART_RTS"
-		(at 69.85 171.45 0)
+		(at 30.48 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5878,7 +4580,7 @@
 		(uuid "451f1860-7b3a-4fbc-ab0f-2aae3d3c5cd2")
 	)
 	(label "M2_E_UART_RX"
-		(at 69.85 173.99 0)
+		(at 30.48 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5889,7 +4591,7 @@
 		(uuid "46355ce6-008d-4ce0-acf4-d4b5f1fecc56")
 	)
 	(label "M2_E_UART_CTS"
-		(at 69.85 168.91 0)
+		(at 30.48 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5900,7 +4602,7 @@
 		(uuid "508f3691-e159-42b6-be33-b16f3c7a0b9d")
 	)
 	(label "M2_E_PCM_CLK"
-		(at 137.16 101.6 0)
+		(at 102.87 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5911,7 +4613,7 @@
 		(uuid "745b2e57-2a04-456b-9a62-bc53bf62b2db")
 	)
 	(label "M2_E_UART_RTS"
-		(at 199.39 86.36 180)
+		(at 165.1 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5922,7 +4624,7 @@
 		(uuid "78e2f19d-4ccd-435f-9b8e-25fc7bde4f8f")
 	)
 	(label "M2_E_W_DIS_1"
-		(at 184.15 71.12 0)
+		(at 149.86 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5933,7 +4635,7 @@
 		(uuid "7dbbc92a-6d72-4c59-b525-ee76afdd3b4d")
 	)
 	(label "~{LED2}"
-		(at 189.23 125.73 180)
+		(at 154.94 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5944,7 +4646,7 @@
 		(uuid "8a84264c-a25b-454d-afbe-3ae0f7bba752")
 	)
 	(label "C_PCIE1_TX0_N"
-		(at 134.62 55.88 0)
+		(at 100.33 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5955,7 +4657,7 @@
 		(uuid "8c0b46d8-aadf-42a5-8142-cc7b780f98eb")
 	)
 	(label "M2_E_UART_TX"
-		(at 69.85 166.37 0)
+		(at 30.48 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5966,7 +4668,7 @@
 		(uuid "9156ac0b-b5f3-4fd9-bf05-6832c2ec8b00")
 	)
 	(label "USB_E_P"
-		(at 143.51 114.3 0)
+		(at 109.22 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5977,7 +4679,7 @@
 		(uuid "92c02d30-9363-494a-adea-12508c68aa21")
 	)
 	(label "M2_E_PCM_IN"
-		(at 137.16 109.22 0)
+		(at 102.87 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5988,7 +4690,7 @@
 		(uuid "9584993f-6e28-4698-8de8-55b497933d2e")
 	)
 	(label "M2_E_PCM_OUT"
-		(at 137.16 106.68 0)
+		(at 102.87 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5999,7 +4701,7 @@
 		(uuid "96d7b060-34e1-492c-b5c2-1acecf159ad5")
 	)
 	(label "~{M2_E_UART_WAKE}"
-		(at 184.15 78.74 0)
+		(at 149.86 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6010,7 +4712,7 @@
 		(uuid "9cd76cad-88d9-4da8-9719-72a6bd5b865d")
 	)
 	(label "M2_E_W_DIS_2"
-		(at 184.15 73.66 0)
+		(at 149.86 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6021,7 +4723,7 @@
 		(uuid "ab006edb-d002-408d-9b49-a1826c10e655")
 	)
 	(label "PCIE_WAKE_SEL1"
-		(at 105.41 40.64 0)
+		(at 71.12 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6032,7 +4734,7 @@
 		(uuid "bd32367e-9da4-4b06-acd7-48f7d8b659cc")
 	)
 	(label "USB_E_N"
-		(at 143.51 116.84 0)
+		(at 109.22 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6043,7 +4745,7 @@
 		(uuid "c28ad3cf-7293-4565-8224-6d84e0866a8e")
 	)
 	(label "M2_E_PCM_SYNC"
-		(at 137.16 104.14 0)
+		(at 102.87 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6054,7 +4756,7 @@
 		(uuid "c40fea90-b95d-4bf2-b3e5-c67873bee681")
 	)
 	(label "C_PCIE1_TX0_P"
-		(at 134.62 53.34 0)
+		(at 100.33 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6065,7 +4767,7 @@
 		(uuid "c4256274-ecdd-4b2c-a954-8e53c9a22afe")
 	)
 	(label "M2_E_UART_RX"
-		(at 198.12 83.82 180)
+		(at 163.83 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6076,7 +4778,7 @@
 		(uuid "d793caf2-8572-4d6d-ba15-3e98b9ddcf29")
 	)
 	(label "M2_E_I2C_DAT"
-		(at 184.15 63.5 0)
+		(at 149.86 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6087,7 +4789,7 @@
 		(uuid "d81653c6-f93b-4859-a680-bc69e9092284")
 	)
 	(label "M2_E_UART_TX"
-		(at 198.12 81.28 180)
+		(at 163.83 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6098,7 +4800,7 @@
 		(uuid "d90a37cb-9bf6-4b51-96ce-0b950b80838b")
 	)
 	(label "M2_E_I2C_CLK"
-		(at 184.15 66.04 0)
+		(at 149.86 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6110,7 +4812,7 @@
 	)
 	(global_label "UART0_RXD"
 		(shape input)
-		(at 113.03 173.99 0)
+		(at 73.66 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6119,7 +4821,7 @@
 		)
 		(uuid "032c3d5a-6ec2-4af6-bae4-8559d4f40723")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 173.99 0)
+			(at 87.63 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +4833,7 @@
 	)
 	(global_label "PCIE1_RX0_N"
 		(shape output)
-		(at 109.22 63.5 180)
+		(at 74.93 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6140,7 +4842,7 @@
 		)
 		(uuid "0510c48c-5bae-473b-a14c-960a88c146c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.265 63.5 0)
+			(at 53.975 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +4854,7 @@
 	)
 	(global_label "PCIE1_RST*"
 		(shape input)
-		(at 101.6 35.56 180)
+		(at 67.31 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6161,7 +4863,7 @@
 		)
 		(uuid "09d1ad8c-3fb1-4ee0-ae44-537d2c35c9f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 35.56 0)
+			(at 50.8 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +4875,7 @@
 	)
 	(global_label "PCIE1_TX0_P"
 		(shape input)
-		(at 109.22 53.34 180)
+		(at 74.93 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6182,7 +4884,7 @@
 		)
 		(uuid "0b5b85ee-9743-4aa8-9ce3-34287b6ac1ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.265 53.34 0)
+			(at 53.975 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +4896,7 @@
 	)
 	(global_label "I2S1_SCLK"
 		(shape output)
-		(at 114.3 101.6 180)
+		(at 80.01 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6203,7 +4905,7 @@
 		)
 		(uuid "29e0a920-5140-4c7a-8dae-41ab5f1056bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 101.6 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,7 +4917,7 @@
 	)
 	(global_label "I2S1_SDIN"
 		(shape input)
-		(at 114.3 106.68 180)
+		(at 80.01 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6224,7 +4926,7 @@
 		)
 		(uuid "2cf5e645-e0f4-4dfd-9ce7-0146d1ffb68e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 106.68 0)
+			(at 66.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +4938,7 @@
 	)
 	(global_label "I2S1_SDOUT"
 		(shape output)
-		(at 114.3 109.22 180)
+		(at 80.01 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6245,7 +4947,7 @@
 		)
 		(uuid "3037c957-3dd4-464d-8e9a-c0f448e879b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 109.22 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +4959,7 @@
 	)
 	(global_label "USB1_D_N"
 		(shape input)
-		(at 114.3 116.84 180)
+		(at 80.01 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6266,7 +4968,7 @@
 		)
 		(uuid "327a6efb-7e47-4a0f-a361-0d10d0f7db33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.425 116.84 0)
+			(at 64.135 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +4980,7 @@
 	)
 	(global_label "PCIE1_CLKREQ*"
 		(shape output)
-		(at 104.14 38.1 180)
+		(at 69.85 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6287,7 +4989,7 @@
 		)
 		(uuid "56c09ec9-afef-4452-9e18-27c2ac6d50bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 38.1 0)
+			(at 50.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +5001,7 @@
 	)
 	(global_label "PCIE1_TX0_N"
 		(shape input)
-		(at 109.22 55.88 180)
+		(at 74.93 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6308,7 +5010,7 @@
 		)
 		(uuid "6b15d523-70fc-4011-a071-b2cc0b6bba74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.265 55.88 0)
+			(at 53.975 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +5022,7 @@
 	)
 	(global_label "SYS_SDA"
 		(shape bidirectional)
-		(at 224.79 63.5 0)
+		(at 190.5 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6329,7 +5031,7 @@
 		)
 		(uuid "7a77b2db-d677-4308-8f99-a37a515947a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 63.5 0)
+			(at 203.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +5043,7 @@
 	)
 	(global_label "UART0_CTS"
 		(shape output)
-		(at 113.03 168.91 0)
+		(at 73.66 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6350,7 +5052,7 @@
 		)
 		(uuid "8cef5bc5-5ebb-4a95-970a-c072505dec99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 168.91 0)
+			(at 87.63 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +5064,7 @@
 	)
 	(global_label "SYS_SCL"
 		(shape input)
-		(at 224.79 66.04 0)
+		(at 190.5 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6371,7 +5073,7 @@
 		)
 		(uuid "98e93756-7398-49f2-9777-bd46638bb698")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 66.04 0)
+			(at 203.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,7 +5085,7 @@
 	)
 	(global_label "PCIE1_CLK_P"
 		(shape input)
-		(at 109.22 45.72 180)
+		(at 74.93 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6392,7 +5094,7 @@
 		)
 		(uuid "b74181d9-b94d-421d-912c-8e23f21e2f27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 45.72 0)
+			(at 58.42 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +5106,7 @@
 	)
 	(global_label "UART0_RTS"
 		(shape input)
-		(at 113.03 171.45 0)
+		(at 73.66 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6413,7 +5115,7 @@
 		)
 		(uuid "c01e6808-5e63-434c-a90c-9a41836c3e23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 171.45 0)
+			(at 87.63 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +5127,7 @@
 	)
 	(global_label "UART0_TXD"
 		(shape output)
-		(at 113.03 166.37 0)
+		(at 73.66 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6434,7 +5136,7 @@
 		)
 		(uuid "c1104e80-954a-447a-b185-00524abc7494")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 166.37 0)
+			(at 87.63 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +5148,7 @@
 	)
 	(global_label "I2S1_LRCK"
 		(shape output)
-		(at 114.3 104.14 180)
+		(at 80.01 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6455,7 +5157,7 @@
 		)
 		(uuid "d0d12b7c-9d7b-4f20-bcec-d820f5e6b08e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 104.14 0)
+			(at 66.04 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +5169,7 @@
 	)
 	(global_label "PCIE1_CLK_N"
 		(shape input)
-		(at 109.22 48.26 180)
+		(at 74.93 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6476,7 +5178,7 @@
 		)
 		(uuid "d387aebb-6e16-4b00-9f80-a5b53fdc8ab7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 48.26 0)
+			(at 58.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6488,7 +5190,7 @@
 	)
 	(global_label "PCIE1_RX0_P"
 		(shape output)
-		(at 109.22 60.96 180)
+		(at 74.93 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6497,7 +5199,7 @@
 		)
 		(uuid "df99c4db-e54e-4357-b3c5-70227dd3f9b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.265 60.96 0)
+			(at 53.975 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +5211,7 @@
 	)
 	(global_label "USB1_D_P"
 		(shape input)
-		(at 114.3 114.3 180)
+		(at 80.01 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6518,7 +5220,7 @@
 		)
 		(uuid "eb8abb32-51a1-431a-9b30-7e54e190f981")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.425 114.3 0)
+			(at 64.135 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,15 +5232,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:+3V3")
-		(at 237.49 74.93 0)
+		(at 203.2 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00b2baa9-44af-4970-82b9-bc3b9a2b07e6")
-		(property "Reference" "#PWR0131"
-			(at 237.49 78.74 0)
+		(property "Reference" "#PWR0908"
+			(at 203.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6548,7 +5250,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 234.95 71.755 0)
+			(at 200.66 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,7 +5259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 74.93 0)
+			(at 203.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +5269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 74.93 0)
+			(at 203.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +5279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 74.93 0)
+			(at 203.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +5293,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "#PWR0131")
+					(reference "#PWR0908")
 					(unit 1)
 				)
 			)
@@ -6599,7 +5301,7 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:C_10u_0603")
-		(at 215.9 27.94 90)
+		(at 181.61 33.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6607,8 +5309,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08a3db23-1435-4857-9546-69290a84576e")
-		(property "Reference" "C116"
-			(at 222.25 30.48 90)
+		(property "Reference" "C904"
+			(at 187.96 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,8 +5318,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C_10u_0603"
-			(at 226.06 48.26 0)
+		(property "Value" "20uF"
+			(at 191.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,8 +5329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:C_0603_1608Metric"
-			(at 228.6 48.26 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 194.31 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,7 +5341,7 @@
 			)
 		)
 		(property "Datasheet" " "
-			(at 231.14 48.26 0)
+			(at 196.85 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,7 +5352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 27.94 0)
+			(at 181.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6659,7 +5361,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 236.22 48.26 0)
+			(at 201.93 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +5372,7 @@
 			)
 		)
 		(property "MPN" "GRM188R61A106KE69D"
-			(at 233.68 48.26 0)
+			(at 199.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +5383,7 @@
 			)
 		)
 		(property "Val" "10u"
-			(at 222.25 33.02 90)
+			(at 187.96 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +5393,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 238.76 48.26 0)
+			(at 204.47 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,7 +5404,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 241.3 48.26 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,7 +5415,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 243.84 48.26 0)
+			(at 209.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6731,7 +5433,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "C116")
+					(reference "C904")
 					(unit 1)
 				)
 			)
@@ -6739,15 +5441,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_0R_0402")
-		(at 132.08 114.3 0)
+		(at 97.79 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "197faad0-f0bd-4db5-b75d-01d266594b13")
-		(property "Reference" "R86"
-			(at 128.27 114.3 0)
+		(property "Reference" "R904"
+			(at 93.98 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,8 +5457,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_0R_0402"
-			(at 152.4 127 0)
+		(property "Value" "0R"
+			(at 118.11 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6766,8 +5468,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
-			(at 152.4 129.54 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.11 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +5480,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 152.4 132.08 0)
+			(at 118.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +5491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 114.3 0)
+			(at 97.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6798,7 +5500,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 152.4 137.16 0)
+			(at 118.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +5511,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 152.4 134.62 0)
+			(at 118.11 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +5522,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 137.16 114.3 0)
+			(at 102.87 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +5532,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 152.4 139.7 0)
+			(at 118.11 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +5543,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 152.4 142.24 0)
+			(at 118.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +5554,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 152.4 124.46 0)
+			(at 118.11 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6862,7 +5564,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 133.35 117.856 0)
+			(at 99.06 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6881,7 +5583,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R86")
+					(reference "R904")
 					(unit 1)
 				)
 			)
@@ -6889,15 +5591,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_4x0R_0201_array")
-		(at 118.11 101.6 0)
+		(at 83.82 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "26b33c6b-8e13-4443-bd15-eaacdd698808")
-		(property "Reference" "R85"
-			(at 121.285 97.79 0)
+		(property "Reference" "R902"
+			(at 86.995 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +5608,7 @@
 			)
 		)
 		(property "Value" "R_4x0R_0201_array"
-			(at 144.78 109.22 0)
+			(at 110.49 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6917,7 +5619,7 @@
 			)
 		)
 		(property "Footprint" "jetson-orin-baseboard-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 144.78 114.3 0)
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6928,7 +5630,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 144.78 116.84 0)
+			(at 110.49 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +5641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 101.6 0)
+			(at 83.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +5650,7 @@
 			)
 		)
 		(property "MPN" "EXB-18VR000X"
-			(at 144.78 119.38 0)
+			(at 110.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +5661,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 144.78 121.92 0)
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +5672,7 @@
 			)
 		)
 		(property "Val" "4x0R_0201"
-			(at 118.11 99.695 0)
+			(at 83.82 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +5682,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 144.78 124.46 0)
+			(at 110.49 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,7 +5693,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 144.78 127 0)
+			(at 110.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,7 +5730,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R85")
+					(reference "R902")
 					(unit 1)
 				)
 			)
@@ -7036,15 +5738,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:LED_G_0603_LTST-C190GKT")
-		(at 214.63 109.22 270)
+		(at 180.34 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "27951edc-6b35-408a-b44d-2f1a84b58049")
-		(property "Reference" "D17"
-			(at 217.805 113.03 90)
+		(property "Reference" "D902"
+			(at 183.515 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +5755,7 @@
 			)
 		)
 		(property "Value" "LED_G_0603_LTST-C190GKT"
-			(at 207.01 132.08 0)
+			(at 172.72 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,7 +5766,7 @@
 			)
 		)
 		(property "Footprint" "jetson-orin-baseboard-footprints:LED_0603_1608Metric_G"
-			(at 204.47 132.08 0)
+			(at 170.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +5777,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf"
-			(at 201.93 132.08 0)
+			(at 167.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +5788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 109.22 0)
+			(at 180.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +5797,7 @@
 			)
 		)
 		(property "MPN" "LTST-C190GKT"
-			(at 217.805 114.935 90)
+			(at 183.515 120.015 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7105,7 +5807,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On Inc."
-			(at 196.85 132.08 0)
+			(at 162.56 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +5818,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 194.31 132.08 0)
+			(at 160.02 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +5829,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 191.77 132.08 0)
+			(at 157.48 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7146,7 +5848,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "D17")
+					(reference "D902")
 					(unit 1)
 				)
 			)
@@ -7154,15 +5856,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_0R_0402")
-		(at 207.01 63.5 0)
+		(at 172.72 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "331623c5-1337-4740-b994-c5e6c443953b")
-		(property "Reference" "R92"
-			(at 203.2 63.5 0)
+		(property "Reference" "R909"
+			(at 168.91 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,8 +5872,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_0R_0402"
-			(at 227.33 76.2 0)
+		(property "Value" "0R"
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,8 +5883,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
-			(at 227.33 78.74 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +5895,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 227.33 81.28 0)
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7204,7 +5906,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 63.5 0)
+			(at 172.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +5915,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 227.33 86.36 0)
+			(at 193.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +5926,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 227.33 83.82 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7235,7 +5937,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 212.09 63.5 0)
+			(at 177.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +5947,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 227.33 88.9 0)
+			(at 193.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +5958,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 227.33 91.44 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7267,7 +5969,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 227.33 73.66 0)
+			(at 193.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +5979,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 208.915 65.405 0)
+			(at 174.625 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7288,7 +5990,7 @@
 			)
 		)
 		(property "DNP" "DNP"
-			(at 209.55 63.5 0)
+			(at 175.26 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +6006,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R92")
+					(reference "R909")
 					(unit 1)
 				)
 			)
@@ -7312,7 +6014,7 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_4x0R_0201_array")
-		(at 100.33 166.37 0)
+		(at 60.96 170.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7320,8 +6022,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "354de424-9bee-459e-966b-b1c831f21282")
-		(property "Reference" "R96"
-			(at 96.52 163.83 0)
+		(property "Reference" "R901"
+			(at 57.15 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,7 +6032,7 @@
 			)
 		)
 		(property "Value" "R_4x0R_0201_array"
-			(at 73.66 173.99 0)
+			(at 34.29 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +6043,7 @@
 			)
 		)
 		(property "Footprint" "jetson-orin-baseboard-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 73.66 179.07 0)
+			(at 34.29 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7352,7 +6054,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 73.66 181.61 0)
+			(at 34.29 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7363,7 +6065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 166.37 0)
+			(at 60.96 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +6074,7 @@
 			)
 		)
 		(property "MPN" "EXB-18VR000X"
-			(at 73.66 184.15 0)
+			(at 34.29 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +6085,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 73.66 186.69 0)
+			(at 34.29 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +6096,7 @@
 			)
 		)
 		(property "Val" "4x0R_0201"
-			(at 100.33 177.8 0)
+			(at 60.96 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,7 +6106,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 73.66 189.23 0)
+			(at 34.29 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,7 +6117,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 73.66 191.77 0)
+			(at 34.29 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +6154,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R96")
+					(reference "R901")
 					(unit 1)
 				)
 			)
@@ -7460,7 +6162,7 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:C_10u_0603")
-		(at 204.47 27.94 90)
+		(at 170.18 33.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7468,8 +6170,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "394c5ce2-1d9c-4efb-984e-a60052a0c3c1")
-		(property "Reference" "C115"
-			(at 210.82 30.48 90)
+		(property "Reference" "C903"
+			(at 176.53 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,8 +6179,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C_10u_0603"
-			(at 214.63 48.26 0)
+		(property "Value" "20uF"
+			(at 180.34 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,8 +6190,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:C_0603_1608Metric"
-			(at 217.17 48.26 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +6202,7 @@
 			)
 		)
 		(property "Datasheet" " "
-			(at 219.71 48.26 0)
+			(at 185.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7511,7 +6213,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 27.94 0)
+			(at 170.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7520,7 +6222,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 224.79 48.26 0)
+			(at 190.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7531,7 +6233,7 @@
 			)
 		)
 		(property "MPN" "GRM188R61A106KE69D"
-			(at 222.25 48.26 0)
+			(at 187.96 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,7 +6244,7 @@
 			)
 		)
 		(property "Val" "10u"
-			(at 210.82 33.02 90)
+			(at 176.53 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +6254,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 227.33 48.26 0)
+			(at 193.04 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,7 +6265,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 229.87 48.26 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +6276,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 232.41 48.26 0)
+			(at 198.12 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +6294,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "C115")
+					(reference "C903")
 					(unit 1)
 				)
 			)
@@ -7600,15 +6302,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_0R_0402")
-		(at 207.01 48.26 0)
+		(at 172.72 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3a73d54d-fe2c-4236-b4e5-aea60dfcace5")
-		(property "Reference" "R91"
-			(at 203.2 48.26 0)
+		(property "Reference" "R908"
+			(at 168.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,8 +6318,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_0R_0402"
-			(at 227.33 60.96 0)
+		(property "Value" "0R"
+			(at 193.04 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,8 +6329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
-			(at 227.33 63.5 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 193.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7639,7 +6341,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 227.33 66.04 0)
+			(at 193.04 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,7 +6352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 48.26 0)
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +6361,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 227.33 71.12 0)
+			(at 193.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +6372,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 227.33 68.58 0)
+			(at 193.04 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +6383,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 212.09 48.26 0)
+			(at 177.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,7 +6393,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 227.33 73.66 0)
+			(at 193.04 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7702,7 +6404,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 227.33 76.2 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,7 +6415,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 227.33 58.42 0)
+			(at 193.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +6425,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 208.28 49.276 0)
+			(at 173.99 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +6444,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R91")
+					(reference "R908")
 					(unit 1)
 				)
 			)
@@ -7750,7 +6452,7 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_0R_0402")
-		(at 132.08 116.84 0)
+		(at 97.79 121.92 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7758,8 +6460,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ae36058-7048-4424-a8ed-2938e0da8c23")
-		(property "Reference" "R87"
-			(at 128.27 114.935 0)
+		(property "Reference" "R905"
+			(at 93.98 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,8 +6469,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_0R_0402"
-			(at 152.4 104.14 0)
+		(property "Value" "0R"
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,8 +6480,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
-			(at 152.4 101.6 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +6492,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 152.4 99.06 0)
+			(at 118.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,7 +6503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 116.84 0)
+			(at 97.79 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +6512,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 152.4 93.98 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +6523,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 152.4 96.52 0)
+			(at 118.11 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,7 +6534,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 137.16 114.935 0)
+			(at 102.87 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7842,7 +6544,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 152.4 91.44 0)
+			(at 118.11 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +6555,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 152.4 88.9 0)
+			(at 118.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7864,7 +6566,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 152.4 106.68 0)
+			(at 118.11 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +6576,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 133.35 113.284 0)
+			(at 99.06 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +6595,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R87")
+					(reference "R905")
 					(unit 1)
 				)
 			)
@@ -7901,15 +6603,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_47k_0402")
-		(at 210.82 76.2 0)
+		(at 176.53 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "3b33ce6a-73bd-47be-896c-ce8eceae10a3")
-		(property "Reference" "R94"
-			(at 207.01 76.2 0)
+		(property "Reference" "R911"
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,8 +6619,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_47k_0402"
-			(at 231.14 88.9 0)
+		(property "Value" "47K"
+			(at 196.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,8 +6630,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
-			(at 231.14 91.44 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 196.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,7 +6642,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 231.14 93.98 0)
+			(at 196.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +6653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 76.2 0)
+			(at 176.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +6662,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 231.14 99.06 0)
+			(at 196.85 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7971,7 +6673,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-4702GLF"
-			(at 231.14 96.52 0)
+			(at 196.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7982,7 +6684,7 @@
 			)
 		)
 		(property "Val" "47k"
-			(at 215.9 76.2 0)
+			(at 181.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +6694,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 231.14 101.6 0)
+			(at 196.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +6705,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 231.14 104.14 0)
+			(at 196.85 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8014,7 +6716,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 231.14 86.36 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,7 +6726,7 @@
 			)
 		)
 		(property "DNP" "DNP"
-			(at 213.36 76.2 0)
+			(at 179.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +6742,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R94")
+					(reference "R911")
 					(unit 1)
 				)
 			)
@@ -8048,15 +6750,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:TP_0.75mm_SMD")
-		(at 224.79 73.66 0)
+		(at 190.5 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3df101df-93b6-4a24-8f02-65f0f9952ca0")
-		(property "Reference" "TP17"
-			(at 229.235 74.93 0)
+		(property "Reference" "TP903"
+			(at 194.945 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,7 +6767,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 240.03 81.28 0)
+			(at 205.74 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8075,8 +6777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:TP_SMD_0.75mm"
-			(at 240.03 83.82 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8087,7 +6789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 86.36 0)
+			(at 205.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +6800,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 73.66 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +6809,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 224.79 73.66 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +6819,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 224.79 73.66 0)
+			(at 190.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +6829,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 240.03 88.9 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8138,7 +6840,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 240.03 91.44 0)
+			(at 205.74 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8154,7 +6856,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "TP17")
+					(reference "TP903")
 					(unit 1)
 				)
 			)
@@ -8162,15 +6864,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_200R_0402")
-		(at 203.835 107.95 90)
+		(at 169.545 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3e07622b-b96c-4ee0-8a6e-48b6a4611ee1")
-		(property "Reference" "R90"
-			(at 205.105 104.14 90)
+		(property "Reference" "R907"
+			(at 170.815 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8178,8 +6880,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_200R_0402"
-			(at 216.535 87.63 0)
+		(property "Value" "200R"
+			(at 182.245 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8189,8 +6891,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
-			(at 219.075 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 184.785 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +6903,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 221.615 87.63 0)
+			(at 187.325 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,7 +6914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.835 107.95 0)
+			(at 169.545 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8221,7 +6923,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 226.695 87.63 0)
+			(at 192.405 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8232,7 +6934,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-2000GLF"
-			(at 224.155 87.63 0)
+			(at 189.865 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8243,7 +6945,7 @@
 			)
 		)
 		(property "Val" "200R"
-			(at 205.105 106.68 90)
+			(at 170.815 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8253,7 +6955,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 229.235 87.63 0)
+			(at 194.945 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,7 +6966,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 231.775 87.63 0)
+			(at 197.485 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +6977,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 213.995 87.63 0)
+			(at 179.705 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +6995,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R90")
+					(reference "R907")
 					(unit 1)
 				)
 			)
@@ -8301,7 +7003,7 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_47k_0402")
-		(at 137.16 29.21 90)
+		(at 102.87 34.29 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8309,8 +7011,8 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "51f3f8aa-2cd1-4629-a9d6-fea7e13e72e5")
-		(property "Reference" "R89"
-			(at 142.24 31.75 90)
+		(property "Reference" "R906"
+			(at 107.95 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8318,8 +7020,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_47k_0402"
-			(at 149.86 49.53 0)
+		(property "Value" "47K"
+			(at 115.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8329,8 +7031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
-			(at 152.4 49.53 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 118.11 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +7043,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 154.94 49.53 0)
+			(at 120.65 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +7054,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 29.21 0)
+			(at 102.87 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +7063,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 160.02 49.53 0)
+			(at 125.73 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8372,7 +7074,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-4702GLF"
-			(at 157.48 49.53 0)
+			(at 123.19 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,7 +7085,7 @@
 			)
 		)
 		(property "Val" "47k"
-			(at 142.24 34.29 90)
+			(at 107.95 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,7 +7095,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 162.56 49.53 0)
+			(at 128.27 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8404,7 +7106,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 165.1 49.53 0)
+			(at 130.81 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,7 +7117,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 147.32 49.53 0)
+			(at 113.03 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8425,7 +7127,7 @@
 			)
 		)
 		(property "DNP" "DNP"
-			(at 137.16 31.75 0)
+			(at 102.87 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8441,7 +7143,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R89")
+					(reference "R906")
 					(unit 1)
 				)
 			)
@@ -8449,15 +7151,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:TP_0.75mm_SMD")
-		(at 224.79 78.74 0)
+		(at 190.5 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5a85761d-b1e5-4150-97e8-8a0e597249be")
-		(property "Reference" "TP18"
-			(at 229.235 80.01 0)
+		(property "Reference" "TP904"
+			(at 194.945 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8466,7 +7168,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 240.03 86.36 0)
+			(at 205.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8476,8 +7178,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:TP_SMD_0.75mm"
-			(at 240.03 88.9 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,7 +7190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 91.44 0)
+			(at 205.74 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +7201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 78.74 0)
+			(at 190.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,7 +7210,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 224.79 78.74 0)
+			(at 190.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,7 +7220,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 224.79 78.74 0)
+			(at 190.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +7230,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 240.03 93.98 0)
+			(at 205.74 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8539,7 +7241,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 240.03 96.52 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +7257,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "TP18")
+					(reference "TP904")
 					(unit 1)
 				)
 			)
@@ -8563,15 +7265,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:C_220n_0402")
-		(at 118.11 53.34 0)
+		(at 83.82 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "64a63b8f-f3e9-4006-bedd-a389806f3ccc")
-		(property "Reference" "C113"
-			(at 116.84 53.34 0)
+		(property "Reference" "C901"
+			(at 82.55 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,8 +7281,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C_220n_0402"
-			(at 138.43 63.5 0)
+		(property "Value" "220nF"
+			(at 104.14 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,8 +7292,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:C_0402_1005Metric"
-			(at 138.43 66.04 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +7304,7 @@
 			)
 		)
 		(property "Datasheet" " "
-			(at 138.43 68.58 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +7315,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 53.34 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +7324,7 @@
 			)
 		)
 		(property "Manufacturer" "Yaego"
-			(at 138.43 73.66 0)
+			(at 104.14 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +7335,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX5R6BB224"
-			(at 138.43 71.12 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +7346,7 @@
 			)
 		)
 		(property "Val" "220n"
-			(at 114.935 55.88 0)
+			(at 80.645 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +7356,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 138.43 76.2 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +7367,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 138.43 78.74 0)
+			(at 104.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +7378,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 138.43 81.28 0)
+			(at 104.14 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +7388,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 138.43 83.82 0)
+			(at 104.14 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +7406,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "C113")
+					(reference "C901")
 					(unit 1)
 				)
 			)
@@ -8719,7 +7421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "663f094b-ffbe-4cfd-852d-cf688f92cf12")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0909"
 			(at 245.745 158.115 0)
 			(effects
 				(font
@@ -8795,7 +7497,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "#PWR0132")
+					(reference "#PWR0909")
 					(unit 1)
 				)
 			)
@@ -8803,15 +7505,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:LED_G_0603_LTST-C190GKT")
-		(at 203.835 109.22 270)
+		(at 169.545 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6de85e9b-7bc9-4d22-937d-c76689c41fe6")
-		(property "Reference" "D16"
-			(at 198.12 114.935 90)
+		(property "Reference" "D901"
+			(at 163.83 120.015 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,7 +7522,7 @@
 			)
 		)
 		(property "Value" "LED_G_0603_LTST-C190GKT"
-			(at 196.215 132.08 0)
+			(at 161.925 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,7 +7533,7 @@
 			)
 		)
 		(property "Footprint" "jetson-orin-baseboard-footprints:LED_0603_1608Metric_G"
-			(at 193.675 132.08 0)
+			(at 159.385 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8842,7 +7544,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C190GKT.pdf"
-			(at 191.135 132.08 0)
+			(at 156.845 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8853,7 +7555,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.835 109.22 0)
+			(at 169.545 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8862,7 +7564,7 @@
 			)
 		)
 		(property "MPN" "LTST-C190GKT"
-			(at 187.325 113.03 90)
+			(at 153.035 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,7 +7574,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On Inc."
-			(at 186.055 132.08 0)
+			(at 151.765 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +7585,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 183.515 132.08 0)
+			(at 149.225 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,7 +7596,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 180.975 132.08 0)
+			(at 146.685 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +7615,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "D16")
+					(reference "D901")
 					(unit 1)
 				)
 			)
@@ -8921,15 +7623,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_0R_0402")
-		(at 207.01 66.04 0)
+		(at 172.72 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "7b44743c-e34a-462c-8886-dc1e61bb70af")
-		(property "Reference" "R93"
-			(at 203.2 66.04 0)
+		(property "Reference" "R910"
+			(at 168.91 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8937,8 +7639,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_0R_0402"
-			(at 227.33 78.74 0)
+		(property "Value" "0R"
+			(at 193.04 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,8 +7650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
-			(at 227.33 81.28 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +7662,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 227.33 83.82 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,7 +7673,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 66.04 0)
+			(at 172.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8980,7 +7682,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 227.33 88.9 0)
+			(at 193.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8991,7 +7693,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 227.33 86.36 0)
+			(at 193.04 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +7704,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 212.09 66.04 0)
+			(at 177.8 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +7714,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 227.33 91.44 0)
+			(at 193.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9023,7 +7725,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 227.33 93.98 0)
+			(at 193.04 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9034,7 +7736,7 @@
 			)
 		)
 		(property "Tolerance" "~"
-			(at 227.33 76.2 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,7 +7746,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 208.28 67.056 0)
+			(at 173.99 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9055,7 +7757,7 @@
 			)
 		)
 		(property "DNP" "DNP"
-			(at 209.55 66.04 0)
+			(at 175.26 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9071,7 +7773,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R93")
+					(reference "R910")
 					(unit 1)
 				)
 			)
@@ -9079,15 +7781,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:TP_0.75mm_SMD")
-		(at 224.79 60.96 0)
+		(at 190.5 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7c2127b0-f5e6-4746-bf9a-38d19affd58c")
-		(property "Reference" "TP15"
-			(at 233.68 60.96 0)
+		(property "Reference" "TP901"
+			(at 199.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +7798,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 240.03 68.58 0)
+			(at 205.74 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9106,8 +7808,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:TP_SMD_0.75mm"
-			(at 240.03 71.12 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 205.74 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9118,7 +7820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 73.66 0)
+			(at 205.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,7 +7831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 60.96 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9138,7 +7840,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 224.79 60.96 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +7850,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 224.79 60.96 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,7 +7860,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 240.03 76.2 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,7 +7871,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 240.03 78.74 0)
+			(at 205.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,272 +7887,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Bus_M.2_Socket_E")
-		(at 49.53 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d94233a-5d89-4650-a22f-4f0cb20e9c41")
-		(property "Reference" "J3"
-			(at 51.7241 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Bus_M.2_Socket_E"
-			(at 51.7241 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=150"
-			(at 49.53 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "M.2 Socket 1-SD Mechanical Key E"
-			(at 49.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "19"
-			(uuid "25430ee0-633d-48ec-a94d-a184d377d323")
-		)
-		(pin "63"
-			(uuid "947c1a6f-75ce-4b2d-bea8-cab6d4cd0d20")
-		)
-		(pin "64"
-			(uuid "da89423b-107d-4f3c-a88c-fceeb9285cd1")
-		)
-		(pin "65"
-			(uuid "fb051516-5bd7-4da8-baaa-287cd215c15e")
-		)
-		(pin "12"
-			(uuid "f7c2118f-1dd7-4abe-957c-f71ea5cb8781")
-		)
-		(pin "23"
-			(uuid "d9f17ce1-651c-4174-a342-8ecf0f626ccf")
-		)
-		(pin "3"
-			(uuid "82313d82-19de-4e4d-9b3e-42cd75d6a585")
-		)
-		(pin "47"
-			(uuid "8600e019-fb6d-4ca7-8799-bd91103cb9ef")
-		)
-		(pin "48"
-			(uuid "4b8cf396-acf0-4bb3-aecb-f977b2d9c480")
-		)
-		(pin "66"
-			(uuid "a173e337-97ab-4e05-bb4a-3f4a03117ab7")
-		)
-		(pin "67"
-			(uuid "c310261f-b185-4ec5-b337-8be99ab0fe9e")
-		)
-		(pin "68"
-			(uuid "bebdf9d5-c894-4140-b2e2-189041e5faa1")
-		)
-		(pin "6"
-			(uuid "c9107963-23e2-49d8-a6ca-1e383c2a1eca")
-		)
-		(pin "60"
-			(uuid "837f9eea-5eb3-41af-adac-ffa624469b40")
-		)
-		(pin "50"
-			(uuid "218f076b-1dd5-4569-ba2c-8fa5b8e31e16")
-		)
-		(pin "51"
-			(uuid "971a0695-8916-49af-afd8-961b19221cf7")
-		)
-		(pin "49"
-			(uuid "703300cc-b0a5-4b01-ad0e-be8080cfa85d")
-		)
-		(pin "5"
-			(uuid "a8d63e2f-f7b0-40c2-a6b9-73b359caf83a")
-		)
-		(pin "8"
-			(uuid "12dca92f-b4cf-4e9c-9071-d241de6c70e1")
-		)
-		(pin "9"
-			(uuid "1d6cf499-1124-4a36-bbc8-cadd66f63a8a")
-		)
-		(pin "36"
-			(uuid "aa4ea8d0-f5e6-40fb-b7c2-3e678a5e0d27")
-		)
-		(pin "37"
-			(uuid "44f8f319-8471-474c-ad51-059f3dd9f4ae")
-		)
-		(pin "54"
-			(uuid "e990da26-7c86-4e0e-9d48-0dae8c47a761")
-		)
-		(pin "55"
-			(uuid "28e4dfca-b26a-46cf-99cd-d7846f1e5eb2")
-		)
-		(pin "18"
-			(uuid "fce22d30-4cc5-46f6-b07f-4d9e11971bf4")
-		)
-		(pin "21"
-			(uuid "6ba75e4d-b1eb-4069-a0df-e6446ff6eec2")
-		)
-		(pin "22"
-			(uuid "9695b156-7252-4223-8ea9-dd59963de85f")
-		)
-		(pin "32"
-			(uuid "9fffa92d-d215-4c81-9ca7-982986e1bc4e")
-		)
-		(pin "33"
-			(uuid "c75ef7db-ac6c-4e28-915e-34e7aeb521b7")
-		)
-		(pin "11"
-			(uuid "c544fa8f-2e99-48d4-b027-24a539908831")
-		)
-		(pin "58"
-			(uuid "12c97501-204a-4cad-bd7c-e8eb36fff242")
-		)
-		(pin "59"
-			(uuid "b2e81c95-911b-4350-a27f-8d68029f8ff2")
-		)
-		(pin "15"
-			(uuid "784520c0-d0cd-41f6-bc29-71fae21f623e")
-		)
-		(pin "17"
-			(uuid "bad337ca-e4ed-4f4d-b27f-e9068c4207da")
-		)
-		(pin "43"
-			(uuid "f6329ccf-2fd4-47bf-ae43-51bc634eda65")
-		)
-		(pin "44"
-			(uuid "8b1a49af-ab92-43c6-a9c0-11b4da344d9b")
-		)
-		(pin "56"
-			(uuid "3ff90be2-8539-4f7a-b7cb-7946221a5add")
-		)
-		(pin "57"
-			(uuid "637de5f7-e8a7-4ab1-bba3-daaf8d86d099")
-		)
-		(pin "45"
-			(uuid "1ebcfcb8-7ece-4661-b052-19e6c43db66b")
-		)
-		(pin "46"
-			(uuid "1d15a2c2-40e8-4b82-ae90-aba5efc332ab")
-		)
-		(pin "61"
-			(uuid "1f9588dc-3634-4e14-907a-d50b21d13bca")
-		)
-		(pin "62"
-			(uuid "7fdda4c9-41d5-4ce5-8a9a-03aaa3855450")
-		)
-		(pin "38"
-			(uuid "4d191c98-8965-4d30-a33b-1f07b8ec9bad")
-		)
-		(pin "39"
-			(uuid "b2f3558a-166d-44c5-b693-50956ab4ea60")
-		)
-		(pin "1"
-			(uuid "3a65b057-3204-4da7-9ad1-978aa515f794")
-		)
-		(pin "2"
-			(uuid "cd190d10-0e55-41c3-9fe7-0399f4e2e562")
-		)
-		(pin "20"
-			(uuid "4c55701f-e88c-49e4-9e19-2f43244a7aee")
-		)
-		(pin "14"
-			(uuid "5981ffee-3471-474e-b482-469c45d2fd56")
-		)
-		(pin "16"
-			(uuid "e9a731df-c066-42d4-96dc-6862f0d3bd48")
-		)
-		(pin "34"
-			(uuid "a0c98d84-8f8b-4826-a32f-0760bd2c1952")
-		)
-		(pin "35"
-			(uuid "4c420db9-5069-434d-a486-132f3f8f5f08")
-		)
-		(pin "52"
-			(uuid "62b256bc-24a3-438b-a638-3a897796dd57")
-		)
-		(pin "53"
-			(uuid "939f089e-e8f2-4809-a44c-1793679f7665")
-		)
-		(pin "4"
-			(uuid "37029a88-deb0-44fa-a3dd-c5d10bf9cf21")
-		)
-		(pin "40"
-			(uuid "f27ac944-7527-4691-930c-7e5e0eeda6b4")
-		)
-		(pin "41"
-			(uuid "640f321a-f8e3-445d-9685-b6524f4a46bc")
-		)
-		(pin "42"
-			(uuid "ba0f5d3b-70ab-4f3e-9bec-caaaad5b85f8")
-		)
-		(pin "10"
-			(uuid "220d5bd5-403d-4112-8ece-0c60b4634734")
-		)
-		(pin "13"
-			(uuid "62b67220-4cb9-407b-9293-c797b32e3755")
-		)
-		(pin "69"
-			(uuid "29a186d3-e528-471a-9ec2-3ef4a886b0c1")
-		)
-		(pin "7"
-			(uuid "353116e5-96d4-402d-bedc-4a653eb1cd0d")
-		)
-		(pin "70"
-			(uuid "bc70c819-3c13-46b6-aafd-979e267ef2e7")
-		)
-		(pin "71"
-			(uuid "33083209-46aa-499d-b431-c40703b4195f")
-		)
-		(pin "72"
-			(uuid "e4ba639b-cfc7-497f-82d7-920d1b5ada36")
-		)
-		(pin "73"
-			(uuid "7c993894-dfd8-4327-a97a-278d5a1d6bac")
-		)
-		(pin "74"
-			(uuid "33856bcc-9b50-400b-b692-f66c2c122cfa")
-		)
-		(pin "75"
-			(uuid "2fb460ff-1a8e-4998-8be1-a37b16b1c000")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "J3")
+					(reference "TP901")
 					(unit 1)
 				)
 			)
@@ -9458,15 +7895,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_200R_0402")
-		(at 214.63 107.95 90)
+		(at 180.34 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8cc5c4b2-6030-4d4b-9f22-300de33822f4")
-		(property "Reference" "R95"
-			(at 215.9 104.14 90)
+		(property "Reference" "R912"
+			(at 181.61 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9474,8 +7911,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_200R_0402"
-			(at 227.33 87.63 0)
+		(property "Value" "200R"
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9485,8 +7922,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
-			(at 229.87 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 195.58 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9497,7 +7934,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 232.41 87.63 0)
+			(at 198.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +7945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 107.95 0)
+			(at 180.34 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +7954,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 237.49 87.63 0)
+			(at 203.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,7 +7965,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-2000GLF"
-			(at 234.95 87.63 0)
+			(at 200.66 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9539,7 +7976,7 @@
 			)
 		)
 		(property "Val" "200R"
-			(at 215.9 106.68 90)
+			(at 181.61 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +7986,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 240.03 87.63 0)
+			(at 205.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,7 +7997,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 242.57 87.63 0)
+			(at 208.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +8008,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 224.79 87.63 0)
+			(at 190.5 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +8026,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R95")
+					(reference "R912")
 					(unit 1)
 				)
 			)
@@ -9597,15 +8034,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:+3V3")
-		(at 214.63 100.33 0)
+		(at 180.34 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8fe4b202-9566-4901-af2e-f82cd6c2dc4d")
-		(property "Reference" "#PWR0128"
-			(at 214.63 104.14 0)
+		(property "Reference" "#PWR0905"
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9615,7 +8052,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 212.09 97.155 0)
+			(at 177.8 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9624,7 +8061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 100.33 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +8071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 100.33 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9644,7 +8081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 100.33 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,7 +8095,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "#PWR0128")
+					(reference "#PWR0905")
 					(unit 1)
 				)
 			)
@@ -9673,7 +8110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ef8295a-9c0f-4b37-8950-2b333846dfff")
-		(property "Reference" "SP2"
+		(property "Reference" "SP901"
 			(at 239.395 146.685 0)
 			(effects
 				(font
@@ -9772,7 +8209,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "SP2")
+					(reference "SP901")
 					(unit 1)
 				)
 			)
@@ -9780,15 +8217,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:+3V3")
-		(at 203.835 100.33 0)
+		(at 169.545 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "b3759f4d-98e7-4f13-b8b6-b80442d4cb87")
-		(property "Reference" "#PWR0126"
-			(at 203.835 104.14 0)
+		(property "Reference" "#PWR0903"
+			(at 169.545 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +8235,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.295 97.155 0)
+			(at 167.005 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +8244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.835 100.33 0)
+			(at 169.545 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +8254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.835 100.33 0)
+			(at 169.545 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +8264,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.835 100.33 0)
+			(at 169.545 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9841,7 +8278,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "#PWR0126")
+					(reference "#PWR0903")
 					(unit 1)
 				)
 			)
@@ -9849,15 +8286,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:GND")
-		(at 215.9 34.29 0)
+		(at 181.61 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ba308891-4aaa-4fb6-8dfe-4ff158df8bb3")
-		(property "Reference" "#PWR0129"
-			(at 215.9 40.64 0)
+		(property "Reference" "#PWR0906"
+			(at 181.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,7 +8304,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.995 38.735 0)
+			(at 179.705 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +8313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 34.29 0)
+			(at 181.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9886,7 +8323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 34.29 0)
+			(at 181.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9896,7 +8333,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 34.29 0)
+			(at 181.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +8342,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 224.79 41.91 0)
+			(at 190.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +8353,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 224.79 44.45 0)
+			(at 190.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9932,7 +8369,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "#PWR0129")
+					(reference "#PWR0906")
 					(unit 1)
 				)
 			)
@@ -9940,15 +8377,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:TP_0.75mm_SMD")
-		(at 224.79 71.12 0)
+		(at 190.5 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bbdca798-63f9-4fbe-ba68-5dff2e1b44b8")
-		(property "Reference" "TP16"
-			(at 229.235 72.39 0)
+		(property "Reference" "TP902"
+			(at 194.945 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +8394,7 @@
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 240.03 78.74 0)
+			(at 205.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,8 +8404,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:TP_SMD_0.75mm"
-			(at 240.03 81.28 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 205.74 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9979,7 +8416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 83.82 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9990,7 +8427,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 71.12 0)
+			(at 190.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9999,7 +8436,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 224.79 71.12 0)
+			(at 190.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10009,7 +8446,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 224.79 71.12 0)
+			(at 190.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +8456,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 240.03 86.36 0)
+			(at 205.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10030,7 +8467,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 240.03 88.9 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10046,7 +8483,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "TP16")
+					(reference "TP902")
 					(unit 1)
 				)
 			)
@@ -10054,7 +8491,7 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:Bus_M.2_2199230-6")
-		(at 152.4 35.56 0)
+		(at 118.11 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10062,8 +8499,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c611dd7e-9b51-4dc0-94c0-4e23affd1be2")
-		(property "Reference" "J14"
-			(at 167.64 26.67 0)
+		(property "Reference" "J901"
+			(at 133.35 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10071,7 +8508,7 @@
 			)
 		)
 		(property "Value" "Bus_M.2_2199230-6"
-			(at 158.115 31.115 0)
+			(at 123.825 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +8519,7 @@
 			)
 		)
 		(property "Footprint" "jetson-orin-baseboard-footprints:Bus_M.2_Socket_Key_E_TE_2199230-6"
-			(at 198.12 41.91 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10093,7 +8530,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/usa-en/product-2199230-4.html"
-			(at 198.12 44.45 0)
+			(at 163.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10104,7 +8541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 35.56 0)
+			(at 118.11 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,7 +8550,7 @@
 			)
 		)
 		(property "MPN" "2199230-6 "
-			(at 167.64 29.21 0)
+			(at 133.35 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,7 +8559,7 @@
 			)
 		)
 		(property "Manufacturer" "TE Connectivity"
-			(at 198.12 49.53 0)
+			(at 163.83 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,7 +8570,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 198.12 52.07 0)
+			(at 163.83 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,7 +8581,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 198.12 54.61 0)
+			(at 163.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10361,7 +8798,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "J14")
+					(reference "J901")
 					(unit 1)
 				)
 			)
@@ -10369,7 +8806,7 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:R_47k_0402")
-		(at 128.27 29.21 90)
+		(at 93.98 34.29 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10377,8 +8814,8 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "cc519ee0-db4b-4633-9546-e000b0cb6b5c")
-		(property "Reference" "R88"
-			(at 133.35 31.75 90)
+		(property "Reference" "R903"
+			(at 99.06 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10386,8 +8823,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R_47k_0402"
-			(at 140.97 49.53 0)
+		(property "Value" "47K"
+			(at 106.68 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10397,8 +8834,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
-			(at 143.51 49.53 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +8846,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 146.05 49.53 0)
+			(at 111.76 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,7 +8857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 29.21 0)
+			(at 93.98 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,7 +8866,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 151.13 49.53 0)
+			(at 116.84 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,7 +8877,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-4702GLF"
-			(at 148.59 49.53 0)
+			(at 114.3 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10451,7 +8888,7 @@
 			)
 		)
 		(property "Val" "47k"
-			(at 133.35 34.29 90)
+			(at 99.06 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10461,7 +8898,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 153.67 49.53 0)
+			(at 119.38 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10472,7 +8909,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 156.21 49.53 0)
+			(at 121.92 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10483,7 +8920,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 138.43 49.53 0)
+			(at 104.14 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,7 +8930,7 @@
 			)
 		)
 		(property "DNP" "DNP"
-			(at 128.27 31.75 0)
+			(at 93.98 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10509,7 +8946,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "R88")
+					(reference "R903")
 					(unit 1)
 				)
 			)
@@ -10517,7 +8954,7 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:GND")
-		(at 184.15 143.51 0)
+		(at 149.86 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10525,8 +8962,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d09245db-3da4-4d5c-86af-aac193dde35a")
-		(property "Reference" "#PWR0125"
-			(at 184.15 149.86 0)
+		(property "Reference" "#PWR0902"
+			(at 149.86 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +8973,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 147.32 0)
+			(at 149.86 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10545,7 +8982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 143.51 0)
+			(at 149.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10555,7 +8992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 143.51 0)
+			(at 149.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10565,7 +9002,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 143.51 0)
+			(at 149.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +9011,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 193.04 151.13 0)
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +9022,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 193.04 153.67 0)
+			(at 158.75 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +9038,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "#PWR0125")
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
@@ -10609,7 +9046,7 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:+3V3")
-		(at 128.27 26.67 0)
+		(at 93.98 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10617,8 +9054,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4fc967d-6403-4bb4-b1f2-71d74cc275cb")
-		(property "Reference" "#PWR0124"
-			(at 128.27 30.48 0)
+		(property "Reference" "#PWR0901"
+			(at 93.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10628,7 +9065,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 128.27 23.114 0)
+			(at 93.98 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10637,7 +9074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 26.67 0)
+			(at 93.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +9084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 26.67 0)
+			(at 93.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,7 +9094,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 26.67 0)
+			(at 93.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,7 +9108,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "#PWR0124")
+					(reference "#PWR0901")
 					(unit 1)
 				)
 			)
@@ -10679,15 +9116,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:+3V3")
-		(at 219.71 25.4 0)
+		(at 185.42 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d540a26a-43a3-4582-80e7-9a083daa8d09")
-		(property "Reference" "#PWR0130"
-			(at 219.71 29.21 0)
+		(property "Reference" "#PWR0907"
+			(at 185.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10697,7 +9134,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 219.71 21.844 0)
+			(at 185.42 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +9143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 25.4 0)
+			(at 185.42 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,7 +9153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 25.4 0)
+			(at 185.42 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +9163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 25.4 0)
+			(at 185.42 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,7 +9177,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "#PWR0130")
+					(reference "#PWR0907")
 					(unit 1)
 				)
 			)
@@ -10748,15 +9185,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:GND")
-		(at 204.47 34.29 0)
+		(at 170.18 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "da3b72d5-cd29-4c9b-b72c-bfdc994e19dd")
-		(property "Reference" "#PWR0127"
-			(at 204.47 40.64 0)
+		(property "Reference" "#PWR0904"
+			(at 170.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10766,7 +9203,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.565 38.735 0)
+			(at 168.275 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10775,7 +9212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 34.29 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10785,7 +9222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 34.29 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10795,7 +9232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 34.29 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10804,7 +9241,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 213.36 41.91 0)
+			(at 179.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10815,7 +9252,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 213.36 44.45 0)
+			(at 179.07 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,7 +9268,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "#PWR0127")
+					(reference "#PWR0904")
 					(unit 1)
 				)
 			)
@@ -10839,15 +9276,15 @@
 	)
 	(symbol
 		(lib_id "jetson-orin-baseboard:C_220n_0402")
-		(at 121.92 55.88 0)
+		(at 87.63 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f7006eba-d007-45d1-9955-053c16dddfd7")
-		(property "Reference" "C114"
-			(at 125.73 55.88 0)
+		(property "Reference" "C902"
+			(at 91.44 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,8 +9292,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C_220n_0402"
-			(at 142.24 66.04 0)
+		(property "Value" "220nF"
+			(at 107.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10866,8 +9303,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:C_0402_1005Metric"
-			(at 142.24 68.58 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +9315,7 @@
 			)
 		)
 		(property "Datasheet" " "
-			(at 142.24 71.12 0)
+			(at 107.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10889,7 +9326,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 55.88 0)
+			(at 87.63 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10898,7 +9335,7 @@
 			)
 		)
 		(property "Manufacturer" "Yaego"
-			(at 142.24 76.2 0)
+			(at 107.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,7 +9346,7 @@
 			)
 		)
 		(property "MPN" "CC0402KRX5R6BB224"
-			(at 142.24 73.66 0)
+			(at 107.95 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10920,7 +9357,7 @@
 			)
 		)
 		(property "Val" "220n"
-			(at 125.73 58.42 0)
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10930,7 +9367,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 142.24 78.74 0)
+			(at 107.95 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +9378,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 142.24 81.28 0)
+			(at 107.95 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10952,7 +9389,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 142.24 83.82 0)
+			(at 107.95 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10962,7 +9399,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 142.24 86.36 0)
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,7 +9417,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "C114")
+					(reference "C902")
 					(unit 1)
 				)
 			)
@@ -10996,7 +9433,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fa8fb51f-1185-472d-bf6b-93fb56974cb7")
-		(property "Reference" "A1"
+		(property "Reference" "A901"
 			(at 238.76 132.715 0)
 			(effects
 				(font
@@ -11098,7 +9535,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "A1")
+					(reference "A901")
 					(unit 1)
 				)
 			)

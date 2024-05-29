@@ -38,7 +38,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -76,7 +76,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
@@ -114,13 +114,13 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 113.03 106.68)
+		(at 26.67 107.315)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -130,9 +130,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3af14e6b-03f6-4de7-809d-494c6f0bbe1d")
-		(property "Sheetname" "Orin_3"
-			(at 113.03 105.9684 0)
+		(uuid "36a293ae-b0d7-4698-aa86-662a0ac946ae")
+		(property "Sheetname" "Orin"
+			(at 26.67 106.6034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,8 +140,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fib_orin_3.kicad_sch"
-			(at 113.03 144.7296 0)
+		(property "Sheetfile" "fib_orin.kicad_sch"
+			(at 26.67 145.9996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,7 +152,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "14")
+					(page "11")
 				)
 			)
 		)
@@ -190,45 +190,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 69.85 106.68)
-		(size 35.56 38.1)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7291aa52-06cb-4a88-bb78-98176b0f194d")
-		(property "Sheetname" "Orin_2"
-			(at 69.85 105.9684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "fib_orin_2.kicad_sch"
-			(at 69.85 144.7296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "13")
+					(page "10")
 				)
 			)
 		)
@@ -266,7 +228,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "10")
+					(page "9")
 				)
 			)
 		)
@@ -304,7 +266,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "2")
+					(page "1")
 				)
 			)
 		)
@@ -342,7 +304,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -380,7 +342,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "8")
+					(page "7")
 				)
 			)
 		)
@@ -418,83 +380,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 26.67 106.68)
-		(size 35.56 38.1)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "bb8fbf62-7d29-49e1-b8fb-43237480c567")
-		(property "Sheetname" "Orin_1"
-			(at 26.67 105.9684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "fib_orin_1.kicad_sch"
-			(at 26.67 144.7296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 154.94 106.68)
-		(size 35.56 38.1)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c0106822-455f-4b9e-aaa5-279ec5a0b832")
-		(property "Sheetname" "Orin_4"
-			(at 154.94 105.9684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "fib_orin_4.kicad_sch"
-			(at 154.94 144.7296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "15")
+					(page "8")
 				)
 			)
 		)
@@ -532,14 +418,14 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet_instances
 		(path "/"
-			(page "1")
+			(page "0")
 		)
 	)
 )

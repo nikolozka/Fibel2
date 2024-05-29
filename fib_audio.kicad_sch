@@ -7810,7 +7810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04dff246-7870-4443-a8ac-640243a2221f")
-		(property "Reference" "R22"
+		(property "Reference" "R709"
 			(at 62.23 161.29 0)
 			(effects
 				(font
@@ -7828,7 +7828,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:R0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.23 157.48 0)
 			(effects
 				(font
@@ -7864,7 +7864,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "R22")
+					(reference "R709")
 					(unit 1)
 				)
 			)
@@ -7879,7 +7879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0afc5ffa-1a67-4746-820a-1fdaf9b8ed6c")
-		(property "Reference" "L11"
+		(property "Reference" "L705"
 			(at 108.966 62.484 90)
 			(effects
 				(font
@@ -7931,7 +7931,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "L11")
+					(reference "L705")
 					(unit 1)
 				)
 			)
@@ -7946,7 +7946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12ac7aa7-b336-4dae-ae64-73a7edd619ce")
-		(property "Reference" "R30"
+		(property "Reference" "R701"
 			(at 18.288 78.74 0)
 			(effects
 				(font
@@ -7998,7 +7998,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "R30")
+					(reference "R701")
 					(unit 1)
 				)
 			)
@@ -8014,7 +8014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12d28efb-24d6-41c3-9505-ec1764218ea7")
-		(property "Reference" "C47"
+		(property "Reference" "C720"
 			(at 207.01 27.9462 0)
 			(effects
 				(font
@@ -8068,7 +8068,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C47")
+					(reference "C720")
 					(unit 1)
 				)
 			)
@@ -8083,7 +8083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17578b01-f3aa-40cb-958d-f5021f360670")
-		(property "Reference" "C51"
+		(property "Reference" "C728"
 			(at 254 138.43 90)
 			(effects
 				(font
@@ -8101,7 +8101,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Untitled:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 252.73 137.16 0)
 			(effects
 				(font
@@ -8137,7 +8137,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C51")
+					(reference "C728")
 					(unit 1)
 				)
 			)
@@ -8152,7 +8152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c51b9cc-93d9-4bf9-abb0-ae118d4eb792")
-		(property "Reference" "L12"
+		(property "Reference" "L706"
 			(at 108.966 68.58 90)
 			(effects
 				(font
@@ -8204,7 +8204,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "L12")
+					(reference "L706")
 					(unit 1)
 				)
 			)
@@ -8219,7 +8219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21697ad7-e864-4711-a2e3-2037be4ce407")
-		(property "Reference" "R26"
+		(property "Reference" "R706"
 			(at 39.37 68.834 90)
 			(effects
 				(font
@@ -8271,7 +8271,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "R26")
+					(reference "R706")
 					(unit 1)
 				)
 			)
@@ -8287,7 +8287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "221dc46c-f4ab-40dc-a08b-471dbf72bb9d")
-		(property "Reference" "C46"
+		(property "Reference" "C719"
 			(at 196.85 27.9462 0)
 			(effects
 				(font
@@ -8341,7 +8341,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C46")
+					(reference "C719")
 					(unit 1)
 				)
 			)
@@ -8356,7 +8356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "229066e0-dd90-4004-b471-f8f3e8bb54f9")
-		(property "Reference" "C55"
+		(property "Reference" "C702"
 			(at 46.99 151.13 0)
 			(effects
 				(font
@@ -8374,7 +8374,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 45.72 151.13 0)
 			(effects
 				(font
@@ -8410,7 +8410,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C55")
+					(reference "C702")
 					(unit 1)
 				)
 			)
@@ -8426,7 +8426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2551247f-99a1-4650-bf81-9202d60554c3")
-		(property "Reference" "C53"
+		(property "Reference" "C712"
 			(at 134.62 69.8562 0)
 			(effects
 				(font
@@ -8480,7 +8480,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C53")
+					(reference "C712")
 					(unit 1)
 				)
 			)
@@ -8496,7 +8496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26c400b2-2f3e-4761-b2db-b4d658db9cd1")
-		(property "Reference" "R13"
+		(property "Reference" "R710"
 			(at 269.24 36.195 0)
 			(effects
 				(font
@@ -8514,7 +8514,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:R0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 269.24 32.385 0)
 			(effects
 				(font
@@ -8550,7 +8550,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "R13")
+					(reference "R710")
 					(unit 1)
 				)
 			)
@@ -8565,7 +8565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b510e8e-9561-4aa6-9d34-2b46529baf3e")
-		(property "Reference" "#U$03"
+		(property "Reference" "#U$0705"
 			(at 119.38 116.84 0)
 			(effects
 				(font
@@ -8616,7 +8616,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#U$03")
+					(reference "#U$0705")
 					(unit 1)
 				)
 			)
@@ -8631,7 +8631,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c9a72c9-4e3c-4191-abf0-8a4c8ef01db2")
-		(property "Reference" "R28"
+		(property "Reference" "R707"
 			(at 39.37 72.644 90)
 			(effects
 				(font
@@ -8683,7 +8683,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "R28")
+					(reference "R707")
 					(unit 1)
 				)
 			)
@@ -8698,7 +8698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "357ad23f-f6ce-426d-acc8-5419682ae222")
-		(property "Reference" "R25"
+		(property "Reference" "R705"
 			(at 39.37 65.024 90)
 			(effects
 				(font
@@ -8750,7 +8750,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "R25")
+					(reference "R705")
 					(unit 1)
 				)
 			)
@@ -8766,7 +8766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36f233ba-0add-4ab4-8ccc-edc534642544")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR0708"
 			(at 125.73 25.4 0)
 			(effects
 				(font
@@ -8816,7 +8816,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR041")
+					(reference "#PWR0708")
 					(unit 1)
 				)
 			)
@@ -8832,7 +8832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "382b6353-b9a7-4a15-8c15-6c85116eee1b")
-		(property "Reference" "C48"
+		(property "Reference" "C714"
 			(at 154.94 27.9462 0)
 			(effects
 				(font
@@ -8886,7 +8886,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C48")
+					(reference "C714")
 					(unit 1)
 				)
 			)
@@ -8902,7 +8902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b56ddd6-8e1d-4ac1-b69a-6413d9db84fb")
-		(property "Reference" "U4"
+		(property "Reference" "U701"
 			(at 72.39 16.51 0)
 			(effects
 				(font
@@ -9068,7 +9068,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "U4")
+					(reference "U701")
 					(unit 1)
 				)
 			)
@@ -9083,7 +9083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f4faac1-70db-4b12-9609-54a7d65331ae")
-		(property "Reference" "L10"
+		(property "Reference" "L704"
 			(at 108.712 50.8 90)
 			(effects
 				(font
@@ -9135,7 +9135,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "L10")
+					(reference "L704")
 					(unit 1)
 				)
 			)
@@ -9151,7 +9151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f89d15d-8bd6-4976-859e-b063ce7d0ef0")
-		(property "Reference" "C64"
+		(property "Reference" "C705"
 			(at 114.3 52.0762 0)
 			(effects
 				(font
@@ -9205,7 +9205,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C64")
+					(reference "C705")
 					(unit 1)
 				)
 			)
@@ -9221,7 +9221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4089ce8e-7ab0-419f-8b38-b3eb2b547335")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR0711"
 			(at 177.8 26.67 0)
 			(effects
 				(font
@@ -9271,7 +9271,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR046")
+					(reference "#PWR0711")
 					(unit 1)
 				)
 			)
@@ -9286,7 +9286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4274e2d8-01bd-4262-9d68-98c1c0d071cd")
-		(property "Reference" "K1"
+		(property "Reference" "K701"
 			(at 254 40.64 0)
 			(effects
 				(font
@@ -9347,7 +9347,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "K1")
+					(reference "K701")
 					(unit 1)
 				)
 			)
@@ -9363,7 +9363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4508de9b-863f-4860-a65d-6192cf87f304")
-		(property "Reference" "C42"
+		(property "Reference" "C718"
 			(at 185.42 27.9462 0)
 			(effects
 				(font
@@ -9417,7 +9417,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C42")
+					(reference "C718")
 					(unit 1)
 				)
 			)
@@ -9433,7 +9433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490fe170-abdd-41a4-93e3-91239d25a0a5")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR0702"
 			(at 99.06 104.14 0)
 			(effects
 				(font
@@ -9483,7 +9483,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR043")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -9498,7 +9498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cb4c13c-c7fc-48de-8a75-eb83b3a5fde7")
-		(property "Reference" "D5"
+		(property "Reference" "D702"
 			(at 88.9 160.02 0)
 			(effects
 				(font
@@ -9552,7 +9552,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "D5")
+					(reference "D702")
 					(unit 1)
 				)
 			)
@@ -9567,7 +9567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e309499-0f33-4fff-9706-7e76f1608583")
-		(property "Reference" "C49"
+		(property "Reference" "C726"
 			(at 238.76 138.43 90)
 			(effects
 				(font
@@ -9585,7 +9585,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Untitled:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 137.16 0)
 			(effects
 				(font
@@ -9621,7 +9621,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C49")
+					(reference "C726")
 					(unit 1)
 				)
 			)
@@ -9636,7 +9636,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59d6ed76-810e-43db-9ad4-6f31c1b3dd2e")
-		(property "Reference" "J9"
+		(property "Reference" "J701"
 			(at 123.19 158.75 0)
 			(effects
 				(font
@@ -9708,7 +9708,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "J9")
+					(reference "J701")
 					(unit 1)
 				)
 			)
@@ -9723,7 +9723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b07ab56-85aa-4330-ade9-e5ad9be28c93")
-		(property "Reference" "#U$01"
+		(property "Reference" "#U$0709"
 			(at 248.92 52.07 0)
 			(effects
 				(font
@@ -9774,7 +9774,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#U$01")
+					(reference "#U$0709")
 					(unit 1)
 				)
 			)
@@ -9790,7 +9790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b3ad29b-e319-4d28-bca1-afe1ce9a3032")
-		(property "Reference" "C65"
+		(property "Reference" "C708"
 			(at 123.19 52.0762 0)
 			(effects
 				(font
@@ -9844,7 +9844,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C65")
+					(reference "C708")
 					(unit 1)
 				)
 			)
@@ -9860,7 +9860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ce986ff-6ae7-4204-9b84-1c88477dc16b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR0704"
 			(at 106.68 25.4 0)
 			(effects
 				(font
@@ -9910,7 +9910,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR039")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)
@@ -9926,7 +9926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60e306d7-70fc-4ffd-ae03-a43f4a3192e3")
-		(property "Reference" "C50"
+		(property "Reference" "C715"
 			(at 165.1 27.9462 0)
 			(effects
 				(font
@@ -9980,7 +9980,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C50")
+					(reference "C715")
 					(unit 1)
 				)
 			)
@@ -9995,7 +9995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "614a6028-b8b0-4b9d-960b-0633951f62d1")
-		(property "Reference" "C45"
+		(property "Reference" "C724"
 			(at 223.52 138.43 90)
 			(effects
 				(font
@@ -10013,7 +10013,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Untitled:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 222.25 137.16 0)
 			(effects
 				(font
@@ -10049,7 +10049,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C45")
+					(reference "C724")
 					(unit 1)
 				)
 			)
@@ -10065,7 +10065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61d90740-5eec-4391-b3bb-69de279eb735")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0709"
 			(at 140.97 25.4 0)
 			(effects
 				(font
@@ -10115,7 +10115,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR042")
+					(reference "#PWR0709")
 					(unit 1)
 				)
 			)
@@ -10130,7 +10130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "626b28c5-269e-4fac-b4ba-232c20a2a84a")
-		(property "Reference" "C54"
+		(property "Reference" "C701"
 			(at 46.99 146.05 0)
 			(effects
 				(font
@@ -10148,7 +10148,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:C0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 45.72 146.05 0)
 			(effects
 				(font
@@ -10184,7 +10184,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C54")
+					(reference "C701")
 					(unit 1)
 				)
 			)
@@ -10199,7 +10199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "657d4ab8-1a8f-45b4-9397-9f7212b6694d")
-		(property "Reference" "C44"
+		(property "Reference" "C722"
 			(at 218.44 140.97 0)
 			(effects
 				(font
@@ -10217,7 +10217,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.44 137.16 0)
 			(effects
 				(font
@@ -10253,7 +10253,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C44")
+					(reference "C722")
 					(unit 1)
 				)
 			)
@@ -10268,7 +10268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68582631-e93b-4dc4-a7e7-4f224f0593ba")
-		(property "Reference" "R29"
+		(property "Reference" "R702"
 			(at 29.718 78.74 0)
 			(effects
 				(font
@@ -10320,7 +10320,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "R29")
+					(reference "R702")
 					(unit 1)
 				)
 			)
@@ -10335,7 +10335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6953d4af-4dba-46d0-ac18-8d3f7fa986a6")
-		(property "Reference" "#U$019"
+		(property "Reference" "#U$0703"
 			(at 99.06 165.1 0)
 			(effects
 				(font
@@ -10386,7 +10386,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#U$019")
+					(reference "#U$0703")
 					(unit 1)
 				)
 			)
@@ -10401,7 +10401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69e28223-7bc3-4ad5-970e-15deaa6d7d7c")
-		(property "Reference" "C58"
+		(property "Reference" "C703"
 			(at 68.58 162.56 0)
 			(effects
 				(font
@@ -10419,7 +10419,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 157.48 0)
 			(effects
 				(font
@@ -10455,7 +10455,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C58")
+					(reference "C703")
 					(unit 1)
 				)
 			)
@@ -10470,7 +10470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a71d478-e0a8-4b06-b410-c0f3597310fc")
-		(property "Reference" "#U$04"
+		(property "Reference" "#U$0710"
 			(at 269.24 52.07 0)
 			(effects
 				(font
@@ -10521,7 +10521,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#U$04")
+					(reference "#U$0710")
 					(unit 1)
 				)
 			)
@@ -10536,7 +10536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ca8ac42-3897-4def-9d49-64b291f572e1")
-		(property "Reference" "#U$07"
+		(property "Reference" "#U$0706"
 			(at 171.45 101.6 0)
 			(effects
 				(font
@@ -10587,7 +10587,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#U$07")
+					(reference "#U$0706")
 					(unit 1)
 				)
 			)
@@ -10603,7 +10603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71292e3a-a9ff-4060-847e-1bafe553d4c0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0703"
 			(at 100.33 25.4 0)
 			(effects
 				(font
@@ -10653,7 +10653,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR038")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -10668,7 +10668,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76fdc1a6-c12c-4d6f-aa6a-49a04e0f6521")
-		(property "Reference" "L4"
+		(property "Reference" "L708"
 			(at 240.03 130.81 0)
 			(effects
 				(font
@@ -10722,7 +10722,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "L4")
+					(reference "L708")
 					(unit 1)
 				)
 			)
@@ -10737,7 +10737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78bc2b4f-8f01-4309-8bfe-ae033cb29b8a")
-		(property "Reference" "C52"
+		(property "Reference" "C730"
 			(at 254 130.81 0)
 			(effects
 				(font
@@ -10755,7 +10755,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 257.81 130.81 0)
 			(effects
 				(font
@@ -10791,7 +10791,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C52")
+					(reference "C730")
 					(unit 1)
 				)
 			)
@@ -10806,7 +10806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b0ff7bd-5d8f-46d3-8e69-a796b882669c")
-		(property "Reference" "C36"
+		(property "Reference" "C725"
 			(at 238.76 88.9 90)
 			(effects
 				(font
@@ -10824,7 +10824,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Untitled:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 237.49 87.63 0)
 			(effects
 				(font
@@ -10860,7 +10860,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C36")
+					(reference "C725")
 					(unit 1)
 				)
 			)
@@ -10876,7 +10876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d08b1bd-a7ef-4425-9e03-83f020db80c0")
-		(property "Reference" "C61"
+		(property "Reference" "C707"
 			(at 123.19 27.9462 0)
 			(effects
 				(font
@@ -10930,7 +10930,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C61")
+					(reference "C707")
 					(unit 1)
 				)
 			)
@@ -10946,7 +10946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83168d9c-b7db-4c96-ba01-7c7d6cd40a51")
-		(property "Reference" "C66"
+		(property "Reference" "C711"
 			(at 134.62 52.0762 0)
 			(effects
 				(font
@@ -11000,7 +11000,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C66")
+					(reference "C711")
 					(unit 1)
 				)
 			)
@@ -11016,7 +11016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86f34e57-e45d-4d58-91f7-e71b9fa343af")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR0707"
 			(at 115.57 81.28 0)
 			(effects
 				(font
@@ -11066,7 +11066,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR045")
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -11081,7 +11081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89a59323-90c8-4d30-b1f3-e3792a512a57")
-		(property "Reference" "R23"
+		(property "Reference" "R703"
 			(at 39.37 57.404 90)
 			(effects
 				(font
@@ -11133,7 +11133,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "R23")
+					(reference "R703")
 					(unit 1)
 				)
 			)
@@ -11148,7 +11148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b0329e2-8bd7-4a0e-9425-19977cec29bb")
-		(property "Reference" "L8"
+		(property "Reference" "L702"
 			(at 92.71 149.86 0)
 			(effects
 				(font
@@ -11202,7 +11202,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "L8")
+					(reference "L702")
 					(unit 1)
 				)
 			)
@@ -11218,7 +11218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cd54f72-d6fe-41bd-a25f-240793402e63")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR0705"
 			(at 113.03 25.4 0)
 			(effects
 				(font
@@ -11268,7 +11268,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR040")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -11283,7 +11283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fb1078a-0285-49ae-ab45-0bc4e9fe82d5")
-		(property "Reference" "L9"
+		(property "Reference" "L703"
 			(at 108.204 44.704 90)
 			(effects
 				(font
@@ -11335,7 +11335,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "L9")
+					(reference "L703")
 					(unit 1)
 				)
 			)
@@ -11350,7 +11350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90253d9c-1507-48f3-9444-877ca97ada55")
-		(property "Reference" "#U$017"
+		(property "Reference" "#U$0702"
 			(at 88.9 165.1 0)
 			(effects
 				(font
@@ -11401,7 +11401,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#U$017")
+					(reference "#U$0702")
 					(unit 1)
 				)
 			)
@@ -11417,7 +11417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96aaac95-1fdb-4f8c-b5b9-2ba54f52262c")
-		(property "Reference" "C37"
+		(property "Reference" "C706"
 			(at 114.3 69.8562 0)
 			(effects
 				(font
@@ -11471,7 +11471,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C37")
+					(reference "C706")
 					(unit 1)
 				)
 			)
@@ -11487,7 +11487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9706f150-03bb-4b7c-8caf-6dd21c8a2c17")
-		(property "Reference" "MIC2"
+		(property "Reference" "MIC702"
 			(at 223.52 115.57 0)
 			(effects
 				(font
@@ -11547,7 +11547,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "MIC2")
+					(reference "MIC702")
 					(unit 1)
 				)
 			)
@@ -11563,7 +11563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a41e4196-c474-4552-b7b8-5a6148049f7e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR0710"
 			(at 162.56 45.72 0)
 			(effects
 				(font
@@ -11613,7 +11613,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR044")
+					(reference "#PWR0710")
 					(unit 1)
 				)
 			)
@@ -11628,7 +11628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa5200bc-340a-45a8-ab10-eb4e22885ed2")
-		(property "Reference" "#U$015"
+		(property "Reference" "#U$0701"
 			(at 55.88 165.1 0)
 			(effects
 				(font
@@ -11679,7 +11679,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#U$015")
+					(reference "#U$0701")
 					(unit 1)
 				)
 			)
@@ -11694,7 +11694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b34a2ec6-19b5-4608-9773-fc284cd71f28")
-		(property "Reference" "C40"
+		(property "Reference" "C729"
 			(at 254 81.28 0)
 			(effects
 				(font
@@ -11712,7 +11712,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 257.81 81.28 0)
 			(effects
 				(font
@@ -11748,7 +11748,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C40")
+					(reference "C729")
 					(unit 1)
 				)
 			)
@@ -11764,7 +11764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4e2c452-a1d0-468a-925e-d3433f536334")
-		(property "Reference" "C63"
+		(property "Reference" "C713"
 			(at 143.51 27.9462 0)
 			(effects
 				(font
@@ -11818,7 +11818,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C63")
+					(reference "C713")
 					(unit 1)
 				)
 			)
@@ -11833,7 +11833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be13e350-882e-4757-a55b-50928c0c96ff")
-		(property "Reference" "D4"
+		(property "Reference" "D701"
 			(at 81.28 160.02 0)
 			(effects
 				(font
@@ -11887,7 +11887,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "D4")
+					(reference "D701")
 					(unit 1)
 				)
 			)
@@ -11903,7 +11903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf1385cf-14ee-4466-8c3e-5e44aa3f80d0")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR0706"
 			(at 115.57 63.5 0)
 			(effects
 				(font
@@ -11953,7 +11953,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR047")
+					(reference "#PWR0706")
 					(unit 1)
 				)
 			)
@@ -11969,7 +11969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf87a42c-dd2c-437c-805e-0ec51a8575a6")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR0701"
 			(at 24.13 77.47 0)
 			(effects
 				(font
@@ -12019,7 +12019,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#PWR033")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -12035,7 +12035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c00d7eec-d5d6-4bc9-9518-2b2dedbcd9d2")
-		(property "Reference" "C62"
+		(property "Reference" "C710"
 			(at 133.35 27.9462 0)
 			(effects
 				(font
@@ -12089,7 +12089,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C62")
+					(reference "C710")
 					(unit 1)
 				)
 			)
@@ -12105,7 +12105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c11c0923-37be-44f5-9d24-3e81dc2a2c83")
-		(property "Reference" "MIC1"
+		(property "Reference" "MIC701"
 			(at 223.52 66.04 0)
 			(effects
 				(font
@@ -12165,7 +12165,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "MIC1")
+					(reference "MIC701")
 					(unit 1)
 				)
 			)
@@ -12180,7 +12180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c786ac4e-3154-485c-bbce-23f928215f9f")
-		(property "Reference" "L3"
+		(property "Reference" "L707"
 			(at 240.03 81.28 0)
 			(effects
 				(font
@@ -12234,7 +12234,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "L3")
+					(reference "L707")
 					(unit 1)
 				)
 			)
@@ -12249,7 +12249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c8627745-edf9-423b-bd8c-0748035b3e9b")
-		(property "Reference" "#U$05"
+		(property "Reference" "#U$0707"
 			(at 229.87 97.79 0)
 			(effects
 				(font
@@ -12300,7 +12300,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#U$05")
+					(reference "#U$0707")
 					(unit 1)
 				)
 			)
@@ -12315,7 +12315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb01d954-3ec8-479b-9ebe-618acfb5fc38")
-		(property "Reference" "C38"
+		(property "Reference" "C727"
 			(at 254 88.9 90)
 			(effects
 				(font
@@ -12333,7 +12333,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Untitled:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 252.73 87.63 0)
 			(effects
 				(font
@@ -12369,7 +12369,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C38")
+					(reference "C727")
 					(unit 1)
 				)
 			)
@@ -12384,7 +12384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd192f6e-020a-4079-9c37-c0c901927c2c")
-		(property "Reference" "L7"
+		(property "Reference" "L701"
 			(at 92.71 144.78 0)
 			(effects
 				(font
@@ -12438,7 +12438,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "L7")
+					(reference "L701")
 					(unit 1)
 				)
 			)
@@ -12453,7 +12453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d222f147-8794-4861-86ce-db357e57c6cd")
-		(property "Reference" "#U$010"
+		(property "Reference" "#U$0708"
 			(at 229.87 147.32 0)
 			(effects
 				(font
@@ -12504,7 +12504,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#U$010")
+					(reference "#U$0708")
 					(unit 1)
 				)
 			)
@@ -12520,7 +12520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8517154-f0d6-4988-92a4-9a9ba552fc52")
-		(property "Reference" "C41"
+		(property "Reference" "C717"
 			(at 175.26 27.9462 0)
 			(effects
 				(font
@@ -12574,7 +12574,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C41")
+					(reference "C717")
 					(unit 1)
 				)
 			)
@@ -12590,7 +12590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8f59cfd-4d13-477c-b83d-7fd77cd8441a")
-		(property "Reference" "J10"
+		(property "Reference" "J703"
 			(at 139.7 64.7699 0)
 			(effects
 				(font
@@ -12608,7 +12608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.43 64.77 0)
 			(effects
 				(font
@@ -12644,7 +12644,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "J10")
+					(reference "J703")
 					(unit 1)
 				)
 			)
@@ -12659,7 +12659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd28c8e5-3354-4c21-b56c-bab60d5dc243")
-		(property "Reference" "C34"
+		(property "Reference" "C721"
 			(at 218.44 91.44 0)
 			(effects
 				(font
@@ -12677,7 +12677,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -12713,7 +12713,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C34")
+					(reference "C721")
 					(unit 1)
 				)
 			)
@@ -12728,7 +12728,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e57a9b1b-86c0-4bb1-bc2e-517e025784f1")
-		(property "Reference" "R24"
+		(property "Reference" "R704"
 			(at 39.37 61.214 90)
 			(effects
 				(font
@@ -12780,7 +12780,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "R24")
+					(reference "R704")
 					(unit 1)
 				)
 			)
@@ -12795,7 +12795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f310e819-63a4-416e-8b49-55799f6d80ec")
-		(property "Reference" "C60"
+		(property "Reference" "C704"
 			(at 73.66 162.56 0)
 			(effects
 				(font
@@ -12813,7 +12813,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.66 157.48 0)
 			(effects
 				(font
@@ -12849,7 +12849,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C60")
+					(reference "C704")
 					(unit 1)
 				)
 			)
@@ -12865,7 +12865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b77699-168c-4d54-874a-1514290eb350")
-		(property "Reference" "J11"
+		(property "Reference" "J702"
 			(at 139.7 46.9899 0)
 			(effects
 				(font
@@ -12883,7 +12883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 138.43 46.99 0)
 			(effects
 				(font
@@ -12919,7 +12919,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "J11")
+					(reference "J702")
 					(unit 1)
 				)
 			)
@@ -12934,7 +12934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f64dfc90-13e7-4929-8520-2202f225832f")
-		(property "Reference" "C35"
+		(property "Reference" "C723"
 			(at 223.52 88.9 90)
 			(effects
 				(font
@@ -12952,7 +12952,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Untitled:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 222.25 87.63 0)
 			(effects
 				(font
@@ -12988,7 +12988,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C35")
+					(reference "C723")
 					(unit 1)
 				)
 			)
@@ -13003,7 +13003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f79b7cab-7060-4276-b9e0-5e9c1f95ad52")
-		(property "Reference" "C43"
+		(property "Reference" "C716"
 			(at 170.18 102.87 0)
 			(effects
 				(font
@@ -13021,7 +13021,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 101.6 0)
 			(effects
 				(font
@@ -13057,7 +13057,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C43")
+					(reference "C716")
 					(unit 1)
 				)
 			)
@@ -13073,7 +13073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7c94182-2c61-4a4f-b2a3-d222c8b6aca3")
-		(property "Reference" "C39"
+		(property "Reference" "C709"
 			(at 123.19 69.8562 0)
 			(effects
 				(font
@@ -13127,7 +13127,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "C39")
+					(reference "C709")
 					(unit 1)
 				)
 			)
@@ -13142,7 +13142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8748063-1d39-4651-846c-1df3c4ae8189")
-		(property "Reference" "#U$020"
+		(property "Reference" "#U$0704"
 			(at 103.505 142.875 0)
 			(effects
 				(font
@@ -13193,7 +13193,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "#U$020")
+					(reference "#U$0704")
 					(unit 1)
 				)
 			)
@@ -13208,7 +13208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f94c0d2c-e753-4806-82a8-2d5b91048eac")
-		(property "Reference" "R21"
+		(property "Reference" "R708"
 			(at 55.88 161.29 0)
 			(effects
 				(font
@@ -13226,7 +13226,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:R0402"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 55.88 157.48 0)
 			(effects
 				(font
@@ -13262,7 +13262,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "R21")
+					(reference "R708")
 					(unit 1)
 				)
 			)
@@ -13277,7 +13277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f98ee599-cfc5-4ed6-8662-735f3d431bc1")
-		(property "Reference" "X1"
+		(property "Reference" "X701"
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -13337,7 +13337,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/17f77549-66cc-477f-9c69-749f4f7589f3"
-					(reference "X1")
+					(reference "X701")
 					(unit 1)
 				)
 			)

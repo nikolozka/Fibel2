@@ -1057,7 +1057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "505df31e-cb54-40cc-b54c-8796d52072a4")
-		(property "Reference" "U3"
+		(property "Reference" "U601"
 			(at 74.93 43.18 0)
 			(effects
 				(font
@@ -1283,7 +1283,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/32a7c27a-139a-4e74-bd6e-19af0f586a3c"
-					(reference "U3")
+					(reference "U601")
 					(unit 1)
 				)
 			)
