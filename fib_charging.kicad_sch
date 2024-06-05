@@ -3882,7 +3882,7 @@
 			)
 		)
 	)
-	(global_label "CHG_SCL"
+	(global_label "PWR_SCL"
 		(shape input)
 		(at 123.19 83.82 180)
 		(fields_autoplaced yes)
@@ -3894,7 +3894,7 @@
 		)
 		(uuid "57d54a25-4418-4aaf-a358-7bb0703ecf6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.8591 83.82 0)
+			(at 111.7382 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +3968,7 @@
 			)
 		)
 	)
-	(global_label "CHG_SDA"
+	(global_label "PWR_SDA"
 		(shape input)
 		(at 123.19 81.28 180)
 		(fields_autoplaced yes)
@@ -3980,7 +3980,7 @@
 		)
 		(uuid "f9ac5594-7524-43de-acc7-c271014d14c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.7986 81.28 0)
+			(at 111.6777 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

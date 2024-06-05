@@ -10120,6 +10120,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 106.68) (xy 267.97 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00dc3b87-55f0-44cd-9790-89efd3b143df")
+	)
+	(wire
+		(pts
 			(xy 113.03 78.74) (xy 115.57 78.74)
 		)
 		(stroke
@@ -10170,6 +10180,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 121.92) (xy 267.97 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06e2b052-5ac2-4628-aa78-a3e0229dc63a")
+	)
+	(wire
+		(pts
 			(xy 113.03 228.6) (xy 115.57 228.6)
 		)
 		(stroke
@@ -10177,6 +10197,26 @@
 			(type default)
 		)
 		(uuid "071629fa-8a64-42dc-99bd-456d385a4e8c")
+	)
+	(wire
+		(pts
+			(xy 307.34 99.06) (xy 300.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b085a0-947e-4d10-8196-f1657869ad15")
+	)
+	(wire
+		(pts
+			(xy 311.15 190.5) (xy 300.99 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0912bac7-8ecb-44d0-9472-426c807bc129")
 	)
 	(wire
 		(pts
@@ -10190,7 +10230,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 78.74) (xy 267.97 78.74)
+			(xy 261.62 78.74) (xy 267.97 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10217,6 +10257,16 @@
 			(type default)
 		)
 		(uuid "0d86c5dd-278d-4db7-875d-f60058fd2405")
+	)
+	(wire
+		(pts
+			(xy 107.95 254) (xy 115.57 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1004ee7c-636e-44fc-8689-b3f7e199d4de")
 	)
 	(wire
 		(pts
@@ -10250,6 +10300,26 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 104.14) (xy 267.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "131cc410-f9ba-45bd-b13b-3d2ab0c00ce3")
+	)
+	(wire
+		(pts
+			(xy 307.34 73.66) (xy 300.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e29cb4-aa07-45ab-9a3c-bfd7df0a8f87")
+	)
+	(wire
+		(pts
 			(xy 265.43 66.04) (xy 267.97 66.04)
 		)
 		(stroke
@@ -10267,6 +10337,16 @@
 			(type default)
 		)
 		(uuid "153cd798-6f0b-4421-aa63-9cc25ed3536e")
+	)
+	(wire
+		(pts
+			(xy 261.62 63.5) (xy 267.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1615c305-2189-49a8-93ec-358594f0a8b9")
 	)
 	(wire
 		(pts
@@ -10297,6 +10377,16 @@
 			(type default)
 		)
 		(uuid "19bebeb9-1d3e-457d-840d-6e05f8a07e22")
+	)
+	(wire
+		(pts
+			(xy 261.62 114.3) (xy 267.97 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c2a40d-cb08-4b9e-8896-8586f1a88989")
 	)
 	(wire
 		(pts
@@ -10350,6 +10440,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 210.82) (xy 300.99 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4fdd3f-be37-4778-9015-0891af50744e")
+	)
+	(wire
+		(pts
 			(xy 113.03 185.42) (xy 113.03 213.36)
 		)
 		(stroke
@@ -10397,6 +10497,16 @@
 			(type default)
 		)
 		(uuid "238b1c0c-51d6-419e-ab71-efc5496b077a")
+	)
+	(wire
+		(pts
+			(xy 261.62 119.38) (xy 267.97 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23daefc8-9df1-4f5b-a0d2-65952ad20b70")
 	)
 	(wire
 		(pts
@@ -10480,6 +10590,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 91.44) (xy 300.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fe4cba-30fc-46d8-a591-a5595105d040")
+	)
+	(wire
+		(pts
 			(xy 151.13 40.64) (xy 151.13 48.26)
 		)
 		(stroke
@@ -10507,6 +10627,26 @@
 			(type default)
 		)
 		(uuid "349107cb-fc3d-4e3d-8156-5e948d5fd186")
+	)
+	(wire
+		(pts
+			(xy 107.95 203.2) (xy 115.57 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "383b5edd-55d6-473c-b2d9-6a8115467fb9")
+	)
+	(wire
+		(pts
+			(xy 261.62 83.82) (xy 267.97 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384ab3aa-571e-4dfd-a58f-af92be0fe4ef")
 	)
 	(wire
 		(pts
@@ -10540,6 +10680,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 124.46) (xy 267.97 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2f02c3-9b6f-4efd-9a71-a85bb02d7b41")
+	)
+	(wire
+		(pts
 			(xy 107.95 175.26) (xy 115.57 175.26)
 		)
 		(stroke
@@ -10547,6 +10697,26 @@
 			(type default)
 		)
 		(uuid "421f95e6-7a13-4e64-b4bb-b27263cbc057")
+	)
+	(wire
+		(pts
+			(xy 261.62 93.98) (xy 267.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439288ec-ce9d-46b4-bdcf-875ca50973cf")
+	)
+	(wire
+		(pts
+			(xy 307.34 58.42) (xy 300.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c7d259-d361-40e3-8c05-dae10d2188f1")
 	)
 	(wire
 		(pts
@@ -10580,6 +10750,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 213.36) (xy 300.99 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460ff7ec-aed0-4ff0-8e7c-4c8c183c97bc")
+	)
+	(wire
+		(pts
 			(xy 303.53 86.36) (xy 303.53 78.74)
 		)
 		(stroke
@@ -10607,6 +10787,16 @@
 			(type default)
 		)
 		(uuid "48cd1ba0-c5c7-4eaf-ba79-10d1dc7dee39")
+	)
+	(wire
+		(pts
+			(xy 107.95 243.84) (xy 115.57 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49792241-562f-4a11-bf46-045cc5374379")
 	)
 	(wire
 		(pts
@@ -10640,6 +10830,26 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 198.12) (xy 300.99 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c579c44-b26b-4546-87bf-c641c9b6ae3e")
+	)
+	(wire
+		(pts
+			(xy 311.15 195.58) (xy 300.99 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509bb6be-1e98-4ed8-ba2c-b8a8f3df8a5b")
+	)
+	(wire
+		(pts
 			(xy 306.07 231.14) (xy 314.96 231.14)
 		)
 		(stroke
@@ -10660,7 +10870,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 76.2) (xy 267.97 76.2)
+			(xy 261.62 76.2) (xy 267.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -10717,6 +10927,16 @@
 			(type default)
 		)
 		(uuid "5a768d09-f920-44dc-9715-5733eb48ffa1")
+	)
+	(wire
+		(pts
+			(xy 307.34 60.96) (xy 300.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b52d53f-7b48-4795-902e-5cb5ee3554c2")
 	)
 	(wire
 		(pts
@@ -10777,6 +10997,26 @@
 			(type default)
 		)
 		(uuid "5fd7b8f2-938e-4e04-b721-b4f2674e75e0")
+	)
+	(wire
+		(pts
+			(xy 157.48 256.54) (xy 148.59 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60899cb2-494e-4034-b35f-039f9bdedb33")
+	)
+	(wire
+		(pts
+			(xy 107.95 246.38) (xy 115.57 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61221acd-b603-42b0-97ea-61ac52ad4046")
 	)
 	(wire
 		(pts
@@ -10860,6 +11100,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 251.46) (xy 115.57 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69157533-bac2-42bc-8ae4-430f0ebd01e4")
+	)
+	(wire
+		(pts
 			(xy 265.43 96.52) (xy 265.43 132.08)
 		)
 		(stroke
@@ -10920,6 +11170,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 68.58) (xy 300.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dacc86-95ca-49f0-95bf-1958fffcf39b")
+	)
+	(wire
+		(pts
 			(xy 300.99 83.82) (xy 307.34 83.82)
 		)
 		(stroke
@@ -10937,6 +11197,16 @@
 			(type default)
 		)
 		(uuid "72d29215-963e-4ee8-a7bd-177f667c3794")
+	)
+	(wire
+		(pts
+			(xy 261.62 86.36) (xy 267.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e92162-dc79-48af-87f9-2a87422b51b2")
 	)
 	(wire
 		(pts
@@ -11030,6 +11300,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 193.04) (xy 300.99 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854d9c7c-4d02-417d-b868-a1387d130b5d")
+	)
+	(wire
+		(pts
 			(xy 303.53 228.6) (xy 303.53 226.06)
 		)
 		(stroke
@@ -11047,6 +11327,16 @@
 			(type default)
 		)
 		(uuid "86454f76-0bfd-46cb-85df-1c742fce5b5a")
+	)
+	(wire
+		(pts
+			(xy 307.34 88.9) (xy 300.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ef59f1-8047-45b2-b556-9f7212a68c6e")
 	)
 	(wire
 		(pts
@@ -11087,6 +11377,16 @@
 			(type default)
 		)
 		(uuid "8a909ab5-b5b6-4639-81f2-9d253e5d612f")
+	)
+	(wire
+		(pts
+			(xy 307.34 76.2) (xy 300.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dced291-22fe-4522-bde8-3c38315bd566")
 	)
 	(wire
 		(pts
@@ -11140,6 +11440,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 246.38) (xy 148.59 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d5fde0-9089-4ac1-ba9f-412ecc2d18a1")
+	)
+	(wire
+		(pts
+			(xy 261.62 91.44) (xy 267.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93044698-608f-45c3-ad70-f03cdeebe4d2")
+	)
+	(wire
+		(pts
 			(xy 265.43 88.9) (xy 267.97 88.9)
 		)
 		(stroke
@@ -11180,6 +11500,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 210.82) (xy 115.57 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1a9b0c-a3b8-4151-b926-dd078d6465ee")
+	)
+	(wire
+		(pts
 			(xy 303.53 226.06) (xy 303.53 223.52)
 		)
 		(stroke
@@ -11187,6 +11517,16 @@
 			(type default)
 		)
 		(uuid "9cc71473-1715-4fb7-8e63-fe4998460ee2")
+	)
+	(wire
+		(pts
+			(xy 261.62 116.84) (xy 267.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc83844-6ef5-4af1-bda0-c8bcd430f90d")
 	)
 	(wire
 		(pts
@@ -11300,6 +11640,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 111.76) (xy 267.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f56bd5-394c-4787-adc8-8edda8844ab0")
+	)
+	(wire
+		(pts
 			(xy 265.43 226.06) (xy 265.43 228.6)
 		)
 		(stroke
@@ -11360,6 +11710,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 101.6) (xy 300.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c368d2-67b1-4101-9a3e-c910a4681ace")
+	)
+	(wire
+		(pts
 			(xy 151.13 124.46) (xy 151.13 130.81)
 		)
 		(stroke
@@ -11367,6 +11727,16 @@
 			(type default)
 		)
 		(uuid "a85ade76-ef5c-4ab3-9c55-dc663c40b59e")
+	)
+	(wire
+		(pts
+			(xy 107.95 205.74) (xy 115.57 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8830dec-bb9a-4ea8-83f0-4dc18189753a")
 	)
 	(wire
 		(pts
@@ -11410,6 +11780,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 60.96) (xy 267.97 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0709d88-d26e-43f9-a40b-077983f9c186")
+	)
+	(wire
+		(pts
 			(xy 300.99 81.28) (xy 307.34 81.28)
 		)
 		(stroke
@@ -11440,6 +11820,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 208.28) (xy 115.57 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5191143-f3d1-4878-b296-96ce301b3bdc")
+	)
+	(wire
+		(pts
 			(xy 113.03 55.88) (xy 113.03 63.5)
 		)
 		(stroke
@@ -11447,6 +11837,16 @@
 			(type default)
 		)
 		(uuid "b86501ec-7c2c-4cac-81b4-0e4477c79433")
+	)
+	(wire
+		(pts
+			(xy 307.34 66.04) (xy 300.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a0f736-96b6-47c0-b37d-985aa834fcdb")
 	)
 	(wire
 		(pts
@@ -11510,6 +11910,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 101.6) (xy 267.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c281e5e1-3d15-4d9b-9bee-61de687203e2")
+	)
+	(wire
+		(pts
 			(xy 148.59 243.84) (xy 151.13 243.84)
 		)
 		(stroke
@@ -11527,6 +11937,16 @@
 			(type default)
 		)
 		(uuid "c35ae482-de39-4990-aa09-ccbbc901e261")
+	)
+	(wire
+		(pts
+			(xy 261.62 68.58) (xy 267.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c433b013-8ba8-43d8-a7d1-d74b904d5422")
 	)
 	(wire
 		(pts
@@ -11567,6 +11987,16 @@
 			(type default)
 		)
 		(uuid "c5e1f534-ce21-446e-bcaa-a5e8b0776d00")
+	)
+	(wire
+		(pts
+			(xy 157.48 248.92) (xy 148.59 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6bcca92-beb7-4aef-9a1b-e123846a373c")
 	)
 	(wire
 		(pts
@@ -11657,6 +12087,16 @@
 			(type default)
 		)
 		(uuid "d077faf3-c599-4696-99ca-3dde2764433d")
+	)
+	(wire
+		(pts
+			(xy 157.48 254) (xy 148.59 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cfbac2-54ce-49df-ad53-d466b772411d")
 	)
 	(wire
 		(pts
@@ -11900,6 +12340,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 109.22) (xy 267.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9b5313-fc0f-498f-91f2-9e9f55335bcc")
+	)
+	(wire
+		(pts
 			(xy 265.43 66.04) (xy 265.43 73.66)
 		)
 		(stroke
@@ -11937,6 +12387,16 @@
 			(type default)
 		)
 		(uuid "f6932c21-aba1-48be-82fd-beaf2938a436")
+	)
+	(wire
+		(pts
+			(xy 261.62 71.12) (xy 267.97 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c9bc75-0220-4c18-9916-9b74c58d98d6")
 	)
 	(wire
 		(pts
@@ -12018,9 +12478,39 @@
 		)
 		(uuid "fde97cb1-dd24-4d61-8833-cf3f95f45e24")
 	)
+	(text "Onboard WM8960"
+		(exclude_from_sim no)
+		(at 334.01 196.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "05454884-99e6-43de-9bae-32c3acec9cbc")
+	)
+	(text "GPIOO-ish"
+		(exclude_from_sim no)
+		(at 213.106 148.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "425e3ce3-5471-41a2-90d0-16e44f46a393")
+	)
+	(text "lvl shifter?"
+		(exclude_from_sim no)
+		(at 331.724 212.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c153fd82-9efb-4a9c-a215-82ca2f8ff854")
+	)
 	(global_label "USBSS0_RX_P"
 		(shape input)
-		(at 262.89 78.74 180)
+		(at 261.62 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12029,7 +12519,7 @@
 		)
 		(uuid "0a7b1f43-3c21-451c-97fe-2f7f51a3205d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.015 78.74 0)
+			(at 245.745 78.74 0)
 			(effects
 				(font
 					(size 1.1 1.1)
@@ -12041,21 +12531,21 @@
 	)
 	(global_label "UART0_RXD"
 		(shape input)
-		(at 212.09 172.72 0)
+		(at 107.95 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0e4e860f-c202-42eb-84ad-02fd0f339750")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 172.72 0)
+			(at 93.98 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12077,27 +12567,6 @@
 					(size 1.1 1.1)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB1_D_N"
-		(shape input)
-		(at 218.44 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "139f553c-dce7-4c3e-a231-81796fe5aa76")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.565 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12145,29 +12614,29 @@
 		)
 	)
 	(global_label "PCIE0_TX3_P"
-		(shape input)
-		(at 48.26 106.68 180)
+		(shape output)
+		(at 307.34 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1a18d9a3-16e0-4a9e-8d0d-496ec41c5684")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 106.68 0)
+			(at 328.295 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "DEBUG_TXD"
 		(shape input)
-		(at 29.21 205.74 0)
+		(at 311.15 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12176,28 +12645,7 @@
 		)
 		(uuid "1b249911-64aa-4453-be4f-7efa185a28f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SYS_SDA"
-		(shape bidirectional)
-		(at 328.93 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1d4b3f6d-30ca-4f11-af5c-dd255333fc20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.63 63.5 0)
+			(at 325.12 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12209,7 +12657,7 @@
 	)
 	(global_label "PCIE1_CLK_N"
 		(shape input)
-		(at 213.36 48.26 180)
+		(at 261.62 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12218,7 +12666,7 @@
 		)
 		(uuid "25124d32-3cd0-4ebd-b179-01ebadd64220")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.85 48.26 0)
+			(at 245.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,7 +12678,7 @@
 	)
 	(global_label "DEBUG_RXD"
 		(shape output)
-		(at 29.21 203.2 0)
+		(at 311.15 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12239,7 +12687,7 @@
 		)
 		(uuid "290ee75b-8ea5-4590-b73a-4cc6d9fa866b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 203.2 0)
+			(at 325.12 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,7 +12699,7 @@
 	)
 	(global_label "IT8951_RST"
 		(shape input)
-		(at 193.04 213.36 180)
+		(at 203.2 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12261,7 +12709,7 @@
 		)
 		(uuid "31c1f7d1-ebb7-48fc-8550-5f29debf48c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2297 213.36 0)
+			(at 189.3897 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12272,80 +12720,38 @@
 		)
 	)
 	(global_label "SYS_SCL"
-		(shape input)
-		(at 28.575 184.15 0)
+		(shape output)
+		(at 261.62 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3440e211-15b5-40c9-aed3-bc877f5b85ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE0_TX0_N"
+		(shape output)
+		(at 157.48 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3440e211-15b5-40c9-aed3-bc877f5b85ca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.005 184.15 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PCIE0_TX0_N"
-		(shape input)
-		(at 48.26 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
 		(uuid "3504d845-42fc-4f8e-bcfe-2059ae1bd413")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PCIE0_RX2_N"
-		(shape output)
-		(at 48.26 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3601bbc3-9653-4a75-a9a1-192b32b44487")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2S1_SDOUT"
-		(shape output)
-		(at 218.44 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "362428e4-3a4a-403a-9fa5-004bd630f225")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 109.22 0)
+			(at 178.435 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12355,9 +12761,51 @@
 			)
 		)
 	)
+	(global_label "PCIE0_RX2_N"
+		(shape input)
+		(at 261.62 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3601bbc3-9653-4a75-a9a1-192b32b44487")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.665 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S1_DOUT"
+		(shape output)
+		(at 311.15 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "362428e4-3a4a-403a-9fa5-004bd630f225")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.12 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWR_SOFT"
 		(shape output)
-		(at 29.21 208.28 0)
+		(at 340.36 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12366,7 +12814,7 @@
 		)
 		(uuid "37ee08c0-9cff-4444-a265-89c420c07987")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.275 208.28 0)
+			(at 352.425 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12391,27 +12839,6 @@
 			(effects
 				(font
 					(size 1.1 1.1)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB1_D_P"
-		(shape input)
-		(at 218.44 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ce1f799-0412-4482-8a6b-b6f973cc5300")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.565 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
@@ -12483,28 +12910,28 @@
 	)
 	(global_label "UART0_CTS"
 		(shape output)
-		(at 212.09 167.64 0)
+		(at 107.95 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "407a7dfa-f1e3-4418-85a9-cde739be0aa5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 167.64 0)
+			(at 93.98 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "PCIE1_RX0_P"
-		(shape output)
-		(at 213.36 60.96 180)
+		(shape input)
+		(at 261.62 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12513,7 +12940,7 @@
 		)
 		(uuid "437b6156-9eaf-42b8-92c4-41ff51664687")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.405 60.96 0)
+			(at 240.665 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12525,7 +12952,7 @@
 	)
 	(global_label "USBSS0_RX_N"
 		(shape input)
-		(at 262.89 76.2 180)
+		(at 261.62 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12534,7 +12961,7 @@
 		)
 		(uuid "4c7e8ab5-13ea-474e-820c-6398bab3cbb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.015 76.2 0)
+			(at 245.745 76.2 0)
 			(effects
 				(font
 					(size 1.1 1.1)
@@ -12608,9 +13035,30 @@
 			)
 		)
 	)
+	(global_label "PCIE0_RST*"
+		(shape input)
+		(at 261.62 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53890b60-1852-48ea-b573-cdf8d5816894")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{CHG_INT}"
 		(shape input)
-		(at 34.29 166.37 180)
+		(at 203.2 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12620,7 +13068,7 @@
 		)
 		(uuid "5a3f18ef-f75a-4f32-bbe7-fa7e5d8e8fb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.5638 166.37 0)
+			(at 192.4738 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12652,43 +13100,22 @@
 		)
 	)
 	(global_label "PCIE0_TX2_P"
-		(shape input)
-		(at 48.26 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "675fe684-11fb-4a03-b557-bc8fe24db386")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SYS_SCL"
-		(shape input)
-		(at 328.93 66.04 0)
+		(shape output)
+		(at 307.34 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "67f4e24e-88c9-4cd8-b5fb-e57dc2859188")
+		(uuid "675fe684-11fb-4a03-b557-bc8fe24db386")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.63 66.04 0)
+			(at 328.295 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12716,16 +13143,37 @@
 	)
 	(global_label "PCIE1_CLKREQ*"
 		(shape output)
-		(at 208.28 38.1 180)
+		(at 307.34 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6e6dc924-13e4-457f-8aae-a276479ddba2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 38.1 0)
+			(at 326.39 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE0_TX2_N"
+		(shape output)
+		(at 307.34 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "704be32b-2ece-4582-bc57-2d7b23205718")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 328.295 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12735,51 +13183,30 @@
 			)
 		)
 	)
-	(global_label "PCIE0_TX2_N"
-		(shape input)
-		(at 48.26 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "704be32b-2ece-4582-bc57-2d7b23205718")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PCIE0_CLK_P"
-		(shape input)
-		(at 48.26 52.07 180)
+		(shape output)
+		(at 307.34 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "71290a7c-4f3b-49fb-93dd-8bd55ad11fac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 52.07 0)
+			(at 328.295 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "CHG_SDA"
-		(shape input)
-		(at 34.29 161.29 180)
+	(global_label "PWR_SDA"
+		(shape bidirectional)
+		(at 261.62 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12789,7 +13216,7 @@
 		)
 		(uuid "73f80630-dc6e-443a-b139-280bf10b341a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.8986 161.29 0)
+			(at 250.1077 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12800,8 +13227,8 @@
 		)
 	)
 	(global_label "PCIE0_RX3_N"
-		(shape output)
-		(at 48.26 116.84 180)
+		(shape input)
+		(at 261.62 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12810,7 +13237,7 @@
 		)
 		(uuid "749c66ac-d531-4f8f-ac3f-0cfdc0e81700")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 116.84 0)
+			(at 240.665 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12821,8 +13248,8 @@
 		)
 	)
 	(global_label "PCIE0_RX1_N"
-		(shape output)
-		(at 48.26 86.36 180)
+		(shape input)
+		(at 107.95 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12831,7 +13258,7 @@
 		)
 		(uuid "7839815f-5d49-44b1-9d73-d4068f1dc938")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 86.36 0)
+			(at 86.995 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12842,8 +13269,8 @@
 		)
 	)
 	(global_label "PCIE0_RX1_P"
-		(shape output)
-		(at 48.26 83.82 180)
+		(shape input)
+		(at 107.95 254 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12852,7 +13279,7 @@
 		)
 		(uuid "7b8823e8-40b2-4665-a89c-dd5c82c7128d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 83.82 0)
+			(at 86.995 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12885,7 +13312,7 @@
 	)
 	(global_label "PCIE1_CLK_P"
 		(shape input)
-		(at 213.36 45.72 180)
+		(at 261.62 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12894,7 +13321,7 @@
 		)
 		(uuid "84ca776e-4360-4b4f-aeb7-ea3b28bf4ff3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.85 45.72 0)
+			(at 245.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12905,29 +13332,29 @@
 		)
 	)
 	(global_label "PCIE0_CLK_N"
-		(shape input)
-		(at 48.26 54.61 180)
+		(shape output)
+		(at 307.34 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "85f15369-50a4-4a1c-bd37-7847566f13ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 54.61 0)
+			(at 328.295 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "PCIE0_RX0_N"
-		(shape output)
-		(at 48.26 71.12 180)
+		(shape input)
+		(at 107.95 243.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12936,7 +13363,7 @@
 		)
 		(uuid "87f32b14-2092-4294-affa-012823d5edb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 71.12 0)
+			(at 86.995 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12946,9 +13373,9 @@
 			)
 		)
 	)
-	(global_label "CHG_SCL"
-		(shape input)
-		(at 34.29 163.83 180)
+	(global_label "PWR_SCL"
+		(shape output)
+		(at 261.62 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12958,7 +13385,29 @@
 		)
 		(uuid "8c609393-95cd-4482-81c2-8b7969b91a17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.9591 163.83 0)
+			(at 250.1682 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S0_FS"
+		(shape input)
+		(at 261.62 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "928b5dbe-15f7-485c-9bd2-20af39e8b548")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.1358 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12990,22 +13439,22 @@
 		)
 	)
 	(global_label "PCIE0_TX1_P"
-		(shape input)
-		(at 48.26 76.2 180)
+		(shape output)
+		(at 157.48 256.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "96315a7b-00db-4041-82fc-79d6b1f1892a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 76.2 0)
+			(at 178.435 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13033,8 +13482,8 @@
 		)
 	)
 	(global_label "PCIE0_RX3_P"
-		(shape output)
-		(at 48.26 114.3 180)
+		(shape input)
+		(at 261.62 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13043,12 +13492,34 @@
 		)
 		(uuid "969559bd-4c11-47c8-a9ab-ebac0c4cc7a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 114.3 0)
+			(at 240.665 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S0_SCLK"
+		(shape input)
+		(at 261.62 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96ca3046-5f01-465f-8ef7-f236ea6834ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.6563 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13076,7 +13547,7 @@
 	)
 	(global_label "~{CHG_CE}"
 		(shape input)
-		(at 34.29 158.75 180)
+		(at 203.2 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13086,7 +13557,7 @@
 		)
 		(uuid "98c88579-0259-46d1-9fa8-a02a859dc9b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.0477 158.75 0)
+			(at 192.9577 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13097,22 +13568,22 @@
 		)
 	)
 	(global_label "PCIE1_TX0_N"
-		(shape input)
-		(at 213.36 55.88 180)
+		(shape output)
+		(at 307.34 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9ab307ca-81d3-4abf-a14b-ee2d069d9dc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.405 55.88 0)
+			(at 328.295 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13141,7 +13612,7 @@
 	)
 	(global_label "IT8951_HRDY"
 		(shape input)
-		(at 193.04 215.9 180)
+		(at 203.2 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13151,7 +13622,7 @@
 		)
 		(uuid "a6caf148-1e44-4e38-bb5d-bfcc07291386")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.7177 215.9 0)
+			(at 187.8777 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13162,17 +13633,38 @@
 		)
 	)
 	(global_label "PCIE0_TX3_N"
-		(shape input)
-		(at 48.26 109.22 180)
+		(shape output)
+		(at 307.34 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a8ec9056-c047-4c0b-b46b-679d45a8fb9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 109.22 0)
+			(at 328.295 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE0_CLKREQ*"
+		(shape output)
+		(at 307.34 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afb20885-fb22-412f-ab1c-bce89297f2ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13184,16 +13676,37 @@
 	)
 	(global_label "I2S1_LRCK"
 		(shape output)
-		(at 218.44 104.14 180)
+		(at 311.15 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b34ba6d1-7ce0-426f-9e59-3bca23dfd3d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 104.14 0)
+			(at 325.12 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE0_TX1_N"
+		(shape output)
+		(at 157.48 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5954823-f287-4c63-8e7f-bf4e193e9271")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.435 254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13203,23 +13716,24 @@
 			)
 		)
 	)
-	(global_label "PCIE0_TX1_N"
+	(global_label "I2S0_DOUT"
 		(shape input)
-		(at 48.26 78.74 180)
+		(at 261.62 116.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b5954823-f287-4c63-8e7f-bf4e193e9271")
+		(uuid "c17af942-f4c1-4770-9147-4fed12d78248")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 78.74 0)
+			(at 248.5353 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13247,21 +13761,21 @@
 	)
 	(global_label "SYS_SDA"
 		(shape bidirectional)
-		(at 28.575 186.69 0)
+		(at 261.62 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c922f8b2-c5bb-4585-bffe-d81accfb5e4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.005 186.69 0)
+			(at 250.19 109.22 0)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13289,22 +13803,22 @@
 		)
 	)
 	(global_label "PCIE1_TX0_P"
-		(shape input)
-		(at 213.36 53.34 180)
+		(shape output)
+		(at 307.34 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "cfebd20a-16a3-4d9b-9cb5-d87967213e6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.405 53.34 0)
+			(at 328.295 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13332,21 +13846,21 @@
 	)
 	(global_label "I2S1_SCLK"
 		(shape output)
-		(at 218.44 101.6 180)
+		(at 311.15 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d224dda4-1efe-47c5-9a1a-dfa4ff47799e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 101.6 0)
+			(at 325.12 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -13374,28 +13888,28 @@
 	)
 	(global_label "I2S1_SDIN"
 		(shape input)
-		(at 218.44 106.68 180)
+		(at 311.15 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d986f00c-5598-486e-848b-7fffb9e57791")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 106.68 0)
+			(at 325.12 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "PCIE0_RX0_P"
-		(shape output)
-		(at 48.26 68.58 180)
+		(shape input)
+		(at 107.95 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13404,7 +13918,7 @@
 		)
 		(uuid "df0b0329-4004-442e-805b-29308a72c081")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 68.58 0)
+			(at 86.995 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,21 +13930,21 @@
 	)
 	(global_label "UART0_TXD"
 		(shape output)
-		(at 212.09 165.1 0)
+		(at 107.95 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e408f7c6-3045-4d28-ad77-bd8eedcdd839")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 165.1 0)
+			(at 93.98 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13456,9 +13970,31 @@
 			)
 		)
 	)
+	(global_label "I2S0_DIN"
+		(shape input)
+		(at 261.62 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9c35d55-04e7-4fc8-b008-1b6305fe2516")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.2286 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PCIE1_RX0_N"
-		(shape output)
-		(at 213.36 63.5 180)
+		(shape input)
+		(at 261.62 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13467,7 +14003,7 @@
 		)
 		(uuid "ec230ea4-49cd-47f2-93a7-e225c92f85a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.405 63.5 0)
+			(at 240.665 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13500,7 +14036,7 @@
 	)
 	(global_label "USBC_HPD"
 		(shape output)
-		(at 57.15 246.38 0)
+		(at 190.5 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13509,7 +14045,7 @@
 		)
 		(uuid "f0ad4249-9bd6-4c56-b05f-e55c2a69b92c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.025 246.38 0)
+			(at 206.375 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13542,7 +14078,7 @@
 	)
 	(global_label "GPIO010"
 		(shape output)
-		(at 28.575 181.61 0)
+		(at 193.04 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13551,7 +14087,7 @@
 		)
 		(uuid "f2bc9145-ee9a-4756-be35-87992fcecd3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 181.61 0)
+			(at 203.835 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13562,50 +14098,50 @@
 		)
 	)
 	(global_label "PCIE0_TX0_P"
-		(shape input)
-		(at 48.26 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6221189-c41d-4583-a6b4-47c794251e69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART0_RTS"
-		(shape input)
-		(at 212.09 170.18 0)
+		(shape output)
+		(at 157.48 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f9b98f4b-14d7-4a51-bf97-9254f28aa323")
+		(uuid "f6221189-c41d-4583-a6b4-47c794251e69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 170.18 0)
+			(at 178.435 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART0_RTS"
+		(shape input)
+		(at 107.95 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9b98f4b-14d7-4a51-bf97-9254f28aa323")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "PCIE1_RST*"
 		(shape input)
-		(at 205.74 35.56 180)
+		(at 261.62 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13614,7 +14150,7 @@
 		)
 		(uuid "fd653b09-dcc8-418a-a135-06cbf9c41f0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 35.56 0)
+			(at 245.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13625,8 +14161,8 @@
 		)
 	)
 	(global_label "PCIE0_RX2_P"
-		(shape output)
-		(at 48.26 99.06 180)
+		(shape input)
+		(at 261.62 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13635,7 +14171,7 @@
 		)
 		(uuid "fd6def34-1ae1-4b20-b15c-234259b575dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.305 99.06 0)
+			(at 240.665 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

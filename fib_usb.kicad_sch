@@ -18428,7 +18428,7 @@
 			)
 		)
 	)
-	(global_label "SYS_SCL"
+	(global_label "PWR_SCL"
 		(shape input)
 		(at 125.095 85.09 0)
 		(effects
@@ -18491,7 +18491,7 @@
 			)
 		)
 	)
-	(global_label "SYS_SDA"
+	(global_label "PWR_SDA"
 		(shape bidirectional)
 		(at 125.095 87.63 0)
 		(effects
