@@ -73,6 +73,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -476,6 +477,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -702,10 +704,6 @@
       "IT8951"
     ],
     [
-      "32a7c27a-139a-4e74-bd6e-19af0f586a3c",
-      "RP2040"
-    ],
-    [
       "17f77549-66cc-477f-9c69-749f4f7589f3",
       "Audio"
     ],
@@ -728,6 +726,10 @@
     [
       "36a293ae-b0d7-4698-aa86-662a0ac946ae",
       "Orin"
+    ],
+    [
+      "3bd01d1c-0b9b-45ea-b76e-75a8be1aa20f",
+      "ESP32_S3"
     ]
   ],
   "text_variables": {}

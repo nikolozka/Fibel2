@@ -82,44 +82,6 @@
 		)
 	)
 	(sheet
-		(at 196.85 20.32)
-		(size 34.29 38.1)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "32a7c27a-139a-4e74-bd6e-19af0f586a3c")
-		(property "Sheetname" "RP2040"
-			(at 196.85 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "fib_rp2040.kicad_sch"
-			(at 196.85 58.3696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 26.67 107.315)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
@@ -153,6 +115,44 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
 					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 20.32)
+		(size 35.56 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3bd01d1c-0b9b-45ea-b76e-75a8be1aa20f")
+		(property "Sheetname" "ESP32_S3"
+			(at 196.85 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fib_esp32_s3.kicad_sch"
+			(at 196.85 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
+					(page "12")
 				)
 			)
 		)
