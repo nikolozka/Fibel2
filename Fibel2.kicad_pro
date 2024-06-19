@@ -700,8 +700,12 @@
       "USB"
     ],
     [
-      "f675e573-ac44-4b44-9a27-c607e0e7b48c",
-      "IT8951"
+      "36a293ae-b0d7-4698-aa86-662a0ac946ae",
+      "Orin"
+    ],
+    [
+      "3bd01d1c-0b9b-45ea-b76e-75a8be1aa20f",
+      "ESP32_S3"
     ],
     [
       "17f77549-66cc-477f-9c69-749f4f7589f3",
@@ -722,14 +726,6 @@
     [
       "5a179277-42b3-47ed-bc0e-bf53dbccdf92",
       "EPD"
-    ],
-    [
-      "36a293ae-b0d7-4698-aa86-662a0ac946ae",
-      "Orin"
-    ],
-    [
-      "3bd01d1c-0b9b-45ea-b76e-75a8be1aa20f",
-      "ESP32_S3"
     ]
   ],
   "text_variables": {}

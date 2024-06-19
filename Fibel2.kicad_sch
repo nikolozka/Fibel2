@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 154.94 63.5)
+		(at 44.45 106.68)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +18,7 @@
 		)
 		(uuid "17f77549-66cc-477f-9c69-749f4f7589f3")
 		(property "Sheetname" "Audio"
-			(at 154.94 62.7884 0)
+			(at 44.45 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_audio.kicad_sch"
-			(at 154.94 101.5496 0)
+			(at 44.45 144.7296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 20.32)
+		(at 87.63 60.96)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +56,7 @@
 		)
 		(uuid "23d4f4f3-5c09-4966-9bf4-edbe4cd81212")
 		(property "Sheetname" "Charging"
-			(at 26.67 19.6084 0)
+			(at 87.63 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_charging.kicad_sch"
-			(at 26.67 58.3696 0)
+			(at 87.63 99.0096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +82,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 107.315)
+		(at 172.72 60.96)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -94,7 +94,7 @@
 		)
 		(uuid "36a293ae-b0d7-4698-aa86-662a0ac946ae")
 		(property "Sheetname" "Orin"
-			(at 26.67 106.6034 0)
+			(at 172.72 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_orin.kicad_sch"
-			(at 26.67 145.9996 0)
+			(at 172.72 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,13 +114,13 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "11")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 196.85 20.32)
+		(at 214.63 60.96)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -132,7 +132,7 @@
 		)
 		(uuid "3bd01d1c-0b9b-45ea-b76e-75a8be1aa20f")
 		(property "Sheetname" "ESP32_S3"
-			(at 196.85 19.6084 0)
+			(at 214.63 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_esp32_s3.kicad_sch"
-			(at 196.85 59.0046 0)
+			(at 214.63 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,13 +152,13 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "12")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 196.85 63.5)
+		(at 214.63 106.68)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -170,7 +170,7 @@
 		)
 		(uuid "5a179277-42b3-47ed-bc0e-bf53dbccdf92")
 		(property "Sheetname" "EPD"
-			(at 196.85 62.7884 0)
+			(at 214.63 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,7 +179,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_epd.kicad_sch"
-			(at 196.85 101.5496 0)
+			(at 214.63 144.7296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,7 +196,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 63.5)
+		(at 172.72 106.68)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -208,7 +208,7 @@
 		)
 		(uuid "736006f1-39f8-4eb4-a2f9-973b8583c796")
 		(property "Sheetname" "Storage"
-			(at 26.67 62.7884 0)
+			(at 172.72 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_storage.kicad_sch"
-			(at 26.67 101.5496 0)
+			(at 172.72 144.7296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,7 +234,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 20.32)
+		(at 44.45 60.96)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -246,7 +246,7 @@
 		)
 		(uuid "7cbf83a4-48a9-4119-ac75-03df93e67514")
 		(property "Sheetname" "Power"
-			(at 69.85 19.6084 0)
+			(at 44.45 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -255,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_power.kicad_sch"
-			(at 69.85 58.3696 0)
+			(at 44.45 99.0096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -272,7 +272,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 20.32)
+		(at 130.81 60.96)
 		(size 34.29 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -284,7 +284,7 @@
 		)
 		(uuid "808bb661-cfbd-4d07-9fcd-6e3520b5f848")
 		(property "Sheetname" "USB"
-			(at 113.03 19.6084 0)
+			(at 130.81 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -293,7 +293,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_usb.kicad_sch"
-			(at 113.03 58.3696 0)
+			(at 130.81 99.0096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +310,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 63.5)
+		(at 87.63 106.68)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -322,7 +322,7 @@
 		)
 		(uuid "a39c2c52-3412-48a6-9504-27933873c1ba")
 		(property "Sheetname" "Peripherals"
-			(at 69.85 62.7884 0)
+			(at 87.63 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -331,7 +331,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_peripherals.kicad_sch"
-			(at 69.85 101.5496 0)
+			(at 87.63 144.7296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,7 +348,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 63.5)
+		(at 130.81 106.68)
 		(size 34.29 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -360,7 +360,7 @@
 		)
 		(uuid "afa85234-73ed-4fc7-9570-87e781c133e5")
 		(property "Sheetname" "Network"
-			(at 113.03 62.7884 0)
+			(at 130.81 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -369,7 +369,7 @@
 			)
 		)
 		(property "Sheetfile" "fib_network.kicad_sch"
-			(at 113.03 101.5496 0)
+			(at 130.81 144.7296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,44 +381,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
 					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 154.94 20.32)
-		(size 34.29 38.1)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f675e573-ac44-4b44-9a27-c607e0e7b48c")
-		(property "Sheetname" "IT8951"
-			(at 154.94 19.6084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "fib_it8951.kicad_sch"
-			(at 154.94 58.3696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "4")
 				)
 			)
 		)

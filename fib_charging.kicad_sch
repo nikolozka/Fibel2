@@ -3750,9 +3750,19 @@
 		)
 		(uuid "38908216-3a7e-4f3f-9877-186d1ba3fc57")
 	)
+	(text "Can i just connect USBPD_HV-s together?"
+		(exclude_from_sim no)
+		(at 41.656 119.634 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3aa597c5-5615-414f-a39f-48bd0d914e74")
+	)
 	(text "Should be possibel to ignore DP/DN and connect USBPD1/2_HV"
 		(exclude_from_sim no)
-		(at 60.96 139.192 0)
+		(at 52.578 116.586 0)
 		(effects
 			(font
 				(size 1.27 1.27)

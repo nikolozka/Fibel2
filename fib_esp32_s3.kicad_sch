@@ -1238,7 +1238,7 @@
 			(uuid "46af9b18-9667-4fcb-b6e6-ac95045075d1")
 		)
 		(instances
-			(project ""
+			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/3bd01d1c-0b9b-45ea-b76e-75a8be1aa20f"
 					(reference "U4")
 					(unit 1)
