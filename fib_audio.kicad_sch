@@ -4799,6 +4799,12 @@
 		(uuid "7c234bfe-0eb3-43a7-951e-8c550c758f98")
 	)
 	(junction
+		(at 222.25 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c24edfa-18b0-4370-8484-56f42e92d7fc")
+	)
+	(junction
 		(at 140.97 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4919,12 +4925,6 @@
 		(uuid "dcd0ad9f-a36f-4c6b-84b8-0cee18db0aca")
 	)
 	(junction
-		(at 222.25 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd9ee7ed-a442-4406-8d4f-cb7a0df873d2")
-	)
-	(junction
 		(at 115.57 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5027,16 +5027,6 @@
 			(type solid)
 		)
 		(uuid "0506b950-7699-403a-a4dd-4f93837572dd")
-	)
-	(wire
-		(pts
-			(xy 229.87 95.25) (xy 222.25 95.25)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0591612c-d425-42c9-b524-82a9f9fd8e9f")
 	)
 	(wire
 		(pts
@@ -5590,6 +5580,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 95.25) (xy 229.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fd7381-63c2-42ee-8440-5b57b363ef4e")
+	)
+	(wire
+		(pts
 			(xy 119.38 113.03) (xy 119.38 116.84)
 		)
 		(stroke
@@ -5917,6 +5917,16 @@
 			(type default)
 		)
 		(uuid "6ba9359f-c754-4e65-a0a3-785ae30f55ea")
+	)
+	(wire
+		(pts
+			(xy 222.25 95.25) (xy 222.25 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9712bd-9cbd-42e2-a769-4720b8f577c4")
 	)
 	(wire
 		(pts
@@ -6277,16 +6287,6 @@
 			(type solid)
 		)
 		(uuid "94f995c6-85c7-4fb4-ba18-2f1ed35c0b1d")
-	)
-	(wire
-		(pts
-			(xy 222.25 91.44) (xy 222.25 95.25)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9527d230-5004-420a-9732-21a147cec68e")
 	)
 	(wire
 		(pts
@@ -7438,6 +7438,37 @@
 		)
 		(uuid "2bceb99d-cd4f-45f1-96df-25f266cb5ca5")
 	)
+	(text "WM8904 & CS4245 are also potential candidates"
+		(exclude_from_sim no)
+		(at 52.578 121.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4662ef4f-1de7-48ce-90e9-5994b98f7c3a")
+	)
+	(text "This part is sadly obsolete.\nreplacement part WM8962B\nWhich is a 49ba bga :("
+		(exclude_from_sim no)
+		(at 28.956 112.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "793e2b54-311b-419a-8be3-6eec4dbeb76e")
+	)
+	(text "Keep this page in an design a replacement anyway?"
+		(exclude_from_sim no)
+		(at 54.356 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6060e6c-ed81-456e-a533-a2ff31e1ed01")
+	)
 	(label "I2S_ADC"
 		(at 36.83 69.85 180)
 		(fields_autoplaced yes)
@@ -7558,17 +7589,6 @@
 			(justify left bottom)
 		)
 		(uuid "62db7c60-980e-489d-b7c3-d126a1d0a5b8")
-	)
-	(label "GND"
-		(at 222.25 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "66d0c3b3-52f2-404a-84b2-34940968cf61")
 	)
 	(label "GND"
 		(at 123.19 113.03 0)
@@ -11488,7 +11508,7 @@
 		(dnp no)
 		(uuid "9706f150-03bb-4b7c-8caf-6dd21c8a2c17")
 		(property "Reference" "MIC702"
-			(at 223.52 115.57 0)
+			(at 244.348 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11497,7 +11517,7 @@
 			)
 		)
 		(property "Value" "SAO-3729-M-42-008"
-			(at 223.52 121.92 0)
+			(at 237.49 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11695,7 +11715,7 @@
 		(dnp no)
 		(uuid "b34a2ec6-19b5-4608-9773-fc284cd71f28")
 		(property "Reference" "C729"
-			(at 254 81.28 0)
+			(at 254 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11704,7 +11724,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 259.08 81.28 0)
+			(at 259.08 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12106,7 +12126,7 @@
 		(dnp no)
 		(uuid "c11c0923-37be-44f5-9d24-3e81dc2a2c83")
 		(property "Reference" "MIC701"
-			(at 223.52 66.04 0)
+			(at 247.396 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12115,7 +12135,7 @@
 			)
 		)
 		(property "Value" "SAO-3729-M-42-008"
-			(at 223.52 72.39 0)
+			(at 240.792 65.024 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12181,7 +12201,7 @@
 		(dnp no)
 		(uuid "c786ac4e-3154-485c-bbce-23f928215f9f")
 		(property "Reference" "L707"
-			(at 240.03 81.28 0)
+			(at 240.284 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12190,7 +12210,7 @@
 			)
 		)
 		(property "Value" "BLM18BD252SN1"
-			(at 240.03 82.55 0)
+			(at 238.76 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12325,7 +12345,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 252.73 91.44 90)
+			(at 254.254 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12660,7 +12680,7 @@
 		(dnp no)
 		(uuid "dd28c8e5-3354-4c21-b56c-bab60d5dc243")
 		(property "Reference" "C721"
-			(at 218.44 91.44 0)
+			(at 216.154 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12669,7 +12689,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 218.44 86.36 0)
+			(at 216.154 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -12944,7 +12964,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 222.25 91.44 90)
+			(at 223.52 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.0795)

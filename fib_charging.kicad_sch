@@ -3750,6 +3750,16 @@
 		)
 		(uuid "38908216-3a7e-4f3f-9877-186d1ba3fc57")
 	)
+	(text "Should be possibel to ignore DP/DN and connect USBPD1/2_HV"
+		(exclude_from_sim no)
+		(at 60.96 139.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec0f244c-4c05-445c-ba24-7ba6984a5f55")
+	)
 	(label "CHG_DP"
 		(at 44.45 109.22 0)
 		(fields_autoplaced yes)
