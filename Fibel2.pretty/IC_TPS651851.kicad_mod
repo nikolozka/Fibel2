@@ -4111,7 +4111,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "3b23df0d-93e3-4c53-ab82-8f6a86d1f2bb")
 	)
-	(model "${KIPRJMOD}/Fibel2.pretty/TPS651851RSLT.step"
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/TPS651851RSLT.step"
 		(opacity 0.5400)
 		(offset
 			(xyz 0 0 0)

@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -382,7 +385,7 @@
 		(layers "F.Cu" "F.Paste")
 		(uuid "f0016aec-ec95-4dd8-8fcf-3104833b6266")
 	)
-	(model "${KIPRJMOD}/Fibel2.pretty/TPS61022RWUR.step"
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/TPS61022RWUR.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -3553,7 +3556,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "144ed5f5-f17f-46d7-a132-ad3e7ec04a06")
 	)
-	(model "${KIPRJMOD}/Fibel2.pretty/rpi_pico.step"
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/rpi_pico.step"
 		(offset
 			(xyz 0 0 0)
 		)

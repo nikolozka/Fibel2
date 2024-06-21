@@ -248,7 +248,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "69f1860d-cc9c-4899-b297-794954ec881b")
 	)
-	(model "${KIPRJMOD}/Fibel2.pretty/MX25L3206EM2I-12G.STEP"
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/MX25L3206EM2I-12G.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

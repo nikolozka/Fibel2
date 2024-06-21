@@ -4899,7 +4899,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "42273228-56bd-4ea5-ba76-5c53611a8def")
 	)
-	(model "${KIPRJMOD}/Fibel2.pretty/TFP401APZPG4.step"
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/TFP401APZPG4.step"
 		(offset
 			(xyz 0 0 0)
 		)

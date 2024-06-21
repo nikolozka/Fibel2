@@ -673,7 +673,7 @@
 		(remove_unused_layers no)
 		(uuid "2e50b1f4-cda6-42f0-9786-ef9844f173af")
 	)
-	(model "${KIPRJMOD}/Fibel2.pretty/ESP32-S3-WROOM-1U.step"
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/ESP32-S3-WROOM-1U.step"
 		(offset
 			(xyz 0 0 0)
 		)

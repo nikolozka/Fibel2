@@ -1268,7 +1268,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "bfff3594-1df0-4f1c-be91-a2f0d0f20c43")
 	)
-	(model "${KIPRJMOD}/Fibel2.pretty/IT8951.STEP"
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/IT8951.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

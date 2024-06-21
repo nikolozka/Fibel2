@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -875,7 +878,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "af1f6920-5b0b-4ef7-8ea2-5b45cd8adc16")
 	)
-	(model "${KIPRJMOD}/Fibel2.pretty/HD3SS460RNHR.step"
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/HD3SS460RNHR.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -2403,6 +2403,12 @@
 		(uuid "65a73814-a5c6-449c-b900-631d72c9736d")
 	)
 	(junction
+		(at 55.88 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "685eae3e-f42c-4c22-bc19-87894152d377")
+	)
+	(junction
 		(at 180.34 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2804,6 +2810,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 96.52) (xy 55.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31556302-495c-4b8d-a230-2f0669130c78")
+	)
+	(wire
+		(pts
 			(xy 180.34 111.76) (xy 182.88 111.76)
 		)
 		(stroke
@@ -3104,6 +3120,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 99.06) (xy 44.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f874d5-aa26-4a44-ac9a-1f4308fd2682")
+	)
+	(wire
+		(pts
 			(xy 76.2 78.74) (xy 134.62 78.74)
 		)
 		(stroke
@@ -3131,6 +3157,16 @@
 			(type default)
 		)
 		(uuid "7a2f4fdc-f77b-42d6-a6ba-369bde333bed")
+	)
+	(wire
+		(pts
+			(xy 49.53 99.06) (xy 55.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c04cd50-865e-4381-8831-847d33d5128c")
 	)
 	(wire
 		(pts
@@ -3221,6 +3257,16 @@
 			(type default)
 		)
 		(uuid "8c409056-0542-40cc-9606-84c9f1c41191")
+	)
+	(wire
+		(pts
+			(xy 55.88 99.06) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbe5fc8-d79a-46d2-88c9-155aafbc2665")
 	)
 	(wire
 		(pts
@@ -3431,6 +3477,16 @@
 			(type default)
 		)
 		(uuid "c5901b21-839a-4ea6-aa81-f42e7973aeec")
+	)
+	(wire
+		(pts
+			(xy 34.29 101.6) (xy 44.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c622b4f3-5b11-41e1-976a-25eabd6fc2e5")
 	)
 	(wire
 		(pts
@@ -3654,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 101.6) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1c4bfb-9e79-442a-989a-5fea37e11660")
+	)
+	(wire
+		(pts
 			(xy 207.01 99.06) (xy 217.17 99.06)
 		)
 		(stroke
@@ -3682,10 +3748,10 @@
 		)
 		(uuid "fe34e783-04cf-4199-ae98-af0d852e14fe")
 	)
-	(text_box "Double check this too\n"
+	(text_box "Double check the inductor"
 		(exclude_from_sim no)
-		(at 90.17 103.505 0)
-		(size 24.765 3.175)
+		(at 81.28 103.505 0)
+		(size 33.655 3.175)
 		(stroke
 			(width 0)
 			(type default)
@@ -3749,16 +3815,6 @@
 			)
 		)
 		(uuid "38908216-3a7e-4f3f-9877-186d1ba3fc57")
-	)
-	(text "Can i just connect USBPD_HV-s together?"
-		(exclude_from_sim no)
-		(at 41.656 119.634 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3aa597c5-5615-414f-a39f-48bd0d914e74")
 	)
 	(text "Should be possibel to ignore DP/DN and connect USBPD1/2_HV"
 		(exclude_from_sim no)
@@ -4947,6 +5003,75 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
 					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 46.99 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30664b73-4ea9-4a72-85c7-517a34d07923")
+		(property "Reference" "R2"
+			(at 51.816 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 44.958 100.584 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "841c173a-789b-4dc4-bb1b-758cd3b0cad5")
+		)
+		(pin "1"
+			(uuid "c3da5601-67da-47da-84ec-e461f4ce5461")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7025,6 +7150,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 46.99 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4415095-9993-40f0-b907-0e50fb9b87f2")
+		(property "Reference" "R1"
+			(at 51.816 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 44.958 98.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 46.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 46.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e52537d7-1fb4-499d-b62a-2c07f036bb8a")
+		)
+		(pin "1"
+			(uuid "9dd22cbd-9bd4-4d1f-8485-7a473134dfb3")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 207.01 101.6 0)
 		(unit 1)
@@ -7447,6 +7641,72 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
 					(reference "C313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 55.88 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2ac2e0c-5e55-43f7-abe1-6ada232ab8d9")
+		(property "Reference" "#PWR03"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_CHG"
+			(at 55.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dae99c36-f80a-4a5e-bc69-3a2a9ddb31b4")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -598,7 +601,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "aecf821b-e4c6-4ce9-b559-a0a53df05aa9")
 	)
-	(model "${KIPRJMOD}/Fibel2.pretty/TPS56428DDA.step"
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/TPS56428DDA.step"
 		(offset
 			(xyz 0 0 0)
 		)

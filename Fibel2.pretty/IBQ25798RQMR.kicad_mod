@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -1657,7 +1660,7 @@
 		(roundrect_rratio 0.24)
 		(uuid "fa83a7a4-f28b-4640-8090-ec875063d404")
 	)
-	(model "${KIPRJMOD}/Fibel2.pretty/BQ25798RQMR.step"
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/BQ25798RQMR.step"
 		(offset
 			(xyz 0 0 0)
 		)

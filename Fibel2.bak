@@ -13285,7 +13285,7 @@
 			)
 		)
 		(property "Value" "TPS56428DDA"
-			(at -6.858 -8.89 0)
+			(at -6.604 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13294,7 +13294,7 @@
 			)
 		)
 		(property "Footprint" "Fibel2:TPS56428DDA"
-			(at -0.508 -11.43 0)
+			(at -0.254 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13304,7 +13304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -0.508 -11.43 0)
+			(at -0.254 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,7 +13313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -0.508 -11.43 0)
+			(at -0.254 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13322,7 +13322,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at -0.508 -11.43 0)
+			(at -0.254 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13332,7 +13332,7 @@
 			)
 		)
 		(property "MP" "TPS56428DDA"
-			(at -0.508 -11.43 0)
+			(at -0.254 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13390,7 +13390,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -3.81 0)
+				(at -12.7 -1.27 0)
 				(length 5.08)
 				(name "VREG5"
 					(effects
@@ -13408,7 +13408,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 -1.27 0)
+				(at -12.7 -3.81 0)
 				(length 5.08)
 				(name "PG"
 					(effects
@@ -13493,6 +13493,26 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPS56428DDA_1_1"
+			(pin input line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
