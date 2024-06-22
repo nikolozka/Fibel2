@@ -704,8 +704,8 @@
       "Orin"
     ],
     [
-      "3bd01d1c-0b9b-45ea-b76e-75a8be1aa20f",
-      "ESP32_S3"
+      "5a179277-42b3-47ed-bc0e-bf53dbccdf92",
+      "EPD"
     ],
     [
       "17f77549-66cc-477f-9c69-749f4f7589f3",
@@ -722,10 +722,6 @@
     [
       "736006f1-39f8-4eb4-a2f9-973b8583c796",
       "Storage"
-    ],
-    [
-      "5a179277-42b3-47ed-bc0e-bf53dbccdf92",
-      "EPD"
     ]
   ],
   "text_variables": {}

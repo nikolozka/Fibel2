@@ -3263,7 +3263,7 @@
 		)
 		(uuid "6e212b8f-ed8f-439f-98c3-136c524d40a8")
 	)
-	(text "Add VDD MOD with at leeast a ferrite"
+	(text "Add VDD MOD with at leeast a ferrite / Fuse"
 		(exclude_from_sim no)
 		(at 170.688 80.01 0)
 		(effects

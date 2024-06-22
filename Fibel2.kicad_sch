@@ -130,8 +130,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3bd01d1c-0b9b-45ea-b76e-75a8be1aa20f")
-		(property "Sheetname" "ESP32_S3"
+		(uuid "5a179277-42b3-47ed-bc0e-bf53dbccdf92")
+		(property "Sheetname" "EPD"
 			(at 214.63 60.2484 0)
 			(effects
 				(font
@@ -140,8 +140,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fib_esp32_s3.kicad_sch"
-			(at 214.63 99.6446 0)
+		(property "Sheetfile" "fib_epd.kicad_sch"
+			(at 214.63 99.0096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,44 +153,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 214.63 106.68)
-		(size 35.56 38.1)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5a179277-42b3-47ed-bc0e-bf53dbccdf92")
-		(property "Sheetname" "EPD"
-			(at 214.63 105.9684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "fib_epd.kicad_sch"
-			(at 214.63 144.7296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "10")
 				)
 			)
 		)
