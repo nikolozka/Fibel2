@@ -3891,7 +3891,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 46.99 148.59 0)
+		(at 34.29 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3900,7 +3900,7 @@
 		(fields_autoplaced yes)
 		(uuid "2459debf-0153-42d1-a30e-fddcbd92b88b")
 		(property "Reference" "#PWR0211"
-			(at 46.99 152.4 0)
+			(at 34.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3909,7 @@
 			)
 		)
 		(property "Value" "A1V8"
-			(at 46.99 143.51 0)
+			(at 34.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 148.59 0)
+			(at 34.29 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +3926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 148.59 0)
+			(at 34.29 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +3935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 46.99 148.59 0)
+			(at 34.29 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,72 +5596,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 35.56 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b8de14e-03b6-42fa-b9b7-63360c53465c")
-		(property "Reference" "#PWR0207"
-			(at 35.56 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "D1V8"
-			(at 35.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04098572-61be-4ab8-81a7-d09585c0b8ee")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "#PWR0207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 85.09 114.3 0)
 		(unit 1)
@@ -6998,73 +6932,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 35.56 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5f0c10f-71c4-4125-8c30-dbae2df86bbb")
-		(property "Reference" "#PWR0208"
-			(at 35.56 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "D3V3"
-			(at 35.56 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 35.56 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3c5e2cc-b4cf-453c-a931-670392f02d8d")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "#PWR0208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 46.99 180.34 0)
+		(at 34.29 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7073,7 +6941,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea69a197-2473-48f4-bc73-839601a42ab5")
 		(property "Reference" "#PWR0212"
-			(at 46.99 184.15 0)
+			(at 34.29 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,7 +6950,7 @@
 			)
 		)
 		(property "Value" "A3V3"
-			(at 46.99 175.26 0)
+			(at 34.29 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +6958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 180.34 0)
+			(at 34.29 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +6967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 180.34 0)
+			(at 34.29 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +6976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 46.99 180.34 0)
+			(at 34.29 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

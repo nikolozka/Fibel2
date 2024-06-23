@@ -158,44 +158,6 @@
 		)
 	)
 	(sheet
-		(at 172.72 106.68)
-		(size 35.56 38.1)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "736006f1-39f8-4eb4-a2f9-973b8583c796")
-		(property "Sheetname" "Storage"
-			(at 172.72 105.9684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "fib_storage.kicad_sch"
-			(at 172.72 144.7296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 44.45 60.96)
 		(size 35.56 38.1)
 		(fields_autoplaced yes)
@@ -321,7 +283,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "afa85234-73ed-4fc7-9570-87e781c133e5")
-		(property "Sheetname" "Network"
+		(property "Sheetname" "PCIe"
 			(at 130.81 105.9684 0)
 			(effects
 				(font
@@ -330,7 +292,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "fib_network.kicad_sch"
+		(property "Sheetfile" "fib_pcie.kicad_sch"
 			(at 130.81 144.7296 0)
 			(effects
 				(font

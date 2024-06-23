@@ -717,11 +717,7 @@
     ],
     [
       "afa85234-73ed-4fc7-9570-87e781c133e5",
-      "Network"
-    ],
-    [
-      "736006f1-39f8-4eb4-a2f9-973b8583c796",
-      "Storage"
+      "PCIe"
     ]
   ],
   "text_variables": {}

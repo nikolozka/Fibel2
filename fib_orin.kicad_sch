@@ -10660,6 +10660,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 177.8) (xy 267.97 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d8c5d4-2ec0-4c9c-9531-ac1537aa4c19")
+	)
+	(wire
+		(pts
 			(xy 265.43 228.6) (xy 265.43 247.65)
 		)
 		(stroke
@@ -11067,6 +11077,16 @@
 			(type default)
 		)
 		(uuid "5a768d09-f920-44dc-9715-5733eb48ffa1")
+	)
+	(wire
+		(pts
+			(xy 262.89 175.26) (xy 267.97 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4598a7-e764-43bf-8530-beb13b567faa")
 	)
 	(wire
 		(pts
@@ -12310,6 +12330,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 170.18) (xy 267.97 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3bba46a-8cd1-4584-984f-873055ecccad")
+	)
+	(wire
+		(pts
 			(xy 148.59 71.12) (xy 151.13 71.12)
 		)
 		(stroke
@@ -12550,6 +12580,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 172.72) (xy 267.97 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f213142c-c04c-4821-a69b-c542fc1c206a")
+	)
+	(wire
+		(pts
 			(xy 303.53 132.08) (xy 303.53 124.46)
 		)
 		(stroke
@@ -12719,27 +12759,6 @@
 			)
 		)
 	)
-	(global_label "UART0_RXD"
-		(shape input)
-		(at 107.95 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e4e860f-c202-42eb-84ad-02fd0f339750")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USBSS0_TX_P"
 		(shape output)
 		(at 307.34 83.82 0)
@@ -12757,6 +12776,27 @@
 					(size 1.1 1.1)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART1_RTS"
+		(shape input)
+		(at 262.89 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12cb670a-1fdf-46b9-baf3-77012f2d439a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12911,7 +12951,7 @@
 	)
 	(global_label "IT8951_RST"
 		(shape input)
-		(at 195.58 208.28 180)
+		(at 204.47 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12921,7 +12961,7 @@
 		)
 		(uuid "31c1f7d1-ebb7-48fc-8550-5f29debf48c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.7697 208.28 0)
+			(at 190.6597 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13142,27 +13182,6 @@
 			)
 		)
 	)
-	(global_label "UART0_CTS"
-		(shape output)
-		(at 107.95 210.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "407a7dfa-f1e3-4418-85a9-cde739be0aa5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PCIE1_RX0_P"
 		(shape input)
 		(at 261.62 86.36 180)
@@ -13197,6 +13216,48 @@
 		(uuid "453b9f0d-dc89-409a-a89a-c58c4a624bd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 94.6839 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART1_CTS"
+		(shape output)
+		(at 262.89 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46d055ba-fcd5-466c-af48-07e111b9a16b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART0_TXD"
+		(shape output)
+		(at 107.95 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a90863d-8330-44dd-9043-1f3393922b34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13398,6 +13459,27 @@
 			)
 		)
 	)
+	(global_label "UART0_CTS"
+		(shape output)
+		(at 107.95 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67738934-769a-4eda-bcfc-f6f512c0538e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI0_MOSI"
 		(shape input)
 		(at 106.68 190.5 180)
@@ -13585,6 +13667,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART1_TXD"
+		(shape output)
+		(at 262.89 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f0b2e3f-1998-4aea-b6a9-f89759e216f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13888,6 +13991,27 @@
 			)
 		)
 	)
+	(global_label "UART1_RXD"
+		(shape input)
+		(at 262.89 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bd15b72-bde9-444c-9091-e15873e9f14e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IT8951_SPI1_MOSI"
 		(shape input)
 		(at 156.21 208.28 0)
@@ -13912,7 +14036,7 @@
 	)
 	(global_label "IT8951_HRDY"
 		(shape input)
-		(at 195.58 210.82 180)
+		(at 204.47 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13922,7 +14046,7 @@
 		)
 		(uuid "a6caf148-1e44-4e38-bb5d-bfcc07291386")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.2577 210.82 0)
+			(at 189.1477 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13944,6 +14068,27 @@
 		(uuid "a8ec9056-c047-4c0b-b46b-679d45a8fb9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 328.295 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART0_RTS"
+		(shape input)
+		(at 107.95 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa0accd0-0a30-48e7-8455-a0bc57654028")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14102,6 +14247,27 @@
 			)
 		)
 	)
+	(global_label "UART0_RXD"
+		(shape input)
+		(at 107.95 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbe99991-6750-405d-9643-55a198f3ac9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PCIE1_TX0_P"
 		(shape output)
 		(at 307.34 91.44 0)
@@ -14246,27 +14412,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART0_TXD"
-		(shape output)
-		(at 107.95 208.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e408f7c6-3045-4d28-ad77-bd8eedcdd839")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14431,27 +14576,6 @@
 		(uuid "f6221189-c41d-4583-a6b4-47c794251e69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 178.435 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART0_RTS"
-		(shape input)
-		(at 107.95 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f9b98f4b-14d7-4a51-bf97-9254f28aa323")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.98 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -15942,6 +15942,16 @@
 		)
 		(uuid "b99ea593-439e-4b30-9222-db87f905531e")
 	)
+	(text "Should we add a 2.0 hub? - maybe skip for now...\n"
+		(exclude_from_sim no)
+		(at 50.038 271.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e411c0db-b129-4087-b95a-afa4a0f9c67b")
+	)
 	(text "CONFIGURATION"
 		(exclude_from_sim no)
 		(at 183.515 82.55 0)
