@@ -1,4 +1,4 @@
-23178043627515995
+23188321481115201
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55671,6 +55671,13 @@ Ferrite vertical LairdTech 28C0236-0JW-10
 2
 2
 Fibel2
+CAPMP6032X250
+
+
+0
+2
+2
+Fibel2
 IBQ25798RQMR
 
 
@@ -55705,6 +55712,13 @@ IND_LQH44PN4R7MP0L
 0
 2
 2
+Fibel2
+QFN-16_1EP_4x4mm_P0.65mm
+
+
+0
+17
+17
 Fibel2
 QFN40P450X250X80-31N120X320
 
@@ -55782,6 +55796,34 @@ TPS61022RWUR
 0
 7
 7
+Fibel2
+TSOT23-6
+
+
+0
+6
+6
+Fibel2
+USON-8_2x3mm_P0.5mm
+
+
+0
+9
+9
+Fibel2
+USON-10_2.5x1mm_P0.5mm
+USON-10 2.5x1mm_ Pitch 0.5mm
+USON-10 2.5x1mm Pitch 0.5mm
+0
+10
+10
+Fibel2
+WQFN-40_1EP_6x3mm_Pitch0.4mm_EP4.7x2.7mm
+
+
+0
+47
+41
 Fibel2
 XCVR_ESP32-S3-WROOM-1U
 

@@ -9943,7 +9943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 151.13 0)
 			(effects
 				(font
@@ -10093,7 +10093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.46 153.67 0)
 			(effects
 				(font
@@ -14227,7 +14227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 158.75 0)
 			(effects
 				(font
@@ -14468,7 +14468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 146.05 0)
 			(effects
 				(font
@@ -14618,7 +14618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.46 163.83 0)
 			(effects
 				(font
@@ -14976,7 +14976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 148.59 0)
 			(effects
 				(font
@@ -15126,7 +15126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.46 158.75 0)
 			(effects
 				(font
@@ -18445,7 +18445,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C_100n_0402"
+		(property "Value" "100nF"
 			(at 34.29 176.53 0)
 			(effects
 				(font
@@ -18456,7 +18456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.83 176.53 0)
 			(effects
 				(font

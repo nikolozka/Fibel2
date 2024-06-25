@@ -8533,7 +8533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MBR0540:SOD-123"
+		(property "Footprint" "Fibel2:SOD-123"
 			(at 107.188 132.08 0)
 			(effects
 				(font
@@ -9317,7 +9317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MBR0540:SOD-123"
+		(property "Footprint" "Fibel2:SOD-123"
 			(at 151.13 24.638 0)
 			(effects
 				(font
@@ -9670,7 +9670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MBR0540:SOD-123"
+		(property "Footprint" "Fibel2:SOD-123"
 			(at 140.97 24.638 0)
 			(effects
 				(font
@@ -10161,7 +10161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MBR0540:SOD-123"
+		(property "Footprint" "Fibel2:SOD-123"
 			(at 66.548 106.68 0)
 			(effects
 				(font
@@ -10919,7 +10919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MBR0540:SOD-123"
+		(property "Footprint" "Fibel2:SOD-123"
 			(at 51.308 66.04 0)
 			(effects
 				(font
@@ -14299,7 +14299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MBR0540:SOD-123"
+		(property "Footprint" "Fibel2:SOD-123"
 			(at 107.188 121.92 0)
 			(effects
 				(font

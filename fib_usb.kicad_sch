@@ -23825,7 +23825,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:USON-10_2.5x1mm_P0.5mm"
+		(property "Footprint" "Fibel2:USON-10_2.5x1mm_P0.5mm"
 			(at 321.31 160.02 0)
 			(effects
 				(font
@@ -27985,7 +27985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:TSOT23-6"
+		(property "Footprint" "Fibel2:TSOT23-6"
 			(at 144.78 210.82 0)
 			(effects
 				(font
@@ -28354,7 +28354,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:USON-10_2.5x1mm_P0.5mm"
+		(property "Footprint" "Fibel2:USON-10_2.5x1mm_P0.5mm"
 			(at 346.71 160.02 0)
 			(effects
 				(font
@@ -32886,7 +32886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:USON-10_2.5x1mm_P0.5mm"
+		(property "Footprint" "Fibel2:USON-10_2.5x1mm_P0.5mm"
 			(at 364.49 220.98 0)
 			(effects
 				(font
@@ -35614,7 +35614,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:USON-10_2.5x1mm_P0.5mm"
+		(property "Footprint" "Fibel2:USON-10_2.5x1mm_P0.5mm"
 			(at 358.14 40.64 0)
 			(effects
 				(font
@@ -36335,7 +36335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:QFN-16-1EP_4x4mm_P0.65mm"
+		(property "Footprint" "Fibel2:QFN-16_1EP_4x4mm_P0.65mm"
 			(at 96.52 163.83 0)
 			(effects
 				(font
@@ -38914,7 +38914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:TSOT23-6"
+		(property "Footprint" "Fibel2:TSOT23-6"
 			(at 292.1 55.88 0)
 			(effects
 				(font
@@ -39274,7 +39274,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:USON-10_2.5x1mm_P0.5mm"
+		(property "Footprint" "Fibel2:USON-10_2.5x1mm_P0.5mm"
 			(at 297.18 160.02 0)
 			(effects
 				(font
@@ -40931,7 +40931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:USON-8_2x3mm_P0.5mm"
+		(property "Footprint" "Fibel2:USON-8_2x3mm_P0.5mm"
 			(at 368.3 185.42 0)
 			(effects
 				(font
@@ -42968,7 +42968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:WQFN-40_1EP_6x3mm_Pitch0.4mm_EP4.7x2.7mm"
+		(property "Footprint" "Fibel2:WQFN-40_1EP_6x3mm_Pitch0.4mm_EP4.7x2.7mm"
 			(at 251.46 106.68 0)
 			(effects
 				(font
