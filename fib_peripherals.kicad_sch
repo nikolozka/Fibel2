@@ -5,7 +5,7 @@
 	(uuid "5ef155b1-7d92-48a8-bcdb-3b2345cf40e8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
+		(symbol "Fibel2:Raspi_Header"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -19,7 +19,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x20_Odd_Even"
+			(property "Value" "Raspi_Header"
 				(at 1.27 -27.94 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Fibel2:Raspberry_Bottom_Entry"
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,8 +45,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+			(property "Description" ""
+				(at 1.016 28.956 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -72,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x20_Odd_Even_1_1"
+			(symbol "Raspi_Header_1_1"
 				(rectangle
 					(start -1.27 -25.273)
 					(end 0 -25.527)
@@ -3648,6 +3648,188 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:Raspi_Header")
+		(at 66.04 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49032513-c6c5-42ca-82e5-143554296e89")
+		(property "Reference" "J1"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Raspi_Header"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fibel2:Raspberry_Bottom_Entry"
+			(at 66.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.056 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "37"
+			(uuid "b177505f-69c7-491c-ba77-4497960605ed")
+		)
+		(pin "20"
+			(uuid "03738fa6-8426-4bd4-a725-18cb775a119f")
+		)
+		(pin "28"
+			(uuid "f8efcd98-3213-49dc-b971-9fa2cacd3c2d")
+		)
+		(pin "8"
+			(uuid "37b63497-0898-4811-a82a-31b913cf643f")
+		)
+		(pin "10"
+			(uuid "3e88826e-1914-4eee-8645-7facdaf5caa3")
+		)
+		(pin "3"
+			(uuid "8f40bdb1-1a68-408d-b81e-5141c13ef12f")
+		)
+		(pin "6"
+			(uuid "0840cef1-9ed2-422a-b976-7cfc619ef7b7")
+		)
+		(pin "2"
+			(uuid "f8c7301a-06a7-4d88-8e99-9206d6fe80df")
+		)
+		(pin "7"
+			(uuid "c11741cc-47b8-4efd-a954-f35272b94fd9")
+		)
+		(pin "30"
+			(uuid "eced9068-3c56-48fa-95e5-f128d0b55031")
+		)
+		(pin "36"
+			(uuid "f05c8304-97d2-45ec-a399-dd16b4e5fcd2")
+		)
+		(pin "18"
+			(uuid "c364cd6c-5ebd-4658-8a84-26576c8b6954")
+		)
+		(pin "17"
+			(uuid "496592fd-1fe9-426f-a69e-ba6047248d8a")
+		)
+		(pin "22"
+			(uuid "3aa5aa96-d28c-422b-9aa0-193e7179fac6")
+		)
+		(pin "15"
+			(uuid "4d7fe7cc-5c1a-4b4b-86ae-0bf676fffb9d")
+		)
+		(pin "16"
+			(uuid "8ebcd493-70fa-4244-a3de-f592ad5b1df2")
+		)
+		(pin "39"
+			(uuid "2bfcefae-d7bc-4fc5-8945-bb64a792710c")
+		)
+		(pin "35"
+			(uuid "19fef609-ba84-4b0f-81f2-e581c7f7dd6d")
+		)
+		(pin "5"
+			(uuid "e2b8bb41-2242-4057-a008-c58dc6c61423")
+		)
+		(pin "24"
+			(uuid "aa99dc27-b5f1-4aec-bece-85a424b145fb")
+		)
+		(pin "31"
+			(uuid "f728d127-69dd-42a7-a820-a52976c1e80f")
+		)
+		(pin "19"
+			(uuid "dbdaee8c-fab1-4027-8d9b-a4ed1e8207c0")
+		)
+		(pin "34"
+			(uuid "bd4aec8c-87b4-4cb4-b67c-704330232c58")
+		)
+		(pin "1"
+			(uuid "104a9c04-5cc8-4549-ad97-83f809b55c26")
+		)
+		(pin "23"
+			(uuid "69aded5a-c988-41bb-972b-8c45fed8a41b")
+		)
+		(pin "26"
+			(uuid "bf041d4b-a46e-41f2-bc4e-573e8f1f88d2")
+		)
+		(pin "27"
+			(uuid "bcdb757f-d84b-42de-b336-7c3d6ef7cb7e")
+		)
+		(pin "4"
+			(uuid "52495472-0db8-43d9-a46c-ca4c1899812c")
+		)
+		(pin "32"
+			(uuid "69526699-0e6d-4f23-ac9c-47fc8fea65b4")
+		)
+		(pin "40"
+			(uuid "698a343f-d348-428d-b3d3-ba9a6f4c4621")
+		)
+		(pin "29"
+			(uuid "0b71bb9d-7b71-42e7-a906-e5022664e65a")
+		)
+		(pin "11"
+			(uuid "ad123a9e-a761-4953-867d-c6c3a2157e67")
+		)
+		(pin "14"
+			(uuid "cb646f90-7152-4f24-8fcb-eb8db1af9c0c")
+		)
+		(pin "21"
+			(uuid "5dc86d9e-5150-4199-8701-a325b5c77021")
+		)
+		(pin "33"
+			(uuid "6da36977-0b7d-4224-969b-a659c6eced92")
+		)
+		(pin "9"
+			(uuid "cfaa14de-28e8-4c3e-97f2-9d045a86576a")
+		)
+		(pin "12"
+			(uuid "fcf9423b-be15-423b-8452-fd90e1377776")
+		)
+		(pin "38"
+			(uuid "3e91456d-ad7d-4674-a92a-3c22e0df8c63")
+		)
+		(pin "13"
+			(uuid "1e638068-f558-46fb-ad8c-f1aaffbd46d7")
+		)
+		(pin "25"
+			(uuid "6113c1d4-8693-4de4-9401-9397dbd11940")
+		)
+		(instances
+			(project ""
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/a39c2c52-3412-48a6-9504-27933873c1ba"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 78.74 119.38 0)
 		(unit 1)
@@ -3846,32 +4028,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
+		(lib_id "Fibel2:Raspi_Header")
 		(at 64.77 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ccf7a475-7317-4d36-a662-1db219e218e7")
-		(property "Reference" "J704"
-			(at 66.04 115.824 0)
+		(fields_autoplaced yes)
+		(uuid "d8519f52-7cec-447b-b723-6bd3e8961d41")
+		(property "Reference" "J2"
+			(at 66.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_02x20_Odd_Even"
+		(property "Value" "Raspi_Header"
 			(at 66.04 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
+		(property "Footprint" "Fibel2:Raspberry_Bottom_Entry"
 			(at 64.77 142.24 0)
 			(effects
 				(font
@@ -3889,8 +4071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 64.77 142.24 0)
+		(property "Description" ""
+			(at 65.786 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,311 +4081,129 @@
 			)
 		)
 		(pin "10"
-			(uuid "edd8d208-7a54-4fae-bef0-415c8780d80e")
+			(uuid "7740be1a-1b2d-48f4-978a-ffcb3f899f72")
 		)
 		(pin "11"
-			(uuid "a3e635ff-e1aa-487f-9c10-dde6deea0332")
-		)
-		(pin "19"
-			(uuid "cb32c926-88e0-4239-af7e-4ad6f8de0003")
-		)
-		(pin "17"
-			(uuid "81b15c73-e880-4360-8148-f71e264ca126")
-		)
-		(pin "16"
-			(uuid "9e6eb2fe-442d-478d-88dd-ac637b5ee205")
-		)
-		(pin "14"
-			(uuid "a19fe610-c299-4cb0-a4e6-016cfc22eaa1")
-		)
-		(pin "2"
-			(uuid "ac020eca-040d-439c-b33f-7b52b23f9848")
-		)
-		(pin "12"
-			(uuid "8750c12d-4c94-4f67-bb46-53288a988c42")
-		)
-		(pin "15"
-			(uuid "74f009e1-2599-40fe-a486-d65243b177ee")
-		)
-		(pin "18"
-			(uuid "5295380d-4c3e-4b1c-b3b1-ac7446f5ffac")
-		)
-		(pin "1"
-			(uuid "ee3fee8f-2186-4714-807c-875355a59c8d")
-		)
-		(pin "9"
-			(uuid "b18cd006-833c-4d53-81f9-d2b8f7489e1c")
-		)
-		(pin "5"
-			(uuid "fc80bcb5-3160-4a3b-9ed9-d1c3c87ac924")
-		)
-		(pin "6"
-			(uuid "39a1b015-8e11-4322-9606-819c4904460a")
-		)
-		(pin "7"
-			(uuid "0316c5cf-a425-4edc-825c-e5a002c594d8")
-		)
-		(pin "8"
-			(uuid "9949db0a-a999-4e2d-ade7-b1866751cac9")
-		)
-		(pin "39"
-			(uuid "03cd9cb4-8641-4019-8704-c671f8c6bc48")
-		)
-		(pin "4"
-			(uuid "dfef2954-d73f-4992-a690-4becdea497c6")
-		)
-		(pin "40"
-			(uuid "a9097d2b-27fd-450d-8190-bcc78c01704d")
-		)
-		(pin "20"
-			(uuid "2a55d335-3fd8-4c7d-9f32-33ece5586cda")
+			(uuid "7372ad20-47ef-43fe-8b44-ddaabe92b334")
 		)
 		(pin "21"
-			(uuid "a296efd2-3fd5-4028-88ea-83e4593b5639")
-		)
-		(pin "22"
-			(uuid "3fecce78-59f6-409b-a7f3-a18c0992e493")
-		)
-		(pin "23"
-			(uuid "35cf270d-d5bc-44c4-832c-ea06d9e064f4")
-		)
-		(pin "24"
-			(uuid "f7333450-ef85-48b6-805a-771b694c3c00")
-		)
-		(pin "13"
-			(uuid "dea23c56-b404-4665-a31f-743fa2e78de9")
-		)
-		(pin "25"
-			(uuid "dc956298-cf34-4ac2-9363-c224af901ec7")
-		)
-		(pin "26"
-			(uuid "55b5e294-df1a-44ba-b6b2-0e3833ef2217")
-		)
-		(pin "27"
-			(uuid "c2fc6886-78f7-459a-b3d3-4a8c5a8ee18c")
-		)
-		(pin "28"
-			(uuid "cbb01f4a-4895-4b16-9d69-8d59bf5a3f74")
-		)
-		(pin "29"
-			(uuid "19b5d357-cf4a-4b79-a468-97f2eb5422ac")
-		)
-		(pin "3"
-			(uuid "b3676450-7ac2-49e3-9425-5442ddab8bfe")
-		)
-		(pin "30"
-			(uuid "32742654-a26d-4add-92fd-4985a1cd7a70")
-		)
-		(pin "31"
-			(uuid "5bc1582d-7b80-40e1-87a0-44d83520d505")
-		)
-		(pin "32"
-			(uuid "86e20dd5-98e1-40ee-aec5-73849bcc8b04")
-		)
-		(pin "33"
-			(uuid "5b52b52c-9a40-4b75-b09b-ec3a9f48b6d7")
+			(uuid "2e32122d-2d12-4585-960f-de2bcb069951")
 		)
 		(pin "34"
-			(uuid "bb98579e-b312-4503-ae7a-0a20a6e42056")
-		)
-		(pin "35"
-			(uuid "48ec1244-fd15-465b-8553-e2745d75485a")
-		)
-		(pin "36"
-			(uuid "439ba8ca-90a8-4b25-9945-f7f7f3842b90")
-		)
-		(pin "37"
-			(uuid "f6a6650e-980f-44a2-86b1-81ac2d01562d")
-		)
-		(pin "38"
-			(uuid "9e7c830d-1772-4dfe-9b93-92d5b1564af1")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/a39c2c52-3412-48a6-9504-27933873c1ba"
-					(reference "J704")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
-		(at 66.04 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0e8b8bb-5090-4f21-a0f7-b65e0e0681a2")
-		(property "Reference" "J801"
-			(at 67.056 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x20_Odd_Even"
-			(at 67.31 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "9951e56b-0e21-421b-96f2-b68915529906")
-		)
-		(pin "11"
-			(uuid "743a1cd4-890a-426c-b8f6-54b71175ef95")
-		)
-		(pin "19"
-			(uuid "00b6cfd8-c90a-4a95-9cdf-510a5efacc92")
-		)
-		(pin "17"
-			(uuid "4ccb229b-66cb-4955-a0bc-9e08fb7baa93")
-		)
-		(pin "16"
-			(uuid "2b6fc9e5-c886-432f-82eb-7f8a1b07309b")
-		)
-		(pin "14"
-			(uuid "78a53af1-69e4-460c-80de-d553a9e0916b")
-		)
-		(pin "2"
-			(uuid "32302db8-cd35-4148-99e6-65e653554857")
+			(uuid "bab4b0b5-3e13-4e8e-aeae-3c60ecd1850b")
 		)
 		(pin "12"
-			(uuid "fcea5077-aef3-4aab-89a3-6397cb122602")
-		)
-		(pin "15"
-			(uuid "e0e5c1e4-f1ff-46e0-ab4d-0082d72a795a")
-		)
-		(pin "18"
-			(uuid "f260ff9d-dd76-4ddc-9f38-79a35489d594")
-		)
-		(pin "1"
-			(uuid "70f9746a-a7d7-4ee4-a957-15bc224e22bf")
-		)
-		(pin "9"
-			(uuid "f3e0b0a5-d851-434b-a05a-f7682186d000")
-		)
-		(pin "5"
-			(uuid "8ecf0940-e11d-4ff0-8db4-e7faf57f02c0")
-		)
-		(pin "6"
-			(uuid "35afd2c8-9004-46d6-9ee4-5205eb193899")
-		)
-		(pin "7"
-			(uuid "0dd6fdd2-91f4-4ef6-b4e5-860191220360")
-		)
-		(pin "8"
-			(uuid "d3013197-5a9f-4fd3-a3cf-4a9b3a85a793")
-		)
-		(pin "39"
-			(uuid "812fdd8b-06a9-455e-88f3-8ebed290f14e")
-		)
-		(pin "4"
-			(uuid "e1b734e5-64e7-46b9-9654-b7f43e5b7339")
-		)
-		(pin "40"
-			(uuid "2de33619-d7ce-47d9-8ca7-85e7c78a1d5f")
-		)
-		(pin "20"
-			(uuid "bd75499f-2840-46f9-8371-3ba3330cea75")
-		)
-		(pin "21"
-			(uuid "036da412-a3df-48a1-bcb2-0aeecf8de707")
+			(uuid "eff467cf-6a51-4658-8ed4-762ac3b039fc")
 		)
 		(pin "22"
-			(uuid "6fb5f2cc-87e8-41f4-9a68-6c0e4a606624")
-		)
-		(pin "23"
-			(uuid "1040c9a5-e0ed-458a-8e23-6a525c19fe46")
-		)
-		(pin "24"
-			(uuid "af5c8ef7-8e07-4a66-95a4-19c4288f191f")
-		)
-		(pin "13"
-			(uuid "e2b74f94-6383-4b76-838a-90ec145fa9c4")
-		)
-		(pin "25"
-			(uuid "bff16b84-4c49-446c-8eb8-4160e742e9c8")
-		)
-		(pin "26"
-			(uuid "055bdb19-fb1d-413b-bcda-43b8d0fdacc1")
-		)
-		(pin "27"
-			(uuid "741ae63d-ae96-4ed3-a623-e50284a99246")
-		)
-		(pin "28"
-			(uuid "3769654a-d0d7-44e7-a1b9-435e54456337")
-		)
-		(pin "29"
-			(uuid "83789e83-f85d-4e20-b9ec-7364c7f71e5f")
-		)
-		(pin "3"
-			(uuid "95a3567d-3ccc-463b-b61d-e156d851b7df")
-		)
-		(pin "30"
-			(uuid "c7181b26-eb16-42b1-8659-f43d99cdf4db")
-		)
-		(pin "31"
-			(uuid "100f12cb-0a89-406a-9b11-7ba81dfcf959")
-		)
-		(pin "32"
-			(uuid "2f3e2a76-7f30-4d12-93e4-323532cf3afc")
-		)
-		(pin "33"
-			(uuid "f7ee8b8d-4457-4ef2-8f80-e2b9b22d6091")
-		)
-		(pin "34"
-			(uuid "47854b23-3de6-454c-9068-8a9aac484060")
+			(uuid "b5742f8c-7c7a-4343-a1aa-ccb89eba6e5a")
 		)
 		(pin "35"
-			(uuid "2dfad539-8b9e-4ff0-8fc0-ad3871d8bb97")
+			(uuid "ad042ea6-b6b7-4419-95dd-6afd88ff666c")
 		)
-		(pin "36"
-			(uuid "c7f507bf-36d8-4bdd-bbff-a7b71a3a5e54")
+		(pin "40"
+			(uuid "84a723b7-494f-4042-95c9-b8d3b81ec1fe")
+		)
+		(pin "29"
+			(uuid "d9d587dc-744a-4ae1-b0bb-3f96b9d6598a")
+		)
+		(pin "2"
+			(uuid "4b64fd7a-41d1-46cb-a108-09ac2f34c123")
+		)
+		(pin "7"
+			(uuid "46885621-e6e5-4109-a60d-f8cd2992e473")
+		)
+		(pin "27"
+			(uuid "812f5aee-a369-4448-a27f-c86805f17b2c")
+		)
+		(pin "3"
+			(uuid "5d9658f8-c000-4638-82a1-7632875bc4f4")
+		)
+		(pin "8"
+			(uuid "b6e0d328-a3eb-486d-ad11-783f7dca1205")
+		)
+		(pin "31"
+			(uuid "cd1c6aa3-aea0-4830-8039-69e093b0b2a3")
+		)
+		(pin "16"
+			(uuid "d208554a-92b5-410d-9e50-533a27f27287")
+		)
+		(pin "30"
+			(uuid "9981cf9c-e0a1-4e02-8a93-3ba39805bb97")
+		)
+		(pin "20"
+			(uuid "0d6d2946-dc5e-4562-8751-a373f3680e1b")
+		)
+		(pin "17"
+			(uuid "dfbb1d90-9d75-491c-adaa-ffee07a8a729")
+		)
+		(pin "26"
+			(uuid "4e619fea-5004-4cf3-ba72-a3db086c4cee")
+		)
+		(pin "32"
+			(uuid "e8364a76-f0b0-49b4-9012-0b68e8c81e58")
+		)
+		(pin "1"
+			(uuid "efc523c1-4ab8-48ff-9524-dad25cae9a23")
+		)
+		(pin "15"
+			(uuid "ab835c70-10bd-497f-aa22-f28ebca6400b")
+		)
+		(pin "28"
+			(uuid "c032eec2-e422-42e1-ae6d-c6d22b1c714e")
 		)
 		(pin "37"
-			(uuid "af363a23-e8c4-425c-9b85-9a5ea06453f1")
+			(uuid "099bac70-a664-4768-8c28-f840550a8ba3")
+		)
+		(pin "19"
+			(uuid "75710473-383c-4e65-8ea4-d81b5f80aa0f")
+		)
+		(pin "9"
+			(uuid "22261d71-3df2-4aee-a145-4ceefa0a71f6")
+		)
+		(pin "18"
+			(uuid "1758c1fc-fe72-46c9-bf48-379feb1cc84a")
+		)
+		(pin "25"
+			(uuid "1a1d6972-2b01-4035-88e5-73e7ae3ae426")
+		)
+		(pin "36"
+			(uuid "7236f2b6-ad27-4656-95ef-0ff827e4d897")
+		)
+		(pin "24"
+			(uuid "9c63e37f-3e91-44fc-9a8d-22d64893928a")
+		)
+		(pin "5"
+			(uuid "086f3ac7-6ac8-49e1-9c73-80c07103879d")
+		)
+		(pin "14"
+			(uuid "9cc58520-9cd8-4e0f-9ad5-813e689dbb7d")
+		)
+		(pin "13"
+			(uuid "e8670c88-a6ae-4950-a5b6-f1ac0ff5b9ff")
+		)
+		(pin "23"
+			(uuid "377ba8eb-083d-4b41-a9b6-477d2be8936f")
+		)
+		(pin "33"
+			(uuid "65cf3fa9-6809-449d-a187-d1086f0a0eb7")
 		)
 		(pin "38"
-			(uuid "b70e8f20-5105-4f31-88e3-48f9477715b4")
+			(uuid "05b04b0b-48ba-4332-b0c7-2789cc96da30")
+		)
+		(pin "39"
+			(uuid "cda9f342-f8fc-463e-825f-249a51098097")
+		)
+		(pin "4"
+			(uuid "a1e9372d-a2be-45db-a348-d7237aa2bfa8")
+		)
+		(pin "6"
+			(uuid "be5b50da-e346-4a8b-9d4d-4a5c8cb39481")
 		)
 		(instances
-			(project "Fibel2"
+			(project ""
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/a39c2c52-3412-48a6-9504-27933873c1ba"
-					(reference "J801")
+					(reference "J2")
 					(unit 1)
 				)
 			)
