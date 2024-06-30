@@ -274,6 +274,26 @@
 					)
 				)
 			)
+			(symbol "Jetson-Orin-NX-Nano_1_1"
+				(pin input line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "THERMAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Fibel2:Orin Nano"
 			(pin_names
@@ -10453,6 +10473,12 @@
 		(uuid "1d368ad2-65cd-4023-95e7-67fedf8439b0")
 	)
 	(junction
+		(at 133.35 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eb8f074-24ad-45a9-a27e-384f975db8c4")
+	)
+	(junction
 		(at 151.13 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10739,6 +10765,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0e01fd5-de68-4daa-9b95-edc93138200d")
+	)
+	(junction
+		(at 285.75 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b92c7b09-fe46-42bb-b788-2b6db32e885d")
 	)
 	(junction
 		(at 113.03 256.54)
@@ -11426,16 +11458,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 91.44) (xy 115.57 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c016b6e-d950-4f72-b171-5afe3b7bff76")
-	)
-	(wire
-		(pts
 			(xy 284.48 251.46) (xy 284.48 247.65)
 		)
 		(stroke
@@ -11816,6 +11838,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 265.43) (xy 151.13 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbf43b3-44fc-4067-a75a-0f7ee9060dd4")
+	)
+	(wire
+		(pts
 			(xy 311.15 195.58) (xy 300.99 195.58)
 		)
 		(stroke
@@ -12143,6 +12175,16 @@
 			(type default)
 		)
 		(uuid "6d6b25af-f02c-46e9-a117-51e06a664718")
+	)
+	(wire
+		(pts
+			(xy 133.35 265.43) (xy 133.35 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d799403-cb04-4e75-b304-9798a8dea571")
 	)
 	(wire
 		(pts
@@ -12616,16 +12658,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 88.9) (xy 115.57 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e77c546-3bc2-460f-8962-881eb90c1d18")
-	)
-	(wire
-		(pts
 			(xy 303.53 63.5) (xy 303.53 55.88)
 		)
 		(stroke
@@ -12753,16 +12785,6 @@
 			(type default)
 		)
 		(uuid "a2e71688-32c8-4cbd-812f-f121d258c7ba")
-	)
-	(wire
-		(pts
-			(xy 107.95 83.82) (xy 115.57 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3c20851-50a7-45e4-b423-d5dd65507311")
 	)
 	(wire
 		(pts
@@ -13056,7 +13078,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 132.08) (xy 303.53 132.08)
+			(xy 265.43 132.08) (xy 285.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -13186,16 +13208,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 81.28) (xy 115.57 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c787d7c6-99e4-47be-b71b-024c8373ee19")
-	)
-	(wire
-		(pts
 			(xy 113.03 213.36) (xy 113.03 220.98)
 		)
 		(stroke
@@ -13236,6 +13248,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 105.41) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd22f515-791d-4b53-a08c-dbb6ee9b75d3")
+	)
+	(wire
+		(pts
 			(xy 113.03 170.18) (xy 113.03 177.8)
 		)
 		(stroke
@@ -13243,6 +13265,16 @@
 			(type default)
 		)
 		(uuid "cd24a954-8d00-486a-a07f-a14abe6cfeb5")
+	)
+	(wire
+		(pts
+			(xy 285.75 132.08) (xy 303.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe3a66b-e323-45b8-a7da-d353f75a30ba")
 	)
 	(wire
 		(pts
@@ -13336,6 +13368,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 132.08) (xy 285.75 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47fc125-32f7-420e-a67f-7ade390e5f8d")
+	)
+	(wire
+		(pts
 			(xy 306.07 231.14) (xy 306.07 233.68)
 		)
 		(stroke
@@ -13403,6 +13445,16 @@
 			(type default)
 		)
 		(uuid "da8c6932-ec00-4081-86dc-8d7504b345b2")
+	)
+	(wire
+		(pts
+			(xy 189.23 105.41) (xy 182.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe64d48-49df-4a35-819c-6ad405218522")
 	)
 	(wire
 		(pts
@@ -13676,7 +13728,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 265.43) (xy 151.13 265.43)
+			(xy 113.03 265.43) (xy 133.35 265.43)
 		)
 		(stroke
 			(width 0)
@@ -14565,27 +14617,6 @@
 			)
 		)
 	)
-	(global_label "USBSS1_RX_N"
-		(shape input)
-		(at 107.95 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "644654c6-2963-4b38-81c8-c69564e58a28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.075 81.28 0)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PCIE0_TX2_P"
 		(shape output)
 		(at 307.34 60.96 0)
@@ -15075,27 +15106,6 @@
 			)
 		)
 	)
-	(global_label "USBSS1_RX_P"
-		(shape input)
-		(at 107.95 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "98083078-bd71-4368-90ab-f4e6623da047")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.075 83.82 0)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{CHG_CE}"
 		(shape input)
 		(at 203.2 140.97 180)
@@ -15325,27 +15335,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USBSS1_TX_N"
-		(shape output)
-		(at 107.95 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c24d5607-8a87-47b6-9890-e93ddfd8f0a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.075 88.9 0)
-			(effects
-				(font
-					(size 1.1 1.1)
 				)
 				(justify right)
 				(hide yes)
@@ -15819,27 +15808,6 @@
 			)
 		)
 	)
-	(global_label "USBSS1_TX_P"
-		(shape output)
-		(at 107.95 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fe3f1aca-8d4c-4eb6-8c41-394c97bf89fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.075 91.44 0)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C1_SCL"
 		(shape input)
 		(at 311.15 205.74 0)
@@ -16088,6 +16056,72 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/36a293ae-b0d7-4698-aa86-662a0ac946ae"
 					(reference "C502")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ce647f4-6666-4b0e-8d87-61894b38e66b")
+		(property "Reference" "#PWR032"
+			(at 132.08 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a5342a4-3730-4032-acdd-ace622a17a2f")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/36a293ae-b0d7-4698-aa86-662a0ac946ae"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16362,7 +16396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fibel2:SODIMMx260"
+		(property "Footprint" "Fibel2:SODIMM_REVERSED"
 			(at 121.158 275.336 0)
 			(effects
 				(font
@@ -17241,7 +17275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fibel2:SODIMMx260"
+		(property "Footprint" "Fibel2:SODIMM_REVERSED"
 			(at 273.558 265.176 0)
 			(effects
 				(font
@@ -18120,7 +18154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fibel2:SODIMMx260"
+		(property "Footprint" "Fibel2:SODIMM_REVERSED"
 			(at 121.158 140.716 0)
 			(effects
 				(font
@@ -19040,6 +19074,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 182.88 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99565ddb-0590-422e-9c37-77ba90551a0a")
+		(property "Reference" "#PWR034"
+			(at 182.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c8ff7b3-02ef-4193-b87a-c01631fe5b9c")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/36a293ae-b0d7-4698-aa86-662a0ac946ae"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 345.44 236.22 0)
 		(unit 1)
@@ -19110,6 +19210,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 133.35 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afc9d0b7-d3c8-4f2c-adec-4bbff8c7988c")
+		(property "Reference" "#PWR031"
+			(at 133.35 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60819f84-38ff-4825-9785-57bee9194b72")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/36a293ae-b0d7-4698-aa86-662a0ac946ae"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Orin Nano_1")
 		(lib_id "Fibel2:Orin Nano")
 		(at 284.48 88.9 0)
@@ -19136,7 +19302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fibel2:SODIMMx260"
+		(property "Footprint" "Fibel2:SODIMM_REVERSED"
 			(at 273.558 150.876 0)
 			(effects
 				(font
@@ -20104,10 +20270,79 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "2ed60e48-0193-4438-886f-b6a1b8894f3b")
+		)
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/36a293ae-b0d7-4698-aa86-662a0ac946ae"
 					(reference "A501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 285.75 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dec7f08c-e7a3-4a5d-b3cf-b543588bdbd2")
+		(property "Reference" "#PWR033"
+			(at 285.75 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 285.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 285.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91f35723-1cd9-4513-a098-280d0106c7ac")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/36a293ae-b0d7-4698-aa86-662a0ac946ae"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)

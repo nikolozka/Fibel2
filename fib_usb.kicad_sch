@@ -17188,7 +17188,7 @@
 			)
 		)
 	)
-	(global_label "USB2_D_N"
+	(global_label "USB0_D_N"
 		(shape input)
 		(at 313.69 93.98 180)
 		(effects
@@ -17714,7 +17714,7 @@
 			)
 		)
 	)
-	(global_label "USB2_D_P"
+	(global_label "USB0_D_P"
 		(shape input)
 		(at 313.69 91.44 180)
 		(effects
