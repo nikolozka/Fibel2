@@ -1,0 +1,180 @@
+(footprint "7.8 EInk"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3.366 -0.508 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e8b7ce70-44ba-400b-9c1c-9a2e22ae1251")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "7.8 EInk"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2adc5fc2-3785-4e08-a80c-a01a42eda467")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4736e98-c095-4c5c-a3de-387f76946d3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "017b449f-4138-45df-9fe6-b010fe283deb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0b8e3eb-2796-48f9-b6eb-85532d1b5fd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -79.692 59.911)
+		(end 79.692 -59.927)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d5640974-44ff-419f-9821-9be97eea299c")
+	)
+	(fp_line
+		(start 79.692 59.911)
+		(end -79.692 -59.927)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5308ebfc-6307-4482-ac32-5d9212d5e006")
+	)
+	(fp_rect
+		(start -83.534 -63.808)
+		(end 90.266 63.792)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "532af7dc-5bf8-41ac-971d-6601bcd71fd9")
+	)
+	(fp_rect
+		(start -82.486 -62.608)
+		(end 84.114 62.592)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "92389362-c945-42ad-9ff4-52a67f22e456")
+	)
+	(fp_rect
+		(start -79.692 -59.927)
+		(end 79.692 59.911)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "91d26287-aed4-46dc-b222-0b3e772ce73f")
+	)
+	(fp_rect
+		(start 90.428 -49.276)
+		(end 109.728 49.334)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c16cbede-b0c9-41aa-978d-439186e3dae6")
+	)
+	(fp_rect
+		(start 96.52 -96.52)
+		(end 109.728 -49.53)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dc91f99c-109d-4f61-83d4-0868569564d8")
+	)
+	(fp_poly
+		(pts
+			(xy 109.728 -96.52) (xy 96.52 -96.52) (xy 96.52 -104.14) (xy 116.84 -104.14) (xy 116.84 -101.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1d97eb21-de60-4e4c-a466-1bc54aa37193")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b3ea61e8-d27b-4fda-851c-30c54f88b011")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/Eink_Panel.stp"
+		(offset
+			(xyz 3.5 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

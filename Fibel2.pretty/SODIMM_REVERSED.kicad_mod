@@ -539,6 +539,13 @@
 			)
 		)
 	)
+	(pad "" smd rect
+		(at -37.75 0.075)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "173d5395-f0e3-4b21-85ea-cff6b854843a")
+	)
 	(pad "" np_thru_hole circle
 		(at -34.4 -7.925)
 		(size 1.65 1.65)
@@ -552,6 +559,13 @@
 		(drill 1.15)
 		(layers "*.Cu" "*.Mask")
 		(uuid "8139f559-9a5f-47c9-ad07-958462ec9a16")
+	)
+	(pad "" smd rect
+		(at 37.75 4.075)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a76f1c56-3c06-48a3-89f2-358ea2c0bfdb")
 	)
 	(pad "1" smd rect
 		(at -33.375 -3.825)
@@ -2112,20 +2126,6 @@
 		(size 0.3 1.75)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "34bfec1f-1fdb-4d74-8c93-a678810fb18d")
-	)
-	(pad "MH1" smd rect
-		(at -37.75 0.075)
-		(size 3 4)
-		(layers "*.Mask" "B.Cu")
-		(thermal_bridge_angle 45)
-		(uuid "173d5395-f0e3-4b21-85ea-cff6b854843a")
-	)
-	(pad "MH2" smd rect
-		(at 37.75 4.075)
-		(size 3 4)
-		(layers "*.Mask" "B.Cu")
-		(thermal_bridge_angle 45)
-		(uuid "a76f1c56-3c06-48a3-89f2-358ea2c0bfdb")
 	)
 	(model "${KIPRJMOD}/Fibel2.pretty/STEP/2309412-1.stp"
 		(opacity 0.6000)
