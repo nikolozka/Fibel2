@@ -1,4 +1,4 @@
-23700466789040179
+23703909958465237
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56658,6 +56658,20 @@ Fibel2
 0
 0
 Fibel2
+21992306
+2199230-6-2
+Connector
+0
+69
+69
+Fibel2
+121992306
+1-2199230-6
+Connector
+0
+71
+71
+Fibel2
 CAPMP6032X250
 
 
@@ -56691,7 +56705,7 @@ IC_TPS651851
 
 0
 65
-65
+49
 Fibel2
 IND_LQH5BPB4R7NT0L
 
@@ -56845,7 +56859,7 @@ XCVR_ESP32-S3-WROOM-1U
 
 0
 61
-61
+41
 Fibel2
 jetson-orin-nx-nano-module
 Jetson Orin NX series and Jetson Orin Nano

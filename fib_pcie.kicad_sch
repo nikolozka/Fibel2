@@ -5,129 +5,17 @@
 	(uuid "9a098e98-14cb-488e-b90a-0ce41b55693e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "jetson-orin-baseboard:+3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "Fibel2:Bus_M.2_1-2199230-6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "jetson-orin-baseboard:Bus_M.2_1-2199230-6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 45.72 -2.54 0)
+			(property "Reference" "J902"
+				(at 15.24 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "Bus_M.2_1-2199230-6"
@@ -141,7 +29,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "jetson-orin-baseboard-footprints:Bus_M.2_Socket_Key_M_TE_1-2199230-6"
+			(property "Footprint" "Fibel2:121992306"
 				(at 45.72 -10.16 0)
 				(effects
 					(font
@@ -163,7 +51,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "M.2 NGFF connector, key M"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -184,13 +72,12 @@
 				)
 			)
 			(property "MPN" "1-2199230-6"
-				(at 45.72 -5.08 0)
+				(at 15.24 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Author" "Antmicro"
@@ -1480,31 +1367,30 @@
 				)
 			)
 		)
-		(symbol "jetson-orin-baseboard:Bus_M.2_2199230-6"
+		(symbol "Fibel2:Bus_M.2_2199230-6"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "A"
-				(at 45.72 -1.27 0)
+			(property "Reference" "J901"
+				(at 15.24 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(thickness 0.15)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "Bus_M.2_2199230-6"
-				(at 45.72 -3.81 0)
+				(at 5.715 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
 					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "jetson-orin-baseboard-footprints:Bus_M.2_Socket_Key_E_TE_2199230-6"
+			(property "Footprint" "Fibel2:21992306"
 				(at 45.72 -6.35 0)
 				(effects
 					(font
@@ -1526,7 +1412,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "PCI Express/PCI Connectors .5PITCH 4.2H KEY E EMBOSS NGFF MINICARD"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1536,14 +1422,12 @@
 				)
 			)
 			(property "MPN" "2199230-6 "
-				(at 45.72 -11.43 0)
+				(at 15.24 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(thickness 0.15)
 					)
-					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer" "TE Connectivity"
@@ -2808,6 +2692,117 @@
 						)
 					)
 					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "jetson-orin-baseboard:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7944,7 +7939,7 @@
 			)
 		)
 	)
-	(global_label "I2S1_SDOUT"
+	(global_label "I2S1_DOUT"
 		(shape output)
 		(at 30.48 105.41 180)
 		(effects
@@ -16458,7 +16453,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jetson-orin-baseboard:Bus_M.2_2199230-6")
+		(lib_id "Fibel2:Bus_M.2_2199230-6")
 		(at 68.58 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16486,7 +16481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:Bus_M.2_Socket_Key_E_TE_2199230-6"
+		(property "Footprint" "Fibel2:21992306"
 			(at 114.3 38.1 0)
 			(effects
 				(font
@@ -16773,7 +16768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "jetson-orin-baseboard:Bus_M.2_1-2199230-6")
+		(lib_id "Fibel2:Bus_M.2_1-2199230-6")
 		(at 200.66 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16802,7 +16797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:Bus_M.2_Socket_Key_M_TE_1-2199230-6"
+		(property "Footprint" "Fibel2:121992306"
 			(at 246.38 48.26 0)
 			(effects
 				(font
