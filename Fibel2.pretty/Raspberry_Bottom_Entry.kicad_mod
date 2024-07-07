@@ -869,7 +869,7 @@
 	)
 	(model "${KIPRJMOD}/Fibel2.pretty/STEP/610020243021.step"
 		(offset
-			(xyz -11.4 19 2)
+			(xyz -12.7 24.7 2)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -880,7 +880,7 @@
 	)
 	(model "${KIPRJMOD}/Fibel2.pretty/STEP/610020243021.step"
 		(offset
-			(xyz 13.9 19 2)
+			(xyz 12.7 24.7 2)
 		)
 		(scale
 			(xyz 1 1 1)

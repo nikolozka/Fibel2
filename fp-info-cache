@@ -1,4 +1,4 @@
-23703909958465237
+23703911345751646
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56669,8 +56669,8 @@ Fibel2
 1-2199230-6
 Connector
 0
-71
-71
+69
+69
 Fibel2
 CAPMP6032X250
 
@@ -56796,7 +56796,7 @@ SODIMM_REVERSED
 Connector
 0
 262
-260
+262
 Fibel2
 SOIC127P790X216-8N
 
@@ -56865,7 +56865,7 @@ jetson-orin-nx-nano-module
 Jetson Orin NX series and Jetson Orin Nano
 Jetson Orin NX Jetson Orin Nano
 0
-65
+36
 1
 Fiducial
 Fiducial_0.5mm_Mask1.5mm

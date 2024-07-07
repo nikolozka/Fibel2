@@ -3343,12 +3343,6 @@
 		(uuid "3435cbaf-11f7-4e20-93d1-85e0210e7300")
 	)
 	(junction
-		(at 110.49 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bb111af-5bab-4441-822d-b80fbae64535")
-	)
-	(junction
 		(at 33.02 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3515,12 +3509,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fd99096-36c4-47cb-b8a0-b0063cbd7452")
-	)
-	(junction
-		(at 110.49 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afc75f21-3626-4c18-9c6d-2dfd371a58ea")
 	)
 	(junction
 		(at 189.23 34.29)
@@ -4765,16 +4753,6 @@
 			(type default)
 		)
 		(uuid "80663606-6c55-4f37-9b29-c641c709b892")
-	)
-	(wire
-		(pts
-			(xy 110.49 119.38) (xy 110.49 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f60bf1-0590-4715-b6b4-6c1a4051cc6c")
 	)
 	(wire
 		(pts
@@ -11429,7 +11407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 148.59 0)
 			(effects
 				(font

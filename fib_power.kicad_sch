@@ -5496,7 +5496,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4030-XXX"
 			(at 207.01 39.37 0)
 			(effects
 				(font
@@ -7381,7 +7381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4030-XXX"
 			(at 207.01 137.16 0)
 			(effects
 				(font
@@ -7586,7 +7586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4030-XXX"
 			(at 207.01 88.9 0)
 			(effects
 				(font

@@ -5,145 +5,6 @@
 	(uuid "a2ba6145-4096-4e04-ae65-11d8a4f92dc0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1626,6 +1487,165 @@
 				)
 			)
 		)
+		(symbol "Fibel2:JST_2_SMD"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J303"
+				(at 2.54 0.0001 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "JST_2_SMD"
+				(at 2.54 -2.5399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_2_SMD_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:CSD17581Q3A"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2582,6 +2602,12 @@
 		(color 0 0 0 0)
 		(uuid "f372b42a-8249-4999-84b3-b863008b66ac")
 	)
+	(junction
+		(at 222.25 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc2c3c94-a974-4395-8c7d-1edd882dd679")
+	)
 	(no_connect
 		(at 128.27 121.92)
 		(uuid "bdcece69-de16-41cc-90cc-70c401912891")
@@ -2668,7 +2694,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 46.99) (xy 222.25 46.99)
+			(xy 224.79 40.64) (xy 222.25 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3038,7 +3064,17 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 46.99) (xy 222.25 52.07)
+			(xy 40.64 78.74) (xy 40.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7f632c-4969-4677-8140-570b1b89bdf2")
+	)
+	(wire
+		(pts
+			(xy 222.25 40.64) (xy 222.25 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3448,6 +3484,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 48.26) (xy 229.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0ab2f2-6d42-4414-a62f-daa85639fa98")
+	)
+	(wire
+		(pts
 			(xy 81.28 76.2) (xy 81.28 82.55)
 		)
 		(stroke
@@ -3475,6 +3521,16 @@
 			(type default)
 		)
 		(uuid "b4913fa4-6ded-470f-b25c-3233e26aacb7")
+	)
+	(wire
+		(pts
+			(xy 229.87 63.5) (xy 229.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e24f2b-b5dc-4ad4-90d9-6fc8a4fe1f1a")
 	)
 	(wire
 		(pts
@@ -3658,7 +3714,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 49.53) (xy 224.79 55.88)
+			(xy 224.79 43.18) (xy 224.79 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4649,6 +4705,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 40.64 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "161974ec-562e-4939-808d-135ec4bd66b5")
+		(property "Reference" "#PWR036"
+			(at 40.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6840e1f7-592b-461f-be26-5ac55bd763be")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 185.42 66.04 90)
 		(unit 1)
@@ -5397,7 +5519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Fibel2:JST_2_SMD")
 		(at 229.87 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5457,6 +5579,9 @@
 		(pin "2"
 			(uuid "6b65e7f4-9bd2-43dc-808b-ab675db7e7bb")
 		)
+		(pin "MP"
+			(uuid "d34b913a-5e3b-4c05-89eb-0abeab184cbf")
+		)
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
@@ -5467,8 +5592,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 229.87 46.99 0)
+		(lib_id "Fibel2:JST_2_SMD")
+		(at 229.87 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5477,7 +5602,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a0775e5-163c-4f28-80b0-77ac22c5d656")
 		(property "Reference" "J303"
-			(at 232.41 46.9899 0)
+			(at 232.41 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5611,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 232.41 49.5299 0)
+			(at 232.41 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5620,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 229.87 46.99 0)
+			(at 229.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5629,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 46.99 0)
+			(at 229.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5638,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 229.87 46.99 0)
+			(at 229.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,6 +5652,9 @@
 		(pin "2"
 			(uuid "c68afb05-25a4-4117-baa8-f169f7798926")
 		)
+		(pin "MP"
+			(uuid "b6232825-db3a-46d9-93e9-cbee0a076d41")
+		)
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
@@ -5538,7 +5666,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 52.07 0)
+		(at 222.25 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5547,7 +5675,7 @@
 		(fields_autoplaced yes)
 		(uuid "430156db-5124-4fc2-b2dd-573cef20132d")
 		(property "Reference" "#PWR0314"
-			(at 222.25 58.42 0)
+			(at 222.25 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +5684,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 57.15 0)
+			(at 222.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5564,7 +5692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 52.07 0)
+			(at 222.25 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 52.07 0)
+			(at 222.25 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +5710,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 52.07 0)
+			(at 222.25 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,7 +6685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Fibel2:JST_2_SMD")
 		(at 40.64 66.04 0)
 		(mirror y)
 		(unit 1)
@@ -6614,6 +6742,9 @@
 		)
 		(pin "2"
 			(uuid "9e64acd4-3535-4842-a89c-a23d4c614700")
+		)
+		(pin "MP"
+			(uuid "eee49c9d-2850-4f97-9fda-3002da138dcf")
 		)
 		(instances
 			(project "Fibel2"
@@ -8395,7 +8526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 185.42 93.98 0)
 			(effects
 				(font
@@ -8567,6 +8698,72 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
 					(reference "R301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcedd39a-0c65-4cb9-9bb1-1b8d22a66bdd")
+		(property "Reference" "#PWR035"
+			(at 229.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a27c078a-72a7-4c00-ae63-3d02497261fb")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

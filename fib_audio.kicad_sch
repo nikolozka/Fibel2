@@ -7915,7 +7915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 104.14 64.77 0)
 			(effects
 				(font
@@ -8188,7 +8188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 104.14 67.31 0)
 			(effects
 				(font
@@ -9119,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 104.14 49.53 0)
 			(effects
 				(font
@@ -9536,7 +9536,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 72.39 184.15 0)
 			(effects
 				(font
@@ -10706,7 +10706,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:L0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 257.81 104.14 0)
 			(effects
 				(font
@@ -11186,7 +11186,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:L0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 78.74 179.07 0)
 			(effects
 				(font
@@ -11319,7 +11319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 104.14 46.99 0)
 			(effects
 				(font
@@ -11871,7 +11871,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 64.77 184.15 0)
 			(effects
 				(font
@@ -12218,7 +12218,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:L0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 257.81 64.77 0)
 			(effects
 				(font
@@ -12422,7 +12422,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Untitled:L0603"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 78.74 173.99 0)
 			(effects
 				(font

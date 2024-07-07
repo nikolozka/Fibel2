@@ -2262,7 +2262,7 @@
 						)
 					)
 				)
-				(number "MP1"
+				(number "MH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2272,7 +2272,7 @@
 			)
 			(pin passive line
 				(at 30.48 -74.93 180)
-				(length 3.81) hide
+				(length 3.81)
 				(name "MP"
 					(effects
 						(font
@@ -2280,7 +2280,7 @@
 						)
 					)
 				)
-				(number "MP2"
+				(number "MH2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2313,7 +2313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "jetson-orin-baseboard-footprints:Bus_M.2_Socket_Key_E_TE_2199230-6"
+		(property "Footprint" "Fibel2:21992306"
 			(at 45.72 -6.35 0)
 			(effects
 				(font
@@ -2399,7 +2399,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2561,7 +2561,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -2723,7 +2723,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -2831,7 +2831,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -2957,7 +2957,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -3083,7 +3083,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -3191,7 +3191,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -3317,7 +3317,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -3425,7 +3425,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -3443,7 +3443,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -3551,7 +3551,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -106.68 180)
+				(at 30.48 -109.22 180)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -3605,8 +3605,185 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -104.14 180)
+				(at 30.48 -105.41 180)
 				(length 2.54)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -105.41 180)
+				(length 2.54)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn_01x02"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J303"
+			(at 2.54 0.0001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 2.54 -2.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 3.81)
 				(name "MP"
 					(effects
 						(font
@@ -9378,6 +9555,165 @@
 					)
 				)
 				(number "99"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "JST_2_SMD"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J303"
+			(at 2.54 0.0001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST_2_SMD"
+			(at 2.54 -2.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "JST_2_SMD_1_1"
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 3.81)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
 					(effects
 						(font
 							(size 1.27 1.27)

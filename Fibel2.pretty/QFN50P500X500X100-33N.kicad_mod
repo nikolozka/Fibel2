@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -356,18 +359,6 @@
 		(fill solid)
 		(layer "F.Mask")
 		(uuid "7bbc7f68-a36d-42ac-ab2a-2e1790626023")
-	)
-	(fp_poly
-		(pts
-			(xy -0.18 -2.905) (xy 0.18 -2.905) (xy 0.18 -1.965) (xy -0.18 -1.965)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "8ecab108-8870-4a19-9aee-ff21d4565edb")
 	)
 	(fp_poly
 		(pts
