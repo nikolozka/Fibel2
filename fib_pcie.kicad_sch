@@ -6331,7 +6331,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 76.2) (xy 232.41 77.47)
+			(xy 232.41 74.93) (xy 232.41 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7099,6 +7099,17 @@
 		)
 		(uuid "b02b3e4c-ecff-4f77-a58c-07db216275b5")
 	)
+	(label "3V3_M2"
+		(at 232.41 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2d2e6d3-9f28-4b1c-b733-2aba9b657424")
+	)
 	(label "PCIE_WAKE_SEL1"
 		(at 44.45 38.1 0)
 		(fields_autoplaced yes)
@@ -7653,7 +7664,7 @@
 			)
 		)
 	)
-	(global_label "SYS_SDA"
+	(global_label "PCIE_SDA"
 		(shape bidirectional)
 		(at 129.54 59.69 0)
 		(effects
@@ -7737,7 +7748,7 @@
 			)
 		)
 	)
-	(global_label "SYS_SCL"
+	(global_label "PCIE_SCL"
 		(shape input)
 		(at 129.54 62.23 0)
 		(effects
@@ -9583,75 +9594,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
 					(reference "C912")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "jetson-orin-baseboard:+3V3")
-		(at 232.41 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26246330-f7f9-4f57-95e3-b5125a91df2d")
-		(property "Reference" "#PWR0912"
-			(at 232.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 229.87 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "885e5c1c-a985-4c82-955f-460e2c7ada00")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
-					(reference "#PWR0912")
 					(unit 1)
 				)
 			)

@@ -2043,6 +2043,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 91.44) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fcab4f9-b8c0-421e-b390-be55655f464d")
+	)
+	(wire
+		(pts
 			(xy 160.02 39.37) (xy 160.02 41.91)
 		)
 		(stroke
@@ -2803,16 +2813,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 91.44) (xy 171.45 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab1d21e3-31d0-44ab-a6c5-056f07cf032c")
-	)
-	(wire
-		(pts
 			(xy 200.66 127) (xy 205.74 127)
 		)
 		(stroke
@@ -3367,7 +3367,7 @@
 		)
 		(uuid "dd104542-8121-4dd5-b8a8-f0a139c6a7ab")
 	)
-	(label "POWER_EN"
+	(label "CARRIER_EN"
 		(at 160.02 34.29 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3378,8 +3378,8 @@
 		)
 		(uuid "74c2e182-7e6a-4c79-b34c-0b2942e8f47e")
 	)
-	(label "PG"
-		(at 168.91 41.91 0)
+	(label "PG_5V"
+		(at 167.64 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3400,8 +3400,8 @@
 		)
 		(uuid "9cd11e7d-8d21-45b5-8069-3c411ea5f81f")
 	)
-	(label "PG"
-		(at 168.91 91.44 0)
+	(label "PG_3V3"
+		(at 167.64 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3422,8 +3422,8 @@
 		)
 		(uuid "afbcb767-7228-41f1-a2a0-9c30b396bbe3")
 	)
-	(label "PG"
-		(at 168.91 139.7 0)
+	(label "PG_1V8"
+		(at 167.64 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7239,7 +7239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PP3V3"
+		(property "Value" "EPD_3V3"
 			(at 106.68 24.1299 0)
 			(effects
 				(font

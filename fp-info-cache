@@ -1,4 +1,4 @@
-23703911345751646
+23705635531192014
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56804,6 +56804,13 @@ SOIC127P790X216-8N
 0
 8
 8
+Fibel2
+SPM6530
+SPM6530
+Inductor (FeSi Core)
+0
+2
+2
 Fibel2
 TPS56428DDA
 

@@ -893,7 +893,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BQ25798RQMR:IC_BQ25798RQMR"
+			(property "Footprint" "Fibel2:IBQ25798RQMR"
 				(at 27.178 -2.54 0)
 				(effects
 					(font
@@ -6989,7 +6989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fibel2:SPM6530"
 			(at 124.46 99.06 0)
 			(effects
 				(font
