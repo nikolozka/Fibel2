@@ -6619,36 +6619,6 @@
 		)
 		(uuid "ffc7f39f-1f28-401b-8025-e2063ef997c4")
 	)
-	(text "PCIE_WAKE"
-		(exclude_from_sim no)
-		(at 20.574 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "461b0fb7-1fbb-48b0-a581-52dbe99ba271")
-	)
-	(text "SUSCLK"
-		(exclude_from_sim no)
-		(at 19.05 178.562 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6270e4b1-5f04-480d-8514-b328b584d234")
-	)
-	(text "Check if RX/TX needd too be swapped arouond\n"
-		(exclude_from_sim no)
-		(at 121.666 17.526 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "84135696-b4ee-4656-8f6f-8e15566944d2")
-	)
 	(text "BT"
 		(exclude_from_sim no)
 		(at 107.442 121.666 0)
@@ -6660,28 +6630,6 @@
 		)
 		(uuid "881323f1-842f-4e24-8045-87b8c2bfa4fd")
 	)
-	(text "NOTE:\nPlace bulk caps near \nto the M.2 power pads"
-		(exclude_from_sim no)
-		(at 30.988 192.786 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92355b22-9f8a-4e17-9ab4-5553b9ed51f3")
-	)
-	(text "NOTE:\nPlace bulk caps near \nto the M.2 power pads"
-		(exclude_from_sim no)
-		(at 236.22 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4b5ce0b-4970-449a-91e5-1f1092ce00db")
-	)
 	(text "WLAN\n"
 		(exclude_from_sim no)
 		(at 106.934 116.332 0)
@@ -6692,16 +6640,6 @@
 			(justify left bottom)
 		)
 		(uuid "c798433b-63b1-4d4a-996c-e8465482282d")
-	)
-	(text "ROOT MODE"
-		(exclude_from_sim no)
-		(at 20.828 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d9278b52-e810-4247-9c78-baa17b58a88c")
 	)
 	(label "C_PCIE0_TX2_N"
 		(at 198.12 92.71 180)
