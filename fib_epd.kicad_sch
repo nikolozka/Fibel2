@@ -3436,14 +3436,13 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ESP32-S3-WROOM-1U:XCVR_ESP32-S3-WROOM-1U"
+			(property "Footprint" "Fibel2:XCVR_ESP32-S3-WROOM-1U"
 				(at 0 -35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -4539,7 +4538,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "MBR0540:SOD-123"
+			(property "Footprint" "Fibel2:SOD-123"
 				(at 0 3.302 0)
 				(effects
 					(font
@@ -5829,7 +5828,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -5846,7 +5845,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -5872,7 +5871,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5890,7 +5889,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -5928,7 +5927,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -11451,7 +11450,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 251.46 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11495,7 +11494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 251.46 19.05 0)
 			(effects
 				(font
@@ -14572,7 +14571,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 69.85 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14616,7 +14615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 69.85 22.86 0)
 			(effects
 				(font
@@ -15609,7 +15608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 191.77 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15653,7 +15652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 191.77 19.05 0)
 			(effects
 				(font

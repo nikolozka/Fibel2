@@ -842,4 +842,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "7240078c-eee6-4794-91b1-1ac1bd56eeca")
 	)
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/QFN33.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )

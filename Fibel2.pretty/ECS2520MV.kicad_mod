@@ -1,0 +1,236 @@
+(footprint "ECS2520MV"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ECS-327ATQ2520MV-BS-TR-3")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4095808b-ebee-4641-abfd-ede95e7e0d52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ECS2520MV"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8bdabdad-bc7c-484c-babf-3a86855dbdaf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "414b60d6-74be-4360-a144-eb50f55fe811")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f0a1bcd-5bee-4f62-a29a-9b6ee8263fba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efa5ec20-d063-4262-8d19-fff3ac029e0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 1.7)
+		(end -0.9 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83eead13-720f-4ae8-aa16-47f57761dfa2")
+	)
+	(fp_line
+		(start -0.9 1.8)
+		(end -0.9 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb44f906-247c-40ea-bc74-ae5fcc8f368f")
+	)
+	(fp_arc
+		(start -0.9 1.7)
+		(mid -0.85 1.75)
+		(end -0.9 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cccda4a4-9860-4173-a53b-064c0c669764")
+	)
+	(fp_arc
+		(start -0.9 1.8)
+		(mid -0.95 1.75)
+		(end -0.9 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d01d3baf-fbe8-4374-be01-3db4882fc2ae")
+	)
+	(fp_line
+		(start -2.4 -2.2)
+		(end 2.4 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a65d6ab6-5b21-4718-8c66-c12507909a12")
+	)
+	(fp_line
+		(start -2.4 2.2)
+		(end -2.4 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81c4431b-185b-473a-9e71-7f14104e7c5a")
+	)
+	(fp_line
+		(start 2.4 -2.2)
+		(end 2.4 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c4bd7fb-10fe-40e8-9195-4313dff2078b")
+	)
+	(fp_line
+		(start 2.4 2.2)
+		(end -2.4 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16f1fdf4-584b-4a69-9f22-7b3dce7e6ef8")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06ed8b5a-8746-4825-8c36-2b361be848da")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16c0574c-1996-448a-910d-a80027270be8")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a281905d-9f2f-4226-a69a-d91113267735")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1565eab2-aba3-4127-8b8a-857f9b00908a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c95c2577-fcac-46ac-b5d9-2488331af1f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0.75 90)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dda78a64-a3e2-4766-bf3e-ee87b539fc04")
+	)
+	(pad "2" smd rect
+		(at 0.9 0.75 90)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "60e542fd-dd36-415d-8c99-a1e679072220")
+	)
+	(pad "3" smd rect
+		(at 0.9 -0.75 90)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0a007dc8-db5b-4750-91e1-5de8d92ac0f7")
+	)
+	(pad "4" smd rect
+		(at -0.9 -0.75 90)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eaac4e99-c094-4d91-9c72-185557c1c3ad")
+	)
+	(model "${KIPRJMOD}/Fibel2.pretty/STEP/ECS-2520MV.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

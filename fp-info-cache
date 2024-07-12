@@ -1,4 +1,4 @@
-23712518469635468
+23734889196392443
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56672,6 +56672,13 @@ Connector
 69
 69
 Fibel2
+23379928
+2337992-8-3
+Connector
+0
+20
+20
+Fibel2
 121992306
 1-2199230-6
 Connector
@@ -56692,6 +56699,13 @@ Conn_USB-C_WE_632723300011
 0
 32
 25
+Fibel2
+ECS2520MV
+ECS-327ATQ2520MV-BS-TR-3
+Crystal or Oscillator
+0
+4
+4
 Fibel2
 ED060SC4
 FH26W-39S-0.3SHW(60)-2
@@ -56714,12 +56728,33 @@ Connector
 35
 35
 Fibel2
+Ferrite_1206
+
+Ferrite
+0
+2
+2
+Fibel2
+Fuse_1206
+
+Fuse
+0
+2
+2
+Fibel2
 IBQ25798RQMR
 
 
 0
 29
 29
+Fibel2
+ICS43434
+ICS-43434-4
+Integrated Circuit
+0
+6
+6
 Fibel2
 IC_TPS65987DDHRSHR
 
@@ -56748,6 +56783,27 @@ IND_LQH44PN4R7MP0L
 0
 2
 2
+Fibel2
+JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+4
+3
+Fibel2
+KMR211NGLFS
+KMR211NGLFS-1
+Switch
+0
+4
+4
+Fibel2
+MIC_Respeaker
+
+
+0
+4
+4
 Fibel2
 QFN-16_1EP_4x4mm_P0.65mm
 
@@ -56791,6 +56847,13 @@ QFP50P1600X1600X120-101N
 101
 101
 Fibel2
+RB521S30T1G
+
+
+0
+2
+2
+Fibel2
 RPi Pico
 
 
@@ -56804,6 +56867,13 @@ Raspberry_Bottom_Entry
 0
 46
 40
+Fibel2
+SJ235954DSMTTR
+SJ2-35954D-SMT-TR-2
+Connector
+0
+6
+6
 Fibel2
 SOD-123
 
@@ -56833,9 +56903,30 @@ SOIC127P790X216-8N
 8
 8
 Fibel2
+SOT-23-6
+
+
+0
+6
+6
+Fibel2
+SOT-523
+
+
+0
+3
+3
+Fibel2
 SPM6530
 SPM6530
 Inductor (FeSi Core)
+0
+2
+2
+Fibel2
+TPD1E0B04DPYT
+TPD1E0B04DPYT-2
+TVS Diode (Bi-directional)
 0
 2
 2
