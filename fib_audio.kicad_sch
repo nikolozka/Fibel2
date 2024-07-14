@@ -8947,7 +8947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SJ235954DSMTTR"
+		(property "Footprint" "Fibel2:SJ235954DSMTTR"
 			(at 133.35 209.22 0)
 			(effects
 				(font
@@ -9149,7 +9149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICS43434"
+		(property "Footprint" "Fibel2:ICS43434"
 			(at 184.15 160.96 0)
 			(effects
 				(font
@@ -9680,7 +9680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+1V8"
 			(at 125.73 16.51 0)
 			(effects
 				(font
@@ -11619,7 +11619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICS43434"
+		(property "Footprint" "Fibel2:ICS43434"
 			(at 184.15 215.57 0)
 			(effects
 				(font
@@ -11960,7 +11960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICS43434"
+		(property "Footprint" "Fibel2:ICS43434"
 			(at 184.15 196.52 0)
 			(effects
 				(font
@@ -12635,7 +12635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+1V8"
 			(at 100.33 16.51 0)
 			(effects
 				(font
@@ -13998,7 +13998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "A1V8"
+		(property "Value" "+1V8"
 			(at 199.39 58.42 0)
 			(effects
 				(font
@@ -14274,7 +14274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICS43434"
+		(property "Footprint" "Fibel2:ICS43434"
 			(at 184.15 178.74 0)
 			(effects
 				(font

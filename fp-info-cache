@@ -1,4 +1,4 @@
-23734889196392443
+23738331155156069
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56819,6 +56819,13 @@ QFN40P450X250X80-31N120X320
 31
 31
 Fibel2
+QFN50P300X300X100-17N
+sot758-1
+Integrated Circuit
+0
+17
+17
+Fibel2
 QFN50P500X500X100-33N
 
 
@@ -56951,6 +56958,13 @@ TSOT23-6
 0
 6
 6
+Fibel2
+TXB0108
+RGY (R-PVQFN-N20)
+Integrated Circuit
+0
+21
+21
 Fibel2
 USB-C_GCT_USB4105-GF-A
 
