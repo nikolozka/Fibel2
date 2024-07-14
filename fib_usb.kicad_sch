@@ -13461,7 +13461,7 @@
 		)
 		(uuid "15314b73-2c99-449c-b553-cbbde6d925c1")
 	)
-	(label "PDC_I2C2_SDA"
+	(label "PDC_I2C1_SDA"
 		(at 173.355 44.45 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13791,7 +13791,7 @@
 		)
 		(uuid "6447fc52-71e7-4b91-91c8-edbeb0f69909")
 	)
-	(label "PDC_I2C2_SDA"
+	(label "PDC_I2C1_SDA"
 		(at 93.98 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14088,7 +14088,7 @@
 		)
 		(uuid "bc2d1043-b9ba-403b-846e-4839f9f6fce8")
 	)
-	(label "PDC_I2C2_SCL"
+	(label "PDC_I2C1_SCL"
 		(at 173.355 46.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14132,7 +14132,7 @@
 		)
 		(uuid "c27c10eb-66b6-4916-9fbe-7d71392d7619")
 	)
-	(label "PDC_I2C2_IRQn"
+	(label "PDC_I2C1_IRQn"
 		(at 93.98 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14286,7 +14286,7 @@
 		)
 		(uuid "e9ef2c1b-f379-4125-8144-a05fdea047a1")
 	)
-	(label "PDC_I2C2_SCL"
+	(label "PDC_I2C1_SCL"
 		(at 93.98 85.09 0)
 		(fields_autoplaced yes)
 		(effects

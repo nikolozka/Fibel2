@@ -2566,9 +2566,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2584,7 +2584,7 @@
 					)
 				)
 				(pin passive line
-					(at 10.16 -2.54 180)
+					(at 0 -2.54 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -6578,33 +6578,12 @@
 		)
 		(uuid "31c251fe-ce67-4519-89fe-1010009810a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.3793 121.8406 0)
+			(at 107.8072 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{RESET}"
-		(shape bidirectional)
-		(at 266.7 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97ac091b-e5d6-4b7e-a45f-d495db71fe98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.86 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6622,6 +6601,28 @@
 		(uuid "d53c375f-0aa1-466b-8483-a1ba7333df40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 225.1747 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SYS_RESET"
+		(shape input)
+		(at 266.7 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d99313b1-6d46-4f42-9677-b6677fa6f334")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.9055 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
