@@ -1,4 +1,4 @@
-23736611122585882
+23740054722143292
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56700,6 +56700,13 @@ Conn_USB-C_WE_632723300011
 32
 25
 Fibel2
+DM3ATSFPEJM540
+DM3AT-SF-PEJM5(40)-3
+Connector
+0
+14
+14
+Fibel2
 ECS2520MV
 ECS-327ATQ2520MV-BS-TR-3
 Crystal or Oscillator
@@ -56818,6 +56825,13 @@ Integrated Circuit
 0
 17
 17
+Fibel2
+QFN50P400X400X80-25N
+WQFN-24
+Integrated Circuit
+0
+25
+25
 Fibel2
 QFN50P500X500X100-33N
 

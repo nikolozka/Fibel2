@@ -1646,6 +1646,128 @@
 				)
 			)
 		)
+		(symbol "Fibel2:R_Small_Rota"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.048 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_Rota"
+				(at -0.508 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_Rota_0_1"
+				(rectangle
+					(start -1.778 0.762)
+					(end 1.778 -0.762)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_Rota_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Fibel2:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -2453,6 +2575,12 @@
 		(uuid "1ffadcc3-c713-4862-8420-614a1c591f7e")
 	)
 	(junction
+		(at 125.73 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2018f752-6988-4bb8-8ec9-0e0aff677963")
+	)
+	(junction
 		(at 214.63 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3168,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 114.3) (xy 134.62 114.3)
+			(xy 116.84 114.3) (xy 134.62 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3478,6 +3606,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92165e4b-e718-4729-9d42-459c2ae1a818")
+	)
+	(wire
+		(pts
 			(xy 31.75 106.68) (xy 44.45 106.68)
 		)
 		(stroke
@@ -3558,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 116.84) (xy 134.62 116.84)
+			(xy 116.84 116.84) (xy 134.62 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3778,6 +3916,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 111.76) (xy 123.19 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d354d21b-1f35-4116-938f-abc4faa12e53")
+	)
+	(wire
+		(pts
+			(xy 125.73 123.19) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5619194-9f12-4b60-a69e-09b6e954597a")
+	)
+	(wire
+		(pts
 			(xy 62.23 83.82) (xy 66.04 83.82)
 		)
 		(stroke
@@ -3835,6 +3993,16 @@
 			(type default)
 		)
 		(uuid "dc7fbe6d-c0b0-477d-b80b-31ba9bf8b8b1")
+	)
+	(wire
+		(pts
+			(xy 125.73 130.81) (xy 125.73 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfc262e-4429-48ac-8bf1-49cb58f60d5e")
 	)
 	(wire
 		(pts
@@ -3935,16 +4103,6 @@
 			(type default)
 		)
 		(uuid "f0f4fa52-dc95-4432-8441-d4902b70ebc5")
-	)
-	(wire
-		(pts
-			(xy 123.19 111.76) (xy 134.62 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3e01cf0-760d-4de2-8baa-d0189ffd090d")
 	)
 	(wire
 		(pts
@@ -4236,7 +4394,7 @@
 	)
 	(global_label "PWR_SCL"
 		(shape input)
-		(at 123.19 116.84 180)
+		(at 116.84 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4246,7 +4404,7 @@
 		)
 		(uuid "57d54a25-4418-4aaf-a358-7bb0703ecf6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.7382 116.84 0)
+			(at 105.3882 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4455,7 @@
 	)
 	(global_label "PWR_SDA"
 		(shape input)
-		(at 123.19 114.3 180)
+		(at 116.84 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4307,7 +4465,7 @@
 		)
 		(uuid "f9ac5594-7524-43de-acc7-c271014d14c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.6777 114.3 0)
+			(at 105.3277 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,6 +6015,146 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
 					(reference "J303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fibel2:R_Small_Rota")
+		(at 125.73 125.73 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b392dcb-1a61-4b62-ad08-d374e46e1f86")
+		(property "Reference" "R39"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10K"
+			(at 113.03 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k"
+			(at 127 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 100.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec87843b-a076-49c9-aeb7-5e6fe46acdc8")
+		)
+		(pin "2"
+			(uuid "df541fcd-4c5b-4954-95ab-c0c288d0152d")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -8262,6 +8560,72 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
 					(reference "C313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfdb8c99-482e-41e0-a1dd-c98c042e4ab6")
+		(property "Reference" "#PWR0163"
+			(at 125.73 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac1b13b1-9833-4d97-b7ac-a61b5ad676d4")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
