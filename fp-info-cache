@@ -1,4 +1,4 @@
-23738331155156069
+23736611122585882
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56708,7 +56708,7 @@ Crystal or Oscillator
 4
 Fibel2
 ED060SC4
-FH26W-39S-0.3SHW(60)-2
+XF2M-3315-1A-2
 Connector
 0
 41
@@ -56720,13 +56720,6 @@ Connector
 0
 38
 38
-Fibel2
-ED097OC4
-XF2M-3315-1A-2
-Connector
-0
-35
-35
 Fibel2
 Ferrite_1206
 

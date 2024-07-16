@@ -7240,12 +7240,6 @@
 		(uuid "68347c92-846c-421e-8ae1-f0610c6ce908")
 	)
 	(junction
-		(at 200.025 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68e5bfac-3b9a-4e74-bfbb-a0032045f8f8")
-	)
-	(junction
 		(at 256.54 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7618,6 +7612,10 @@
 		(uuid "fc2ef99c-15f8-422b-b644-0d214468fbcc")
 	)
 	(no_connect
+		(at 92.71 95.25)
+		(uuid "13119b58-6f95-4580-9f79-d281ea989d36")
+	)
+	(no_connect
 		(at 297.18 135.89)
 		(uuid "13ac9832-1b88-40c7-81bc-9f7a8dda8187")
 	)
@@ -7658,8 +7656,28 @@
 		(uuid "ad0750e9-9a8f-4f52-b336-0febe46dd5bf")
 	)
 	(no_connect
+		(at 92.71 46.99)
+		(uuid "b40a7aa9-6999-4135-98e6-4aaacbd514d3")
+	)
+	(no_connect
+		(at 92.71 49.53)
+		(uuid "c1ecbaea-d6d6-431f-884a-66cb72108b68")
+	)
+	(no_connect
+		(at 92.71 97.79)
+		(uuid "ca38ecb1-0631-4fcd-8b49-bda4360426f9")
+	)
+	(no_connect
 		(at 90.17 158.75)
 		(uuid "d45b427d-9877-40e0-a6a2-363b216cc050")
+	)
+	(no_connect
+		(at 92.71 92.71)
+		(uuid "e93fb83f-e14c-4a40-bb5a-77f35a27b762")
+	)
+	(no_connect
+		(at 92.71 44.45)
+		(uuid "edb46f0f-d4b9-43a9-971e-393108b1fae9")
 	)
 	(no_connect
 		(at 349.25 184.15)
@@ -8191,16 +8209,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 92.71) (xy 92.71 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a5158f9-79c6-4bcb-b14a-7781a5b7617b")
-	)
-	(wire
-		(pts
 			(xy 142.875 73.66) (xy 142.875 74.93)
 		)
 		(stroke
@@ -8268,16 +8276,6 @@
 			(type default)
 		)
 		(uuid "1e7bf379-b4eb-4729-b73d-ba9a8772564d")
-	)
-	(wire
-		(pts
-			(xy 196.85 31.75) (xy 200.025 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ead5d63-b2bd-4ab2-be44-03e22bb27728")
 	)
 	(wire
 		(pts
@@ -9131,16 +9129,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 97.79) (xy 92.71 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4584767d-f4bc-4d83-830e-00a1fe23a0e8")
-	)
-	(wire
-		(pts
 			(xy 92.71 30.48) (xy 107.95 30.48)
 		)
 		(stroke
@@ -9271,7 +9259,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 82.55) (xy 125.095 82.55)
+			(xy 119.38 82.55) (xy 127.635 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9298,16 +9286,6 @@
 			(type default)
 		)
 		(uuid "53995a93-390f-4074-9a86-4c9f03ab3eba")
-	)
-	(wire
-		(pts
-			(xy 109.22 95.25) (xy 92.71 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f2b5ed-bff4-49c6-b999-b485f6a16c54")
 	)
 	(wire
 		(pts
@@ -9478,16 +9456,6 @@
 			(type solid)
 		)
 		(uuid "5ae9c2b0-8953-4559-afd3-355a69f74531")
-	)
-	(wire
-		(pts
-			(xy 200.025 27.94) (xy 200.025 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b74d9b5-7e81-41bc-9288-7bb63ece77fa")
 	)
 	(wire
 		(pts
@@ -9781,16 +9749,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 49.53) (xy 111.76 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "667433f3-3871-4563-886a-24d55a21e74e")
-	)
-	(wire
-		(pts
 			(xy 137.16 212.09) (xy 137.16 217.17)
 		)
 		(stroke
@@ -9818,16 +9776,6 @@
 			(type default)
 		)
 		(uuid "67f5414a-142c-46ce-bf6f-f049576a037b")
-	)
-	(wire
-		(pts
-			(xy 92.71 46.99) (xy 111.76 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6951173e-829a-4d56-9e52-8a8f6ecf8c63")
 	)
 	(wire
 		(pts
@@ -10051,16 +9999,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 44.45) (xy 111.76 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739c9379-2680-4cf6-9c31-28343f93bfae")
-	)
-	(wire
-		(pts
 			(xy 50.8 172.72) (xy 50.8 173.99)
 		)
 		(stroke
@@ -10148,16 +10086,6 @@
 			(type default)
 		)
 		(uuid "76959042-ef83-45e1-a257-bdde82256598")
-	)
-	(wire
-		(pts
-			(xy 196.85 34.29) (xy 200.025 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76aa7962-6417-4b93-a491-f4388206bf39")
 	)
 	(wire
 		(pts
@@ -11131,16 +11059,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 170.18) (xy 213.36 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a455d1c1-117f-4ba4-8650-06b7814cd20a")
-	)
-	(wire
-		(pts
 			(xy 133.35 260.35) (xy 133.35 257.81)
 		)
 		(stroke
@@ -11441,16 +11359,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.025 34.29) (xy 200.025 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b684f286-e58b-4e78-aa4e-256cbd8cd334")
-	)
-	(wire
-		(pts
 			(xy 353.06 64.77) (xy 353.06 66.04)
 		)
 		(stroke
@@ -11518,16 +11426,6 @@
 			(type default)
 		)
 		(uuid "b8d0e4c9-cf4b-49ae-9309-6985d849238c")
-	)
-	(wire
-		(pts
-			(xy 175.26 31.75) (xy 191.77 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a0401a-7cf6-49ff-8486-9c29f7c77f52")
 	)
 	(wire
 		(pts
@@ -12561,16 +12459,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 34.29) (xy 191.77 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9f698e8-29b8-4bf6-abd4-5f2d11dde37e")
-	)
-	(wire
-		(pts
 			(xy 229.87 33.02) (xy 229.87 34.29)
 		)
 		(stroke
@@ -13384,17 +13272,6 @@
 		)
 		(uuid "0933a849-cef3-416c-be44-6e2cfe349eb3")
 	)
-	(label "PDC_I2C2_SDA"
-		(at 175.26 31.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "093d09b5-8293-4d87-ab15-a05de910b4d1")
-	)
 	(label "USBC0_FLIP"
 		(at 135.255 30.48 180)
 		(fields_autoplaced yes)
@@ -13604,17 +13481,6 @@
 		)
 		(uuid "32acf74d-7881-44d6-818b-6130b9674f7d")
 	)
-	(label "PDC_I2C3_SDA"
-		(at 94.615 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "332a1031-f834-4cfc-a691-6ec51e2ec61c")
-	)
 	(label "USBC3_CC2"
 		(at 323.85 215.9 0)
 		(fields_autoplaced yes)
@@ -13625,17 +13491,6 @@
 			(justify left bottom)
 		)
 		(uuid "3520be6b-62e2-4093-8479-a47d5ae7cdbd")
-	)
-	(label "~{PDC_I2C3_IRQ}"
-		(at 94.615 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c3e3791-2030-4538-928b-8c637a504286")
 	)
 	(label "USBC0_RX1_P"
 		(at 241.3 99.06 0)
@@ -13802,17 +13657,6 @@
 		)
 		(uuid "698560e2-7617-4e5b-84fa-f290b8b35983")
 	)
-	(label "PDC_I2C3_SCL"
-		(at 94.615 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69aa756d-b8ee-4c37-888d-9d0225f207e8")
-	)
 	(label "USBC0_TX1_N"
 		(at 241.3 109.22 0)
 		(fields_autoplaced yes)
@@ -13845,17 +13689,6 @@
 			(justify right bottom)
 		)
 		(uuid "6d70390d-e854-4e6e-9412-801838bca2db")
-	)
-	(label "PDC_I2C2_SDA"
-		(at 93.98 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d8f920e-4326-46d5-8ef3-361612513e68")
 	)
 	(label "USBC0_SSEQ1"
 		(at 240.03 152.4 0)
@@ -13978,17 +13811,6 @@
 		)
 		(uuid "8e62e581-2231-4547-884c-36cca64a031b")
 	)
-	(label "PDC_I2C2_SCL"
-		(at 175.26 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9096d057-2283-4063-a780-df144743f82b")
-	)
 	(label "USB0_DCON_N"
 		(at 344.17 93.98 0)
 		(fields_autoplaced yes)
@@ -14010,17 +13832,6 @@
 			(justify right bottom)
 		)
 		(uuid "a43a7808-9d3a-42a8-98bc-8c99441b479a")
-	)
-	(label "PDC_I2C2_SCL"
-		(at 93.98 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a50e3353-ba57-4206-8902-32e8325496c7")
 	)
 	(label "USBC0_DPEQ1"
 		(at 240.03 157.48 0)
@@ -14352,17 +14163,6 @@
 		)
 		(uuid "f8a6e681-c5a1-4a8b-a2e3-32a70fda9ae5")
 	)
-	(label "PDC_I2C2_IRQn"
-		(at 93.98 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fce297f8-3801-456c-be46-9706d8d6aeb4")
-	)
 	(global_label "DEBUG_TXD"
 		(shape input)
 		(at 96.52 153.67 0)
@@ -14380,7 +14180,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14401,7 +14200,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14422,7 +14220,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14443,7 +14240,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14464,7 +14260,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14486,7 +14281,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14507,7 +14301,6 @@
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14528,7 +14321,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14549,7 +14341,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14570,7 +14361,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14591,7 +14381,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14612,7 +14401,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14633,7 +14421,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14654,7 +14441,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14675,7 +14461,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14696,7 +14481,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14717,7 +14501,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14738,7 +14521,6 @@
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14759,7 +14541,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14780,7 +14561,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14801,7 +14581,6 @@
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14822,7 +14601,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14843,7 +14621,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14864,7 +14641,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14885,7 +14661,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14906,7 +14681,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14927,7 +14701,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14948,7 +14721,6 @@
 					(size 1 1)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14969,7 +14741,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -14990,7 +14761,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15011,7 +14781,6 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -15032,13 +14801,12 @@
 					(size 1.1 1.1)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "GPIO010"
 		(shape output)
-		(at 125.095 82.55 0)
+		(at 127.635 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15047,13 +14815,12 @@
 		)
 		(uuid "e3c2a8d3-74c5-4e36-b9ce-753dfc20721d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 82.55 0)
+			(at 138.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15075,7 +14842,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -15096,7 +14862,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -15117,7 +14882,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -20843,120 +20607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Fibel2:TestPoint")
-		(at 111.76 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33a64854-fee3-4e64-941b-f8e69ea00285")
-		(property "Reference" "TP409"
-			(at 116.205 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 127 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 127 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 111.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 111.76 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 127 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 127 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4db0046-ffc9-4ad3-9a96-1d5d21bc62fe")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "TP409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Fibel2:C_Small_Rota")
 		(at 24.13 153.67 270)
 		(unit 1)
@@ -23781,119 +23431,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Fibel2:TestPoint")
-		(at 210.82 170.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47e01ecd-0af0-4331-861a-19dc59433989")
-		(property "Reference" "TP411"
-			(at 203.2 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 195.58 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 195.58 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 210.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 210.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 210.82 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 195.58 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 195.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43d049c3-6a36-46a2-bcfc-bada582c2ca9")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "TP411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Fibel2:C_Small_Rota")
 		(at 389.89 46.99 90)
 		(unit 1)
@@ -26396,120 +25933,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Fibel2:TestPoint")
-		(at 111.76 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65c9cc69-4b12-42de-9087-698adc5fb518")
-		(property "Reference" "TP408"
-			(at 116.205 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 127 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 127 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 111.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 111.76 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 127 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 127 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffe61a72-6d6e-4c4f-85a5-540af2a54e83")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "TP408")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Fibel2:C_Small_Rota")
 		(at 22.86 198.12 90)
 		(mirror x)
@@ -26912,120 +26335,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
 					(reference "D401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Fibel2:TestPoint")
-		(at 109.22 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69689f5c-0af6-4dc9-847c-fee89c5c6ff6")
-		(property "Reference" "TP405"
-			(at 114.3 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 124.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 109.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 109.22 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 124.46 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d60293d3-b58f-4501-a841-0f74f060448c")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "TP405")
 					(unit 1)
 				)
 			)
@@ -29709,189 +29018,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
 					(reference "#PWR0412")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 200.025 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8299a89b-be7b-4af3-9d5e-730cf7e6013b")
-		(property "Reference" "#PWR0436"
-			(at 200.025 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 200.025 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.025 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.025 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 200.025 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9593c23-8ef2-4dc1-8b32-181266d5128f")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "#PWR0436")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Fibel2:TestPoint")
-		(at 111.76 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8394b46b-56a2-488a-b816-5adc535892c1")
-		(property "Reference" "TP407"
-			(at 116.205 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 127 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 127 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 111.76 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 127 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 127 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0360aa6b-7e8d-4ff1-9cde-8385c823c5e3")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "TP407")
 					(unit 1)
 				)
 			)
@@ -33457,145 +32583,6 @@
 	)
 	(symbol
 		(lib_id "Fibel2:R_Small_Rota")
-		(at 194.31 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab1a1ba7-3b95-4247-a03a-6ae3c8c5003c")
-		(property "Reference" "R437"
-			(at 191.77 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 173.99 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.99 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 194.31 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 173.99 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4701GLF"
-			(at 173.99 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4k7"
-			(at 195.58 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 173.99 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 173.99 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 173.99 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "014c1896-961f-4d53-9ac7-7cd56499e243")
-		)
-		(pin "2"
-			(uuid "3de179fa-deb0-4412-ab9e-eefe23241b9e")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "R437")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Fibel2:R_Small_Rota")
 		(at 121.92 139.7 270)
 		(mirror x)
 		(unit 1)
@@ -35016,120 +34003,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
 					(reference "R453")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Fibel2:TestPoint")
-		(at 44.45 203.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b562da8e-2bed-4728-a27f-e0c54cc18e29")
-		(property "Reference" "TP403"
-			(at 39.37 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 29.21 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 29.21 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 44.45 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 44.45 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 44.45 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 29.21 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 29.21 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bddc08a4-4b83-4781-a74c-bf6d66873057")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "TP403")
 					(unit 1)
 				)
 			)
@@ -37058,145 +35931,6 @@
 	)
 	(symbol
 		(lib_id "Fibel2:R_Small_Rota")
-		(at 194.31 34.29 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce95f201-5b44-41e0-931a-9c47ba3d5c3f")
-		(property "Reference" "R438"
-			(at 191.135 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 173.99 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.99 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 194.31 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 173.99 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-4701GLF"
-			(at 173.99 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "4k7"
-			(at 195.58 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 173.99 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 173.99 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 173.99 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18684c4c-5e33-4028-8ecb-9a58fbcd56c9")
-		)
-		(pin "2"
-			(uuid "3b3187ee-5645-409c-b34f-c194a3414f26")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "R438")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Fibel2:R_Small_Rota")
 		(at 269.24 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38246,234 +36980,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
 					(reference "TP401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Fibel2:TestPoint")
-		(at 109.22 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dceb9874-ef6b-4389-8e13-681288067329")
-		(property "Reference" "TP404"
-			(at 114.3 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.46 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 109.22 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 124.46 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 124.46 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55f26a7a-5dde-438e-a703-79e958b9c7be")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "TP404")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Fibel2:TestPoint")
-		(at 109.22 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd5ca715-889c-48dc-8e7b-6ad4d65fd9ca")
-		(property "Reference" "TP406"
-			(at 114.3 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.46 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 109.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 109.22 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e31a0c3-0f74-4195-a726-e0dc4bd301a0")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
-					(reference "TP406")
 					(unit 1)
 				)
 			)
