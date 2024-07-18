@@ -6364,6 +6364,16 @@
 		)
 		(uuid "6e212b8f-ed8f-439f-98c3-136c524d40a8")
 	)
+	(text "ADD Testpoints and order"
+		(exclude_from_sim no)
+		(at 232.664 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89f533c5-7f54-4e2b-9713-4738f06b9090")
+	)
 	(text "1V8\n"
 		(exclude_from_sim no)
 		(at 61.214 25.146 0)
@@ -11143,7 +11153,7 @@
 			(uuid "9e5f53ab-b33f-4a6d-bb7a-f6fbdfd017d2")
 		)
 		(instances
-			(project ""
+			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "F1")
 					(unit 1)
@@ -15343,7 +15353,7 @@
 			(uuid "b1d3ba9c-8338-4797-8ceb-3b622625fee0")
 		)
 		(instances
-			(project ""
+			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "FB1")
 					(unit 1)

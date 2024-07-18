@@ -21455,7 +21455,7 @@
 			(uuid "a6736e3a-9284-43dd-afe5-f723dc556374")
 		)
 		(instances
-			(project ""
+			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
 					(reference "U3")
 					(unit 1)
@@ -22649,7 +22649,7 @@
 			(uuid "a6736e3a-9284-43dd-afe5-f723dc556375")
 		)
 		(instances
-			(project ""
+			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
 					(reference "U3")
 					(unit 2)
@@ -26608,7 +26608,7 @@
 			(uuid "a6736e3a-9284-43dd-afe5-f723dc556376")
 		)
 		(instances
-			(project ""
+			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/808bb661-cfbd-4d07-9fcd-6e3520b5f848"
 					(reference "U3")
 					(unit 3)

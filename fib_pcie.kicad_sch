@@ -10567,7 +10567,7 @@
 			(uuid "41cfd480-8dab-4f56-af43-317c7a638969")
 		)
 		(instances
-			(project ""
+			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/afa85234-73ed-4fc7-9570-87e781c133e5"
 					(reference "Y1")
 					(unit 1)
