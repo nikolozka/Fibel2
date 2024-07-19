@@ -2563,6 +2563,12 @@
 		(uuid "0aff55ba-f3fa-4c2e-bdd7-2f5666e86b6d")
 	)
 	(junction
+		(at 81.28 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b070539-e876-4863-a4c5-c5c71f823c7a")
+	)
+	(junction
 		(at 189.23 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2659,6 +2665,12 @@
 		(uuid "571f1042-1213-4fab-bbec-4fec3d99edba")
 	)
 	(junction
+		(at 113.03 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57a4af16-b195-4e70-8911-aa7aad84cf91")
+	)
+	(junction
 		(at 227.33 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2669,6 +2681,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "595d2ad8-e2b4-4b8e-8e0d-815851c83d2a")
+	)
+	(junction
+		(at 81.28 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e1995a6-cdc7-4fca-a1a1-390910427c9e")
 	)
 	(junction
 		(at 237.49 99.06)
@@ -2797,6 +2815,12 @@
 		(uuid "cc200612-3493-4032-87bc-e3cf077e5431")
 	)
 	(junction
+		(at 113.03 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd307ad2-5186-4928-b0c9-c3570542db9b")
+	)
+	(junction
 		(at 87.63 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2831,6 +2855,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eafdd21f-f2fd-47f3-939a-bebe57cdcd0d")
+	)
+	(junction
+		(at 180.34 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee14e935-ba41-49eb-bcfe-2d1f997709d0")
 	)
 	(junction
 		(at 213.36 78.74)
@@ -3166,6 +3196,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 114.3) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db816c7-7f43-4dcd-9681-16ab2386945c")
+	)
+	(wire
+		(pts
 			(xy 107.95 73.66) (xy 107.95 90.17)
 		)
 		(stroke
@@ -3296,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 134.62 114.3)
+			(xy 109.22 114.3) (xy 113.03 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3696,7 +3736,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 116.84) (xy 134.62 116.84)
+			(xy 109.22 116.84) (xy 113.03 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3913,6 +3953,16 @@
 			(type default)
 		)
 		(uuid "cc90c343-8591-4e01-a274-0bd206cef891")
+	)
+	(wire
+		(pts
+			(xy 113.03 116.84) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1539db8-57c6-434c-8639-d5805d418ad2")
 	)
 	(wire
 		(pts
@@ -4184,25 +4234,6 @@
 		)
 		(uuid "fe34e783-04cf-4199-ae98-af0d852e14fe")
 	)
-	(text_box "Double check the inductor"
-		(exclude_from_sim no)
-		(at 81.28 103.505 0)
-		(size 33.655 3.175)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "65064c4d-f563-4071-99b5-cca9ac9de816")
-	)
 	(text_box "OTG?"
 		(exclude_from_sim no)
 		(at 238.76 80.01 0)
@@ -4251,16 +4282,6 @@
 			)
 		)
 		(uuid "38908216-3a7e-4f3f-9877-186d1ba3fc57")
-	)
-	(text "Should be possibel to ignore DP/DN and connect USBPD1/2_HV"
-		(exclude_from_sim no)
-		(at 52.578 116.586 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ec0f244c-4c05-445c-ba24-7ba6984a5f55")
 	)
 	(label "CHG_DP"
 		(at 44.45 109.22 0)
@@ -4394,7 +4415,7 @@
 	)
 	(global_label "PWR_SCL"
 		(shape input)
-		(at 116.84 116.84 180)
+		(at 109.22 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4404,7 +4425,7 @@
 		)
 		(uuid "57d54a25-4418-4aaf-a358-7bb0703ecf6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.3882 116.84 0)
+			(at 97.7682 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4476,7 @@
 	)
 	(global_label "PWR_SDA"
 		(shape input)
-		(at 116.84 114.3 180)
+		(at 109.22 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4465,7 +4486,7 @@
 		)
 		(uuid "f9ac5594-7524-43de-acc7-c271014d14c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.3277 114.3 0)
+			(at 97.7077 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,6 +4690,120 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
 					(reference "#PWR0313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 81.28 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c874661-88f6-4fec-a4a4-277b130ea89c")
+		(property "Reference" "TPPG2"
+			(at 78.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba77dd67-2327-46d4-abcd-ac44a4b4fff7")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "TPPG2")
 					(unit 1)
 				)
 			)
@@ -5770,7 +5905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34fbacce-fdc6-431c-80e8-3262e1c8ed51")
-		(property "Reference" "TP3"
+		(property "Reference" "TPCHGE1"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -5868,7 +6003,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
-					(reference "TP3")
+					(reference "TPCHGE1")
 					(unit 1)
 				)
 			)
@@ -7261,7 +7396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cfe6df8-7b50-4119-84a9-6f3cc1eb76f3")
-		(property "Reference" "TP2"
+		(property "Reference" "TPCHGI1"
 			(at 120.65 116.84 0)
 			(effects
 				(font
@@ -7359,7 +7494,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
-					(reference "TP2")
+					(reference "TPCHGI1")
 					(unit 1)
 				)
 			)
@@ -8132,6 +8267,120 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 113.03 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a76c183a-549a-49dd-9eb4-79947f8dab7e")
+		(property "Reference" "TPPSCL1"
+			(at 109.474 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 105.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 102.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 97.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec16e858-966a-4323-9f20-2de239b6cb73")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "TPPSCL1")
 					(unit 1)
 				)
 			)
@@ -8973,6 +9222,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 81.28 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6bb62d3-855c-43ee-bac9-d8134fd57c35")
+		(property "Reference" "TPPG1"
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17c25864-7e19-4365-8b2a-af38801296be")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "TPPG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 194.31 116.84 0)
 		(unit 1)
@@ -9245,6 +9608,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 180.34 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9fe2a1f-c0bd-4bad-b795-69636a1c9a2d")
+		(property "Reference" "TPTH1"
+			(at 182.88 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 170.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 180.34 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 162.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd528d74-f8c6-4636-b06b-b6b2a7ea46fc")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "TPTH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Thermistor")
 		(at 185.42 116.84 90)
 		(unit 1)
@@ -9381,6 +9859,120 @@
 	)
 	(symbol
 		(lib_id "Fibel2:TestPoint")
+		(at 113.03 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8619915-d3da-4732-bd96-fe345e755bfd")
+		(property "Reference" "TPPSDA1"
+			(at 109.474 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 120.65 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 113.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 113.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 128.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14f829dc-91b0-47e8-a908-cfaae79112a1")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
+					(reference "TPPSDA1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fibel2:TestPoint")
 		(at 237.49 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9389,12 +9981,13 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8646165-ee05-4b30-aea6-59e4b3385338")
-		(property "Reference" "TP5"
-			(at 240.03 76.2 0)
+		(property "Reference" "TPOTG1"
+			(at 242.57 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -9487,7 +10080,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/23d4f4f3-5c09-4966-9bf4-edbe4cd81212"
-					(reference "TP5")
+					(reference "TPOTG1")
 					(unit 1)
 				)
 			)

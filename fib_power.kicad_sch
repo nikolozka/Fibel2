@@ -1290,6 +1290,175 @@
 				)
 			)
 		)
+		(symbol "Fibel2:AYZ0102AURLC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AYZ0102AURLC"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "AYZ0102AURLC"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/1431/ayz.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switch SPDT Surface Mount, Right Angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.5"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "611-AYZ0102AURLC"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/AYZ0102AURLC?qs=By6Nw2ByBD1%2Fz8mFHu%2F4MQ%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "C & K COMPONENTS"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AYZ0102AURLC"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AYZ0102AURLC_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at 0 0 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Fibel2:C_Small_Rota"
 			(pin_numbers hide)
 			(pin_names
@@ -1416,6 +1585,193 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Fibel2:LT1963AEST-3.3#PBF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "LT1963AEST-3.3#PBF"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT230P700X180-4N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LDO Regulator 3.3V 1.5A Low Noise SOT223 Linear Technology LT1963AEST-3.3#PBF, LDO Voltage Regulator, 1.5A, 3.3 V, -20  20 Vin, 4-Pin SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.8"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "584-1963AEST-3.3PBF"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1963AEST-3.3PBF?qs=ytflclh7QUWACCdXyVJ5gA%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LT1963AEST-3.3#PBF"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LT1963AEST-3.3#PBF_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -12.7 90)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3103,6 +3459,108 @@
 				)
 			)
 		)
+		(symbol "Fibel2:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0.254 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 2.54 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:TLV75733PDBV"
 			(pin_names
 				(offset 0.254)
@@ -3755,25 +4213,13 @@
 		(uuid "0a7885e4-1121-4e1a-b2e8-130b18d782b3")
 	)
 	(junction
-		(at 85.09 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0cc05447-e911-4635-880a-15687502aead")
-	)
-	(junction
-		(at 73.66 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11e4d811-945e-4523-b410-d733fdc3c0e2")
-	)
-	(junction
 		(at 176.53 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "171b5070-3872-4332-adc8-0fd908ea1e81")
 	)
 	(junction
-		(at 111.76 147.32)
+		(at 92.71 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18736eb6-00af-41d7-a927-2dd83c9f16f6")
@@ -3833,6 +4279,12 @@
 		(uuid "33d04459-54c1-421a-bb73-850c59487c3c")
 	)
 	(junction
+		(at 166.37 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3595eb1b-ec0a-455c-9d83-ec4936835901")
+	)
+	(junction
 		(at 19.05 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3845,6 +4297,12 @@
 		(uuid "38d56653-30c3-4908-bd0b-582c27d1d464")
 	)
 	(junction
+		(at 95.25 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d4b566e-41c7-4a9d-b43c-6698a61ebf72")
+	)
+	(junction
 		(at 260.35 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3855,6 +4313,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "474d613c-8988-455e-851c-614a4da3b3b6")
+	)
+	(junction
+		(at 187.96 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4854d365-89cc-4536-8300-d04e908056cd")
 	)
 	(junction
 		(at 243.84 83.82)
@@ -3873,12 +4337,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ef5626d-d8ab-4443-bcb1-a71101fc8c6e")
-	)
-	(junction
-		(at 19.05 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "574db143-9cc2-4f85-9c13-2dd3a6f9be70")
 	)
 	(junction
 		(at 257.81 38.1)
@@ -3965,6 +4423,12 @@
 		(uuid "8f4fc5de-ad0e-4598-8579-06c19eb61bf3")
 	)
 	(junction
+		(at 41.91 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91b64bb2-4db1-4df3-a210-6a7ebd964f53")
+	)
+	(junction
 		(at 191.77 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3983,16 +4447,22 @@
 		(uuid "9517163d-10d8-46dc-8529-410ffa1ae6da")
 	)
 	(junction
-		(at 36.83 60.96)
+		(at 161.29 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "953307e0-2c8f-4f78-95e0-c53140bd9084")
+		(uuid "96913d68-156b-4cbd-ab12-4b6450884f3a")
 	)
 	(junction
 		(at 176.53 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e40b9fd-e993-4dc8-84c7-098a0bd0b602")
+	)
+	(junction
+		(at 276.86 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaecf4c8-43e1-4e69-bcdd-7a7c3ad6e563")
 	)
 	(junction
 		(at 267.97 45.72)
@@ -4031,10 +4501,10 @@
 		(uuid "bba74682-d495-4d67-a0fd-0538fd7af9c9")
 	)
 	(junction
-		(at 129.54 147.32)
+		(at 261.62 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c71abbd7-0cf3-4777-8c93-15b8ec840775")
+		(uuid "bed4cb4c-6180-4cec-9779-dc28981bbee0")
 	)
 	(junction
 		(at 252.73 83.82)
@@ -4053,6 +4523,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd2b46f7-cc48-4ff3-bebd-8b412937f555")
+	)
+	(junction
+		(at 205.74 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce635e0b-8e2f-491f-a5fb-d2386c50cd63")
 	)
 	(junction
 		(at 97.79 95.25)
@@ -4077,6 +4553,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dae8bfc3-9dd3-42c3-8479-d7eff827006a")
+	)
+	(junction
+		(at 187.96 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd298fd2-d790-4ea4-a320-33b0fab3bc76")
 	)
 	(junction
 		(at 154.94 147.32)
@@ -4109,12 +4591,6 @@
 		(uuid "e631735f-2c6d-495d-a97a-488455f0e1e8")
 	)
 	(junction
-		(at 62.23 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7e40e9c-d432-4f7e-a1a1-19b199092854")
-	)
-	(junction
 		(at 97.79 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4138,27 +4614,9 @@
 		(color 0 0 0 0)
 		(uuid "fa40a7c8-6301-49fe-a0b1-33b583b0bfb8")
 	)
-	(junction
-		(at 73.66 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcb8a184-91a2-4ac6-8fb5-fe7e7915729f")
-	)
 	(no_connect
 		(at 114.3 121.92)
 		(uuid "0c4e11fd-a6ae-45b9-a6f2-c035a19bb74e")
-	)
-	(no_connect
-		(at 228.6 161.29)
-		(uuid "20f06b9e-f968-4353-8de6-b07333fcacbb")
-	)
-	(no_connect
-		(at 269.24 149.86)
-		(uuid "27fa845b-b189-4d12-9496-560fc5e460da")
-	)
-	(no_connect
-		(at 232.41 121.92)
-		(uuid "cc245c7c-5c14-419b-868a-f84a11d5712e")
 	)
 	(wire
 		(pts
@@ -4362,6 +4820,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 147.32) (xy 154.94 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b7960f-17ee-4e57-b060-7fb7b71514fe")
+	)
+	(wire
+		(pts
 			(xy 176.53 100.33) (xy 176.53 97.79)
 		)
 		(stroke
@@ -4372,13 +4840,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 60.96) (xy 36.83 60.96)
+			(xy 166.37 95.25) (xy 184.15 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a5a1abe-141b-4965-a79d-8094f8b83f54")
+		(uuid "19e14195-db7a-49fc-821c-fa303320740b")
 	)
 	(wire
 		(pts
@@ -4419,6 +4887,16 @@
 			(type default)
 		)
 		(uuid "20d2623a-7547-4478-a87c-3d8338dbaccf")
+	)
+	(wire
+		(pts
+			(xy 92.71 147.32) (xy 119.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ff29cd-c6bf-4b51-9a2c-be63f9d99589")
 	)
 	(wire
 		(pts
@@ -4582,36 +5060,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 57.15) (xy 19.05 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37461c44-dc40-47ac-b30c-ade276315822")
-	)
-	(wire
-		(pts
-			(xy 154.94 147.32) (xy 166.37 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39994b6f-5e80-42ef-99c6-70740ba1eef6")
-	)
-	(wire
-		(pts
-			(xy 129.54 149.86) (xy 134.62 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39af79ba-5a70-4e3a-b0b8-88b3023c86cb")
-	)
-	(wire
-		(pts
 			(xy 208.28 78.74) (xy 208.28 77.47)
 		)
 		(stroke
@@ -4772,16 +5220,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 71.12) (xy 49.53 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f22c68b-f748-4fac-941a-b3882cfcb762")
-	)
-	(wire
-		(pts
 			(xy 161.29 77.47) (xy 161.29 78.74)
 		)
 		(stroke
@@ -4832,16 +5270,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 63.5) (xy 36.83 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52924f48-8404-4fc8-b39b-7d67bd97680b")
-	)
-	(wire
-		(pts
 			(xy 118.745 109.22) (xy 118.745 102.87)
 		)
 		(stroke
@@ -4859,6 +5287,16 @@
 			(type default)
 		)
 		(uuid "57568cd9-5c9b-4737-bc3c-c798427e4cf0")
+	)
+	(wire
+		(pts
+			(xy 154.94 147.32) (xy 166.37 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ba624e-2efc-4e9f-8b3e-e21daa5ed1b6")
 	)
 	(wire
 		(pts
@@ -4892,6 +5330,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 168.91) (xy 134.62 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a210b7a-c010-4143-bf33-043829bca453")
+	)
+	(wire
+		(pts
 			(xy 166.37 27.94) (xy 171.45 27.94)
 		)
 		(stroke
@@ -4922,7 +5370,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 184.15 95.25)
+			(xy 157.48 95.25) (xy 166.37 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4942,7 +5390,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 152.4) (xy 111.76 154.94)
+			(xy 187.96 147.32) (xy 194.31 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b9a69d-0328-47ad-9ae1-b16b43c39ef2")
+	)
+	(wire
+		(pts
+			(xy 92.71 152.4) (xy 92.71 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4952,7 +5410,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 57.15) (xy 95.25 60.96)
+			(xy 205.74 143.51) (xy 205.74 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4979,16 +5437,6 @@
 			(type default)
 		)
 		(uuid "64e906ee-9a68-4b98-b716-59482f012156")
-	)
-	(wire
-		(pts
-			(xy 142.24 157.48) (xy 142.24 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "655f9c8a-6633-4004-9f89-439915c9d565")
 	)
 	(wire
 		(pts
@@ -5122,16 +5570,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 147.32) (xy 134.62 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "762827ea-b64a-41f6-8f70-d3d447eb9732")
-	)
-	(wire
-		(pts
 			(xy 154.94 102.87) (xy 161.29 102.87)
 		)
 		(stroke
@@ -5162,6 +5600,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 129.54) (xy 251.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7800d2bd-7dc7-4634-ba93-c0bd2849d243")
+	)
+	(wire
+		(pts
 			(xy 125.73 121.92) (xy 128.27 121.92)
 		)
 		(stroke
@@ -5189,16 +5637,6 @@
 			(type default)
 		)
 		(uuid "7b12494b-c4a9-4b07-a652-80b2854e7d6c")
-	)
-	(wire
-		(pts
-			(xy 19.05 66.04) (xy 19.05 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b15944e-886f-4068-972f-3c2102a72736")
 	)
 	(wire
 		(pts
@@ -5259,16 +5697,6 @@
 			(type default)
 		)
 		(uuid "806e34f0-a43f-4523-8917-754146366638")
-	)
-	(wire
-		(pts
-			(xy 62.23 66.04) (xy 73.66 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86218234-da7f-4888-a713-eb80f84f5ce5")
 	)
 	(wire
 		(pts
@@ -5532,16 +5960,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 60.96) (xy 41.91 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a453a00f-55de-4880-a63e-b3403674add0")
-	)
-	(wire
-		(pts
 			(xy 104.14 102.87) (xy 109.22 102.87)
 		)
 		(stroke
@@ -5642,6 +6060,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 132.08) (xy 256.54 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ac3ff6-7675-4e53-acb0-c96a01cbb4f3")
+	)
+	(wire
+		(pts
 			(xy 171.45 33.02) (xy 176.53 33.02)
 		)
 		(stroke
@@ -5659,6 +6087,16 @@
 			(type default)
 		)
 		(uuid "ba5174bd-1a23-48db-9197-5d8d7445e724")
+	)
+	(wire
+		(pts
+			(xy 251.46 134.62) (xy 256.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab486b8-55e8-4699-93d1-b19da135d183")
 	)
 	(wire
 		(pts
@@ -5772,26 +6210,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 60.96) (xy 62.23 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3810b12-8a87-4667-ad87-e5e20add1933")
-	)
-	(wire
-		(pts
-			(xy 73.66 66.04) (xy 85.09 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3ebf1d0-b0fa-49a6-bce9-870801237364")
-	)
-	(wire
-		(pts
 			(xy 81.28 112.395) (xy 81.28 126.365)
 		)
 		(stroke
@@ -5832,7 +6250,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 60.96) (xy 95.25 60.96)
+			(xy 199.39 147.32) (xy 205.74 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5882,16 +6300,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 73.66 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf636983-9540-4ade-9880-3f44f483d773")
-	)
-	(wire
-		(pts
 			(xy 133.35 121.92) (xy 137.16 121.92)
 		)
 		(stroke
@@ -5902,16 +6310,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 147.32) (xy 154.94 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2493ce9-1071-4141-b240-fa74dff32c93")
-	)
-	(wire
-		(pts
 			(xy 104.14 90.17) (xy 104.14 102.87)
 		)
 		(stroke
@@ -5919,26 +6317,6 @@
 			(type default)
 		)
 		(uuid "d44c7b3a-28b4-4fb9-b62f-931a3e68d260")
-	)
-	(wire
-		(pts
-			(xy 111.76 147.32) (xy 129.54 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d49fa1fa-ed30-4f4e-b7bf-70b4c259c8ad")
-	)
-	(wire
-		(pts
-			(xy 36.83 63.5) (xy 41.91 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4b3fa59-9cb3-4f9c-8ccb-9b0c994f28b0")
 	)
 	(wire
 		(pts
@@ -6002,16 +6380,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 149.86) (xy 129.54 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da786ec8-3a30-4ea5-ba0f-cd801903030a")
-	)
-	(wire
-		(pts
 			(xy 133.35 95.25) (xy 139.7 95.25)
 		)
 		(stroke
@@ -6072,6 +6440,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 149.86) (xy 119.38 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c67302-ab87-4a0d-ab71-839218d7fcae")
+	)
+	(wire
+		(pts
 			(xy 252.73 40.64) (xy 252.73 45.72)
 		)
 		(stroke
@@ -6119,16 +6497,6 @@
 			(type default)
 		)
 		(uuid "eae2df07-237c-42b4-a81f-9b6ad94be1ca")
-	)
-	(wire
-		(pts
-			(xy 73.66 66.04) (xy 73.66 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed3d5264-a30f-4015-bc5f-183ddad5ffdb")
 	)
 	(wire
 		(pts
@@ -6212,7 +6580,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 143.51) (xy 111.76 147.32)
+			(xy 92.71 143.51) (xy 92.71 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6282,16 +6650,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 60.96) (xy 85.09 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea25cda-a0b0-446a-bde1-e5c224eaedae")
-	)
-	(wire
-		(pts
 			(xy 147.32 77.47) (xy 161.29 77.47)
 		)
 		(stroke
@@ -6354,26 +6712,6 @@
 		)
 		(uuid "3d17504f-0384-4f07-824a-a598f2134804")
 	)
-	(text "RTC"
-		(exclude_from_sim no)
-		(at 27.178 177.038 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6e212b8f-ed8f-439f-98c3-136c524d40a8")
-	)
-	(text "ADD Testpoints and order"
-		(exclude_from_sim no)
-		(at 232.664 141.478 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "89f533c5-7f54-4e2b-9713-4738f06b9090")
-	)
 	(text "1V8\n"
 		(exclude_from_sim no)
 		(at 61.214 25.146 0)
@@ -6397,7 +6735,7 @@
 		)
 		(uuid "dd68fd2d-0a15-477b-b88b-c9b03f6d5b4b")
 	)
-	(label "CARRIER_EN"
+	(label "POWER_EN"
 		(at 214.63 33.02 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6451,6 +6789,17 @@
 			(justify left bottom)
 		)
 		(uuid "ad5e54d7-51b0-43f0-b6a6-e7c2278967f2")
+	)
+	(label "POWER_EN"
+		(at 248.92 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d00b428f-d11e-4ff8-aee1-c43dde081399")
 	)
 	(global_label "~{SHUTDOWN_REQ}"
 		(shape input)
@@ -7175,6 +7524,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 210.82 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15ab8535-75b4-4634-9751-79b5adef26be")
+		(property "Reference" "TPCE1"
+			(at 213.36 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 195.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 193.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55ddfc4c-b342-45ed-bb8b-a0cea85887bb")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TPCE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 85.09 151.13 0)
 		(unit 1)
@@ -7234,6 +7698,121 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 187.96 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18ab2847-993c-4f2e-989f-c28aa8e9edec")
+		(property "Reference" "TP3V3"
+			(at 193.04 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 203.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 187.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 187.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9b2a391-7257-4143-af13-edfbe8ada7e6")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TP3V3")
 					(unit 1)
 				)
 			)
@@ -7433,72 +8012,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21545c53-0835-44fb-a218-4a519fa16004")
-		(property "Reference" "#PWR0214"
-			(at 49.53 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 49.53 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75ac47b0-6c5d-424d-acf0-16a5964c923e")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -7894,6 +8407,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 251.46 129.54 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26142962-c173-4d4d-8784-0fe800611666")
+		(property "Reference" "#PWR0165"
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 251.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af9bcb3d-8c0b-43ae-bf22-26860871dab6")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 267.97 41.91 0)
 		(unit 1)
@@ -8248,7 +8828,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 111.76 149.86 0)
+		(at 92.71 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8257,7 +8837,7 @@
 		(fields_autoplaced yes)
 		(uuid "32d1b790-745d-4ccd-b8a6-89f89cf358ea")
 		(property "Reference" "C38"
-			(at 114.3 148.5962 0)
+			(at 95.25 148.5962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8846,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 114.3 151.1362 0)
+			(at 95.25 151.1362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8855,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 111.76 149.86 0)
+			(at 92.71 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,7 +8864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 149.86 0)
+			(at 92.71 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +8873,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 111.76 149.86 0)
+			(at 92.71 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8311,84 +8891,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TLV75733PDBV")
-		(at 142.24 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3447191d-37bf-453e-9b86-e82167853ce1")
-		(property "Reference" "U7"
-			(at 142.24 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV75733PDBV"
-			(at 142.24 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 142.24 141.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
-			(at 142.24 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 142.24 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "c60107a4-717b-4d4e-89bf-5156aa3f9a00")
-		)
-		(pin "1"
-			(uuid "9d83de7f-25ea-4c91-b9ee-a74a0b1bb340")
-		)
-		(pin "5"
-			(uuid "bccb0142-18fa-4781-bede-52aa33e6ce32")
-		)
-		(pin "2"
-			(uuid "7bff3e12-63d4-4135-b5ad-ea1955d7e407")
-		)
-		(pin "3"
-			(uuid "c4c7c277-5166-40d3-b204-a010672ef8c0")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -8533,17 +9035,18 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 19.05 57.15 0)
+		(lib_id "power:GND")
+		(at 134.62 168.91 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a5c2a8d-a5f6-4111-a50c-8ee059e420e4")
-		(property "Reference" "#PWR0205"
-			(at 19.05 60.96 0)
+		(uuid "3865cc2d-150a-4124-8b54-f9539836c897")
+		(property "Reference" "#PWR0164"
+			(at 134.62 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,8 +9054,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSYS"
-			(at 19.05 52.07 0)
+		(property "Value" "GND"
+			(at 134.62 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8560,7 +9063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 57.15 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,7 +9072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 57.15 0)
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8577,8 +9080,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 19.05 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8587,12 +9090,252 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a10077d-c4e2-45ac-a0e7-6944a2507812")
+			(uuid "89e6872d-26df-4fd7-9815-6da56bed3f73")
 		)
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "#PWR0205")
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 205.74 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3894cfa6-8857-4565-a15a-30b414ad1ad5")
+		(property "Reference" "TPE3V3"
+			(at 208.28 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 198.12 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 195.58 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 205.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 205.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 190.5 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 187.96 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "defda26d-81f2-4320-99ed-bdc038b501be")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TPE3V3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fibel2:AYZ0102AURLC")
+		(at 256.54 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c7f869d-ad4b-494a-b0fa-79d916db9192")
+		(property "Reference" "S7"
+			(at 275.59 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AYZ0102AURLC"
+			(at 275.59 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AYZ0102AURLC"
+			(at 275.59 224.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1431/ayz.pdf"
+			(at 275.59 324.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch SPDT Surface Mount, Right Angle"
+			(at 256.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.5"
+			(at 275.59 524.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-AYZ0102AURLC"
+			(at 275.59 624.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/AYZ0102AURLC?qs=By6Nw2ByBD1%2Fz8mFHu%2F4MQ%3D%3D"
+			(at 275.59 724.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 275.59 824.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AYZ0102AURLC"
+			(at 275.59 924.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b2d32767-b407-418c-9653-ddf62bbd8a9e")
+		)
+		(pin "2"
+			(uuid "7b1e7faf-21a9-4d8c-b36c-7c1c7e59bd74")
+		)
+		(pin "1"
+			(uuid "35b6e1be-ecd8-4a33-957e-9cd57f78c8e3")
+		)
+		(instances
+			(project ""
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "S7")
 					(unit 1)
 				)
 			)
@@ -8891,7 +9634,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 111.76 143.51 0)
+		(at 92.71 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8900,7 +9643,7 @@
 		(fields_autoplaced yes)
 		(uuid "4185eb58-07c4-4d93-ae04-6df5e9b3c838")
 		(property "Reference" "#PWR072"
-			(at 111.76 147.32 0)
+			(at 92.71 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +9652,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 111.76 138.43 0)
+			(at 92.71 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,7 +9660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 143.51 0)
+			(at 92.71 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +9669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 143.51 0)
+			(at 92.71 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,7 +9678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 111.76 143.51 0)
+			(at 92.71 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9358,6 +10101,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 166.37 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "529c2cb4-68c6-4b7f-b926-a7ddfa48fd55")
+		(property "Reference" "TPPC2"
+			(at 168.91 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 176.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2a449ab-ad2f-4c3a-b87e-3a4c26d95464")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TPPC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 62.23 34.29 0)
 		(unit 1)
@@ -9422,6 +10280,73 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 149.86 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56bd9556-f2d2-4e90-a340-c224f6b800e4")
+		(property "Reference" "#PWR074"
+			(at 115.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04464815-07bb-4dd9-a423-f72f08684827")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -10336,84 +11261,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TLV75733PDBV")
-		(at 49.53 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7975109a-02fc-42bf-afba-e512f9d5411a")
-		(property "Reference" "U202"
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV75733PDBV"
-			(at 49.53 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 49.53 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
-			(at 49.53 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 49.53 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "4813340e-8dcf-4824-b442-34eaa3b0be0e")
-		)
-		(pin "1"
-			(uuid "fa88907c-2a8e-4990-a51c-244a5fedcbec")
-		)
-		(pin "5"
-			(uuid "3e3c7368-5ad7-40fb-8585-6854e69433d3")
-		)
-		(pin "2"
-			(uuid "25b3998f-3693-41cc-874e-2e3ae4f42346")
-		)
-		(pin "3"
-			(uuid "3ca96830-d6af-4322-8632-c0ca23aa243e")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "U202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Fibel2:SW_KMR211NGLFS_SMD")
 		(at 250.19 68.58 90)
 		(mirror x)
@@ -10829,6 +11676,236 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 161.29 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82c52b2e-5307-4444-841a-474eda15956f")
+		(property "Reference" "TPPC1"
+			(at 166.37 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 176.53 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 161.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 176.53 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 176.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea1b79bd-995b-40a7-b3cb-d04af019e54c")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TPPC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 41.91 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8478af77-4ae3-43e1-8239-2978a9742cb8")
+		(property "Reference" "TPA3V3"
+			(at 46.99 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 57.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 57.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbb8af58-bcd0-4218-af47-7d16e2da94fa")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TPA3V3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Fibel2:74LVC2G14_SOT457")
 		(at 139.7 95.25 0)
 		(unit 1)
@@ -11024,6 +12101,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 125.73 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88f89c5a-e065-45d8-8e25-ec72f2b7bc15")
+		(property "Reference" "TPSREQ1"
+			(at 128.27 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 115.57 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 125.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 125.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 125.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 107.95 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c17687f5-045e-4148-915f-3c400b25d9da")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TPSREQ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 166.37 149.86 0)
 		(unit 1)
@@ -11094,6 +12286,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:LT1963AEST-3.3#PBF")
+		(at 119.38 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cb95868-044f-4211-88c3-7a16b8ddc7c3")
+		(property "Reference" "U7"
+			(at 134.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT1963AEST-3.3#PBF"
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT230P700X180-4N"
+			(at 146.05 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO Regulator 3.3V 1.5A Low Noise SOT223 Linear Technology LT1963AEST-3.3#PBF, LDO Voltage Regulator, 1.5A, 3.3 V, -20  20 Vin, 4-Pin SOT-223"
+			(at 119.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at 146.05 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-1963AEST-3.3PBF"
+			(at 146.05 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT1963AEST-3.3PBF?qs=ytflclh7QUWACCdXyVJ5gA%3D%3D"
+			(at 146.05 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 146.05 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LT1963AEST-3.3#PBF"
+			(at 146.05 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0ffa3e64-bfed-4f9d-8e2a-f0e21c63e34b")
+		)
+		(pin "1"
+			(uuid "ebfbdadc-12ed-4a12-8be3-6fbe297e8711")
+		)
+		(pin "2"
+			(uuid "ef85e532-64eb-40e9-99ac-3b3a53170b05")
+		)
+		(pin "4"
+			(uuid "217c187b-2316-484a-ab7c-ff8202646ebb")
+		)
+		(instances
+			(project ""
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 77.47 151.13 90)
 		(unit 1)
@@ -11156,76 +12474,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 73.66 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f1a56df-ea07-493d-9062-3a5cd8bc715c")
-		(property "Reference" "C207"
-			(at 76.2 62.2362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 76.2 64.7762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 73.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 73.66 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77c79796-ec53-48ab-9222-a4aa0345cb7a")
-		)
-		(pin "1"
-			(uuid "a58ace7e-486c-4506-884d-3563c456d9dd")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -11512,142 +12760,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 19.05 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "964ba56b-312b-4105-9524-f82e8747d7a2")
-		(property "Reference" "C203"
-			(at 21.59 62.2362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 21.59 64.7762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 19.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 19.05 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bef193ec-cc72-4502-831f-3d5702fac021")
-		)
-		(pin "1"
-			(uuid "6f749c7e-4e62-476a-9b1d-99a9613ea23c")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 73.66 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "970cad66-4b6c-42fc-8244-db97318d293c")
-		(property "Reference" "#PWR0216"
-			(at 73.66 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b5c5c1d-f567-4e68-9c1d-32a3582b9c8c")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "#PWR0216")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 179.07 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11861,76 +12973,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 62.23 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a77082e-839f-4995-8081-71baac133c4e")
-		(property "Reference" "C205"
-			(at 64.77 62.2362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 64.77 64.7762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 62.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d000338-a794-4a63-ad65-3019f5993481")
-		)
-		(pin "1"
-			(uuid "ea31976b-54b3-41a7-a819-5c5c30cbb026")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "C205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 176.53 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11993,6 +13035,75 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "C225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 196.85 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b8965b1-34f5-415e-92eb-55b5d20c2c2b")
+		(property "Reference" "R40"
+			(at 194.818 149.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 198.374 149.606 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aabda4d8-b2bc-4945-9e54-bba9a33592a5")
+		)
+		(pin "1"
+			(uuid "7a0e878a-8174-43c2-8f0f-d211325097ab")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -12248,6 +13359,121 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 261.62 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e2d4ec2-2b17-41ef-95b8-5a03a8b069ad")
+		(property "Reference" "TPSR1"
+			(at 264.16 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 269.24 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 271.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 261.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 276.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 279.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d677c89c-a28e-48f6-8a6b-d6020851b3b5")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TPSR1")
 					(unit 1)
 				)
 			)
@@ -13561,6 +14787,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 95.25 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b709abbd-8718-45ef-9b2a-9baa73d0d45c")
+		(property "Reference" "TP1V8"
+			(at 100.33 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 110.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c3b0f71-2b17-45f5-a0de-f5fda4a495f4")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TP1V8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 171.45 30.48 0)
 		(unit 1)
@@ -14192,72 +15533,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 142.24 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2ff0b51-38b0-465e-b1bd-c00716433a2b")
-		(property "Reference" "#PWR074"
-			(at 142.24 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c67e418c-047a-4ffb-8da7-813d2b424d35")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Fibel2:R_Small_Rota")
 		(at 130.81 121.92 180)
 		(unit 1)
@@ -14390,7 +15665,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 154.94 0)
+		(at 92.71 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14399,7 +15674,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7f1d1fa-7188-4541-8166-b6e0b65f3565")
 		(property "Reference" "#PWR073"
-			(at 111.76 161.29 0)
+			(at 92.71 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14408,7 +15683,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 160.02 0)
+			(at 92.71 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14416,7 +15691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 154.94 0)
+			(at 92.71 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,7 +15700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 154.94 0)
+			(at 92.71 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14434,7 +15709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 154.94 0)
+			(at 92.71 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,76 +15724,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 85.09 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8d87c80-d06e-4c92-b958-07ef0863747e")
-		(property "Reference" "C210"
-			(at 87.63 62.2362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 87.63 64.7762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 85.09 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 85.09 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c08f1cce-852c-4f85-b08f-b56c622e4cdd")
-		)
-		(pin "1"
-			(uuid "2be1116f-3be4-453f-b5af-324503a46b35")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "C210")
 					(unit 1)
 				)
 			)
@@ -14610,6 +15815,121 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 276.86 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0abda6d-911c-4ed3-a850-fbc4b77751ac")
+		(property "Reference" "TP8"
+			(at 282.575 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 292.1 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 292.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 276.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 276.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 276.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 292.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 292.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d83e0b6-a00c-449e-bd2d-2a014ebb71aa")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -14817,7 +16137,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 95.25 57.15 0)
+		(at 205.74 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14826,7 +16146,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1ce4106-3424-4614-be72-8c97f459f629")
 		(property "Reference" "#PWR0219"
-			(at 95.25 60.96 0)
+			(at 205.74 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14835,7 +16155,7 @@
 			)
 		)
 		(property "Value" "EPD_3V3"
-			(at 97.79 55.8799 0)
+			(at 208.28 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14844,7 +16164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 57.15 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14853,7 +16173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 57.15 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14862,7 +16182,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 95.25 57.15 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15036,7 +16356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSYS"
+		(property "Value" "+5V"
 			(at 19.05 22.86 0)
 			(effects
 				(font
@@ -15683,6 +17003,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 187.96 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efc32c51-7e80-4ab1-8c82-5fba1b2295ef")
+		(property "Reference" "TPS3V3"
+			(at 190.5 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 180.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 177.8 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 187.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 187.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 172.72 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 170.18 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "770d3638-e10e-4ff7-bff4-19194fd5183f")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
+					(reference "TPS3V3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 187.96 38.1 0)
 		(unit 1)
@@ -15834,72 +17269,6 @@
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 19.05 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faceaa9b-d6ea-4540-948f-e44a2c924419")
-		(property "Reference" "#PWR0206"
-			(at 19.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 19.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 19.05 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7b46145-a3d4-467d-81a7-6481118d96e7")
-		)
-		(instances
-			(project "Fibel2"
-				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/7cbf83a4-48a9-4119-ac75-03df93e67514"
-					(reference "#PWR0206")
 					(unit 1)
 				)
 			)

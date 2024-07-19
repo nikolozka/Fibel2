@@ -8424,6 +8424,12 @@
 		(uuid "6cbda91a-156f-436d-83b0-5282a871406e")
 	)
 	(junction
+		(at 207.01 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "716ab9c5-4c6f-4afb-8010-0006dccca65e")
+	)
+	(junction
 		(at 356.87 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -19315,6 +19321,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Fibel2:TestPoint")
+		(at 207.01 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4045a7be-33c1-457e-8410-93d93e131cce")
+		(property "Reference" "TPRCV1"
+			(at 212.09 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 222.25 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 222.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 207.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 207.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 222.25 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 222.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18b0cc95-b59a-418d-9533-e07efdfb8db1")
+		)
+		(instances
+			(project "Fibel2"
+				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/36a293ae-b0d7-4698-aa86-662a0ac946ae"
+					(reference "TPRCV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 289.56 25.4 0)
 		(unit 1)
@@ -24008,13 +24129,13 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b1c3a9c-7e2c-4884-85b9-a2d46b6ced68")
-		(property "Reference" "TP1"
+		(property "Reference" "TPSWK1"
 			(at 295.91 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -24107,7 +24228,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/36a293ae-b0d7-4698-aa86-662a0ac946ae"
-					(reference "TP1")
+					(reference "TPSWK1")
 					(unit 1)
 				)
 			)
@@ -25607,13 +25728,13 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad01782b-1b32-4491-b29c-a1674e56fa8e")
-		(property "Reference" "TP4"
+		(property "Reference" "TPSLP1"
 			(at 295.91 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -25706,7 +25827,7 @@
 		(instances
 			(project "Fibel2"
 				(path "/862c21e2-7ec9-4f80-a33c-aad02ea9423e/36a293ae-b0d7-4698-aa86-662a0ac946ae"
-					(reference "TP4")
+					(reference "TPSLP1")
 					(unit 1)
 				)
 			)
